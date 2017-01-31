@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="978ca85e-359e-4e65-b926-3d6b7a61d68b" activeEnvironment="Default" name="Call-A-Bike" resourceRoot="" soapui-version="5.3.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="f2a478b2-8015-45ac-8b8b-33e172e62ee3" wsaVersion="NONE" name="HAL2_CABSERVERSOAP" type="wsdl" bindingName="{https://xml.dbcarsharing-buchung.de/hal2_cabserver/}HAL2_CABSERVERSOAP" soapVersion="1_1" anonymous="optional" definition="file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl"><con:part><con:url>file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="HAL2_CABSERVER" targetNamespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="https://xml.dbcarsharing-buchung.de/hal2_cabserver/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<con:soapui-project id="978ca85e-359e-4e65-b926-3d6b7a61d68b" activeEnvironment="Default" name="Call-A-Bike" resourceRoot="" soapui-version="5.3.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="f2a478b2-8015-45ac-8b8b-33e172e62ee3" wsaVersion="NONE" name="HAL2_CABSERVERSOAP" type="wsdl" bindingName="{https://xml.dbcarsharing-buchung.de/hal2_cabserver/}HAL2_CABSERVERSOAP" soapVersion="1_1" anonymous="optional" definition="file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl"><con:part><con:url>file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="HAL2_CABSERVER" targetNamespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="https://xml.dbcarsharing-buchung.de/hal2_cabserver/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <wsdl:types>
     <xsd:schema targetNamespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
       <xsd:annotation>
@@ -1446,28 +1446,32 @@
          </TripLimits>
       </hal2:CABSERVER.listCompletedTrips>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listCompletedTrips"/></con:call></con:operation><con:operation id="a787ee0f-a469-4153-8348-d1675bbe1882" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listFreeBikes" name="CABSERVER.listFreeBikes" bindingOperationName="CABSERVER.listFreeBikes" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f5099060-d1d4-49ee-adb1-8dacd5ae54b6" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listCompletedTrips"/></con:call></con:operation><con:operation id="a787ee0f-a469-4153-8348-d1675bbe1882" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listFreeBikes" name="CABSERVER.listFreeBikes" bindingOperationName="CABSERVER.listFreeBikes" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f5099060-d1d4-49ee-adb1-8dacd5ae54b6" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
    <soapenv:Header/>
    <soapenv:Body>
       <hal2:CABSERVER.listFreeBikes>
          <CommonParams>
             <UserData>
-               <User>?</User>
-               <Password>?</Password>
+            	<!-- From android app -->
+               <User>t_cab_android</User>
+            	<!-- From android app -->
+               <Password>3b3cc28469</Password>
             </UserData>
-            <LanguageUID>?</LanguageUID>
-            <RequestTime>?</RequestTime>
-            <Version>?</Version>
+            <!-- Only option -->
+            <LanguageUID>1</LanguageUID>
+            <RequestTime>2017-01-31 18:53:20</RequestTime>
+            <!-- Only option -->
+            <Version>1</Version>
          </CommonParams>
          <SearchPosition>
-            <Longitude>?</Longitude>
-            <Latitude>?</Latitude>
+            <Longitude>48.1537671</Longitude>
+            <Latitude>11.5533165</Latitude>
          </SearchPosition>
-         <maxResults>?</maxResults>
-         <searchRadius>?</searchRadius>
+         <maxResults>100</maxResults>
+         <searchRadius>5000</searchRadius>
       </hal2:CABSERVER.listFreeBikes>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listFreeBikes"/></con:call></con:operation><con:operation id="350c74e5-c735-4f41-95ce-f6d6d75ec0e7" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listProductInfo" name="CABSERVER.listProductInfo" bindingOperationName="CABSERVER.listProductInfo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7a5d0b3c-b462-45fe-82a1-e9017e96441c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listFreeBikes"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="350c74e5-c735-4f41-95ce-f6d6d75ec0e7" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listProductInfo" name="CABSERVER.listProductInfo" bindingOperationName="CABSERVER.listProductInfo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7a5d0b3c-b462-45fe-82a1-e9017e96441c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
    <soapenv:Header/>
    <soapenv:Body>
       <hal2:CABSERVER.listProductInfo>
