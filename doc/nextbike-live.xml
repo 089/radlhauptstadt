@@ -1,0 +1,592 @@
+<markers>
+<country lat="48.134" lng="11.581" zoom="10" name="MVG Rad Germany" hotline="+49800344226622" domain="mg" country="DE" country_name="Germany" terms="http://www.mvgrad.de/" policy="" website="http://www.mvgrad.de/">
+<city uid="268" lat="48.1342" lng="11.5744" zoom="12" maps_icon="" alias="" break="0" name="München" num_places="674" refresh_rate="506" bounds="{"south_west":{"lat":48.0766,"lng":11.475},"north_east":{"lat":48.1979,"lng":11.6897}}">
+<place uid="341048" lat="48.165279" lng="11.493183" name="Amalienburgstraße" spot="1" number="8853" bikes="5" bike_racks="15" terminal_type="7inch" bike_numbers="97193,96982,96791,96690,96570" bike_types="{"15":5,"undefined":2}"/>
+<place uid="341049" lat="48.179593" lng="11.589057" name="Anni-Albers-Straße" spot="1" number="8938" bikes="5" bike_racks="10" free_racks="5" terminal_type="7inch" bike_numbers="97064,97014,96884,96873,96297" bike_types="{"15":4,"undefined":1}"/>
+<place uid="341053" lat="48.166605" lng="11.578632" name="Bonner Platz" spot="1" number="8927" bikes="4" bike_racks="15" free_racks="11" terminal_type="7inch" bike_numbers="96716,96538,96235,96112" bike_types="{"15":4}"/>
+<place uid="341054" lat="48.164678" lng="11.502476" name="Botanischer Garten" spot="1" number="8854" bikes="5" bike_racks="9" terminal_type="7inch" bike_numbers="97171,97072,97033,96468,96241" bike_types="{"15":5}"/>
+<place uid="341059" lat="48.159958" lng="11.533891" name="Dom-Pedro-Platz" spot="1" number="8874" bikes="5" bike_racks="12" terminal_type="7inch" bike_numbers="96496,96451,96143,96109,97286" bike_types="{"15":5}"/>
+<place uid="341089" lat="48.118118810109" lng="11.609416007996" name="Karl-Preis-Platz" spot="1" number="8954" bikes="5" bike_racks="10" free_racks="4" terminal_type="7inch" bike_numbers="97196,97157,96569,96323,96163" bike_types="{"15":5}"/>
+<place uid="341092" lat="48.109438" lng="11.474976" name="Klinikum Großhadern" spot="1" number="8851" bikes="5" bike_racks="15" free_racks="9" terminal_type="7inch" bike_numbers="97089,96923,96851,96817,96483" bike_types="{"15":5,"undefined":1}"/>
+<place uid="341097" lat="48.123755" lng="11.548709" name="Kreisverwaltungsreferat" spot="1" number="8906" bikes="5" bike_racks="10" free_racks="2" terminal_type="7inch" bike_numbers="97091,97057,96971,96913,96641" bike_types="{"15":5,"undefined":1}"/>
+<place uid="341102" lat="48.159515927492" lng="11.546545028687" name="Leonrodplatz" spot="1" number="8897" bikes="5" bike_racks="15" terminal_type="7inch" bike_numbers="97022,96953,96708,96413,96245" bike_types="{"15":5}"/>
+<place uid="341106" lat="48.135795" lng="11.598703" name="Max-Weber-Platz" spot="1" number="8948" bikes="5" bike_racks="15" terminal_type="7inch" bike_numbers="97161,96879,96713,96475,96293" bike_types="{"15":4,"undefined":1}"/>
+<place uid="341110" lat="48.108988" lng="11.536077" name="Mittersendling" spot="1" number="8882" bikes="2" bike_racks="15" free_racks="15" terminal_type="7inch" bike_numbers="96945,97261" bike_types="{"15":2}"/>
+<place uid="341112" lat="48.162734" lng="11.586536" name="Münchner Freiheit" spot="1" number="8941" bikes="0" bike_racks="24" free_racks="24" terminal_type="7inch"/>
+<place uid="341121" lat="48.178416" lng="11.556576" name="Olympiazentrum" spot="1" number="8913" bikes="4" bike_racks="10" free_racks="5" maintenance="1" terminal_type="7inch" bike_numbers="97176,96976,96119,97342" bike_types="{"15":3,"undefined":1}"/>
+<place uid="341123" lat="48.117123" lng="11.526344" name="Partnachplatz" spot="1" number="8871" bikes="5" bike_racks="8" terminal_type="7inch" bike_numbers="97069,97049,96954,96542,96378" bike_types="{"15":5}"/>
+<place uid="341127" lat="48.132416" lng="11.571441" name="Planungsreferat" spot="1" number="8924" bikes="5" bike_racks="15" terminal_type="7inch" bike_numbers="97187,97104,96896,96802,96794" bike_types="{"15":5,"undefined":1}"/>
+<place uid="341133" lat="48.154133" lng="11.511574" name="Romanplatz" spot="1" number="8859" bikes="5" bike_racks="12" maintenance="1" terminal_type="7inch" bike_numbers="96712,96521,96505,96401,96376" bike_types="{"15":5}"/>
+<place uid="341137" lat="48.171051" lng="11.572876" name="Scheidplatz" spot="1" number="8921" bikes="5" bike_racks="15" free_racks="10" terminal_type="7inch" bike_numbers="97133,97032,96874,96520,97283" bike_types="{"15":5}"/>
+<place uid="341142" lat="48.133633" lng="11.544081" name="Schwanthalerhöhe" spot="1" number="8883" bikes="2" bike_racks="10" free_racks="8" terminal_type="7inch" bike_numbers="96527,96180" bike_types="{"15":2}"/>
+<place uid="341150" lat="48.171239" lng="11.531241" name="SWM Zentrale, Haupteingang" spot="1" number="8875" bikes="4" bike_racks="8" free_racks="4" terminal_type="7inch" bike_numbers="97178,96915,96612,96168" bike_types="{"15":4}"/>
+<place uid="341155" lat="48.150101" lng="11.568184" name="Technische Universität München" spot="1" number="8926" bikes="5" bike_racks="10" terminal_type="7inch" bike_numbers="96855,96697,96651,96632,96613" bike_types="{"15":5,"undefined":1}"/>
+<place uid="341156" lat="48.149538" lng="11.580649" name="Universität" spot="1" number="8935" bikes="5" bike_racks="15" terminal_type="7inch" bike_numbers="97117,96934,96824,96571,97272" bike_types="{"15":5,"undefined":1}"/>
+<place uid="341160" lat="48.134657" lng="11.522706" name="Westendstraße" spot="1" number="8865" bikes="1" bike_racks="8" free_racks="6" terminal_type="7inch" bike_numbers="96558" bike_types="{"15":1}"/>
+<place uid="341162" lat="48.118452" lng="11.515564" name="Westpark" spot="1" number="8866" bikes="5" bike_racks="15" terminal_type="7inch" bike_numbers="96980,96936,96933,96862,96643" bike_types="{"undefined":1,"15":5}"/>
+<place uid="346001" lat="48.142826" lng="11.588664" name="Eisbachwelle" spot="1" number="8972" bikes="5" bike_racks="11" terminal_type="7inch" bike_numbers="97108,96762,96615,96516,96188" bike_types="{"15":5}"/>
+<place uid="359178" lat="48.10331" lng="11.597364" name="Schwanseestraße" spot="1" number="8951" bikes="5" bike_racks="9" terminal_type="7inch" bike_numbers="97080,96798,96675,96365,96304" bike_types="{"15":5}"/>
+<place uid="359193" lat="48.086635" lng="11.554905" name="Klinikum Harlaching" spot="1" number="8896" bikes="5" bike_racks="10" free_racks="2" terminal_type="7inch" bike_numbers="97137,97061,96920,96750,96498" bike_types="{"15":5,"undefined":1}"/>
+<place uid="359202" lat="48.115488" lng="11.580735" name="Silberhornstraße" spot="1" number="8934" bikes="3" bike_racks="10" free_racks="7" terminal_type="7inch" bike_numbers="97043,96639,97325" bike_types="{"15":3}"/>
+<place uid="359205" lat="48.11913229957" lng="11.630562543869" name="Michaelibad" spot="1" number="8963" bikes="5" bike_racks="10" terminal_type="7inch" bike_numbers="97004,96761,96566,96443,96350" bike_types="{"15":5}"/>
+<place uid="360522" lat="48.150387" lng="11.544791" name="Maillingerstraße" spot="1" number="8898" bikes="0" bike_racks="15" free_racks="15" terminal_type="7inch"/>
+<place uid="360524" lat="48.154061" lng="11.553513" name="Hochschule München" spot="1" number="8893" bikes="3" bike_racks="10" free_racks="6" terminal_type="7inch" bike_numbers="96748,96631,96564" bike_types="{"15":3}"/>
+<place uid="360525" lat="48.132034" lng="11.576473" name="Gärtnerplatz" spot="1" number="8937" bikes="5" bike_racks="10" free_racks="5" terminal_type="7inch" bike_numbers="97045,97041,96550,96181,97323" bike_types="{"15":5}"/>
+<place uid="361444" lat="48.089578" lng="11.644626" name="Neuperlach Süd" spot="1" number="8969" bikes="5" bike_racks="9" free_racks="3" terminal_type="7inch" bike_numbers="97031,96986,96968,96803,96736" bike_types="{"15":5,"undefined":2}"/>
+<place uid="361553" lat="48.120442" lng="11.576512" name="Kolumbusplatz" spot="1" number="8930" bikes="5" bike_racks="10" maintenance="1" terminal_type="7inch" bike_numbers="96829,96642,96603,96592,96344" bike_types="{"undefined":1,"15":5}"/>
+<place uid="361554" lat="48.133231" lng="11.689663" name="Messestadt West" spot="1" number="8971" bikes="5" bike_racks="10" free_racks="3" terminal_type="7inch" bike_numbers="96605,96530,96494,96430,96383" bike_types="{"15":5}"/>
+<place uid="361557" lat="48.181853" lng="11.529929" name="Olympia-Einkaufszentrum" spot="1" number="8870" bikes="5" bike_racks="9" terminal_type="7inch" bike_numbers="97034,96946,96901,96849,96674" bike_types="{"15":5,"undefined":1}"/>
+<place uid="361682" lat="48.116564" lng="11.539056" name="Harras" spot="1" number="8879" bikes="5" bike_racks="20" free_racks="11" terminal_type="7inch" bike_numbers="97129,97113,96863,96830,96629" bike_types="{"15":5,"undefined":2}"/>
+<place uid="361803" lat="48.140052" lng="11.564655" name="Karlsplatz" spot="1" number="8918" bikes="3" bike_racks="15" free_racks="11" maintenance="1" terminal_type="7inch" bike_numbers="96950,96728,96160" bike_types="{"15":3}"/>
+<place uid="361806" lat="48.143249" lng="11.615016" name="Böhmerwaldplatz" spot="1" number="8959" bikes="4" bike_racks="15" free_racks="11" terminal_type="7inch" bike_numbers="97150,96935,96756,96737" bike_types="{"15":4}"/>
+<place uid="361809" lat="48.160208" lng="11.564191" name="Nordbad" spot="1" number="8912" bikes="3" bike_racks="15" free_racks="12" terminal_type="7inch" bike_numbers="96812,96467,96377" bike_types="{"undefined":1,"15":2}"/>
+<place uid="361810" lat="48.155143" lng="11.566763" name="Josephsplatz" spot="1" number="8917" bikes="3" bike_racks="10" free_racks="7" terminal_type="7inch" bike_numbers="96978,96786,97274" bike_types="{"undefined":1,"15":2}"/>
+<place uid="361813" lat="48.185973" lng="11.547581" name="Oberwiesenfeld" spot="1" number="8973" bikes="5" bike_racks="12" free_racks="7" terminal_type="7inch" bike_numbers="97119,96924,96760,96240,97231" bike_types="{"15":5}"/>
+<place uid="361817" lat="48.120627" lng="11.617856" name="Innsbrucker Ring" spot="1" number="8961" bikes="5" bike_racks="5" terminal_type="7inch" bike_numbers="96858,96263,96257,96225,97281" bike_types="{"15":5}"/>
+<place uid="361819" lat="48.181027" lng="11.506213" name="Moosach" spot="1" number="8858" bikes="5" bike_racks="12" terminal_type="7inch" bike_numbers="97173,97088,96859,96809,96418" bike_types="{"15":5,"undefined":1}"/>
+<place uid="364316" lat="48.126324" lng="11.566774" name="Am Glockenbach" spot="1" number="8923" bikes="5" bike_racks="15" free_racks="8" terminal_type="7inch" bike_numbers="97078,96993,96948,96848,96734" bike_types="{"15":5,"undefined":3}"/>
+<place uid="366736" lat="48.112674" lng="11.549036" name="Brudermühlstraße" spot="1" number="8890" bikes="5" bike_racks="8" terminal_type="7inch" bike_numbers="97019,96918,96314,96299,96234" bike_types="{"15":5,"undefined":1}"/>
+<place uid="439146" lat="48.143648" lng="11.577368" name="Odeonsplatz" bikes="1" bike="1" bike_numbers="96539" bike_types="{"15":1}"/>
+<place uid="487179" lat="48.163555" lng="11.529047" name="Gern" spot="1" number="8868" bikes="4" bike_racks="12" free_racks="8" terminal_type="7inch" bike_numbers="97181,96676,96301,97343" bike_types="{"15":4}"/>
+<place uid="487182" lat="48.13548" lng="11.503531" name="Laimer Platz" spot="1" number="8857" bikes="3" bike_racks="10" free_racks="7" maintenance="1" terminal_type="7inch" bike_numbers="96785,96709,96392" bike_types="{"15":3}"/>
+<place uid="487184" lat="48.142939" lng="11.548748" name="Hackerbrücke" spot="1" number="8892" bikes="0" bike_racks="15" free_racks="15" terminal_type="7inch"/>
+<place uid="487188" lat="48.138831" lng="11.528262" name="Barthstraße" spot="1" number="8974" bikes="5" bike_racks="13" terminal_type="7inch" bike_numbers="97079,96916,96627,96254,97239" bike_types="{"15":5}"/>
+<place uid="487192" lat="48.101272" lng="11.546429" name="Thalkirchen (Tierpark)" spot="1" number="8901" bikes="5" bike_racks="8" free_racks="3" maintenance="1" terminal_type="7inch" bike_numbers="96811,96621,96379,97279,97268" bike_types="{"undefined":1,"15":4}"/>
+<place uid="487193" lat="48.098367" lng="11.524111" name="Aidenbachstraße" spot="1" number="8867" bikes="5" bike_racks="13" maintenance="1" terminal_type="7inch" bike_numbers="97084,97015,96409,96384,97249" bike_types="{"15":5}"/>
+<place uid="487194" lat="48.119676" lng="11.548198" name="Implerstraße" spot="1" number="8894" bikes="5" bike_racks="9" free_racks="1" terminal_type="7inch" bike_numbers="97081,97051,96898,96825,96579" bike_types="{"15":5,"undefined":1}"/>
+<place uid="487214" lat="48.125179" lng="11.541297" name="Herzog-Ernst-Platz" spot="1" number="8880" bikes="2" bike_racks="10" free_racks="8" terminal_type="7inch" bike_numbers="97094,96979" bike_types="{"15":1,"undefined":1}"/>
+<place uid="487218" lat="48.134847779868" lng="11.583087444305" name="Isartor" spot="1" number="8929" bikes="1" bike_racks="15" free_racks="14" terminal_type="7inch" bike_numbers="96196" bike_types="{"15":1}"/>
+<place uid="487222" lat="48.112947195717" lng="11.58759355545" name="Untersbergstraße" spot="1" number="8946" bikes="4" bike_racks="13" free_racks="9" terminal_type="7inch" bike_numbers="97059,97028,96772,96692" bike_types="{"15":3,"undefined":1}"/>
+<place uid="487223" lat="48.161684" lng="11.568246" name="Hohenzollernplatz" spot="1" number="8916" bikes="5" bike_racks="15" terminal_type="7inch" bike_numbers="97152,97130,96797,96703,96682" bike_types="{"15":5,"undefined":1}"/>
+<place uid="487224" lat="48.161772" lng="11.553114" name="Infanteriestraße" spot="1" number="8895" bikes="1" bike_racks="10" free_racks="9" terminal_type="7inch" bike_numbers="96213" bike_types="{"15":1}"/>
+<place uid="487226" lat="48.175195" lng="11.56624" name="Petuelring" spot="1" number="8920" bikes="1" bike_racks="13" free_racks="12" terminal_type="7inch" bike_numbers="96303" bike_types="{"15":1}"/>
+<place uid="487227" lat="48.17103" lng="11.584925" name="Parzivalplatz" spot="1" number="8943" bikes="5" bike_racks="12" free_racks="7" terminal_type="7inch" bike_numbers="97065,96850,96526,96298,97327" bike_types="{"15":4,"undefined":1}"/>
+<place uid="487230" lat="48.14694" lng="11.559044" name="Stiglmaierplatz" spot="1" number="8914" bikes="4" bike_racks="8" terminal_type="7inch" bike_numbers="96730,96327,96208,96183" bike_types="{"15":4}"/>
+<place uid="487449" lat="48.168243" lng="11.564687" name="Ackermannstraße" spot="1" number="8908" bikes="5" bike_racks="10" free_racks="3" terminal_type="7inch" bike_numbers="96831,96650,96620,96402,96284" bike_types="{"undefined":1,"15":5}"/>
+<place uid="487450" lat="48.155261" lng="11.540118" name="Albrechtstraße" spot="1" number="8975" bikes="0" bike_racks="6" free_racks="6" terminal_type="7inch"/>
+<place uid="487451" lat="48.111762" lng="11.569943" name="Candidplatz" spot="1" number="8976" bikes="5" bike_racks="13" free_racks="6" terminal_type="7inch" bike_numbers="96997,96654,96481,96343,96157" bike_types="{"undefined":1,"15":5}"/>
+<place uid="487452" lat="48.131578" lng="11.585261" name="Deutsches Museum" spot="1" number="8977" bikes="3" bike_racks="10" free_racks="7" terminal_type="7inch" bike_numbers="96991,96487,97263" bike_types="{"undefined":1,"15":2}"/>
+<place uid="487454" lat="48.10719" lng="11.552429" name="Flauchersteg" spot="1" number="8978" bikes="5" bike_racks="7" terminal_type="7inch" bike_numbers="97087,96875,96607,96586,96280" bike_types="{"15":4,"undefined":1}"/>
+<place uid="487455" lat="48.097853" lng="11.581266" name="Mangfallplatz" spot="1" number="8931" bikes="2" bike_racks="8" free_racks="6" terminal_type="7inch" bike_numbers="96535,96285" bike_types="{"15":2}"/>
+<place uid="487456" lat="48.119983" lng="11.540533" name="Margaretenplatz" spot="1" number="8881" bikes="5" bike_racks="10" free_racks="5" terminal_type="7inch" bike_numbers="96897,96846,96470,96417,96410" bike_types="{"15":4,"undefined":1}"/>
+<place uid="487457" lat="48.137232" lng="11.57542" name="Marienplatz" spot="1" number="8932" bikes="5" bike_racks="14" terminal_type="7inch" bike_numbers="97118,97052,96969,96895,96885" bike_types="{"15":5,"undefined":2}"/>
+<place uid="487459" lat="48.173771" lng="11.597309" name="Nordfriedhof" spot="1" number="8949" bikes="3" bike_racks="10" free_racks="7" terminal_type="7inch" bike_numbers="96926,96170,97301" bike_types="{"15":3}"/>
+<place uid="487462" lat="48.135933" lng="11.633757" name="Berg am Laim" spot="1" number="8979" bikes="5" bike_racks="12" terminal_type="7inch" bike_numbers="97121,96816,96589,96514,96439" bike_types="{"15":5,"undefined":1}"/>
+<place uid="487463" lat="48.176418" lng="11.506589" name="Netzerstraße" spot="1" number="8980" bikes="5" bike_racks="4" terminal_type="7inch" bike_numbers="97054,97000,96194,96173,96128" bike_types="{"15":5}"/>
+<place uid="516726" lat="48.186927" lng="11.591119" name="Schwabing Nord" spot="1" number="8945" bikes="5" bike_racks="10" terminal_type="7inch" bike_numbers="97023,97011,96587,96363,97319" bike_types="{"15":5}"/>
+<place uid="546944" lat="48.169119409919" lng="11.52916431427" name="Westfriedhof" spot="1" number="8873" bikes="0" bike_racks="10" free_racks="10" terminal_type="7inch"/>
+<place uid="591406" lat="48.13827" lng="11.535712" name="Westendstr. 104" bikes="1" bike="1" bike_numbers="97269" bike_types="{"15":1}"/>
+<place uid="613289" lat="48.173717" lng="11.510935" name="Zügelstr. 7" bikes="1" bike="1" bike_numbers="96195" bike_types="{"15":1}"/>
+<place uid="683270" lat="48.133633" lng="11.533697" name="Heimeranplatz" spot="1" number="8869" bikes="0" bike_racks="10" free_racks="10" terminal_type="7inch"/>
+<place uid="683275" lat="48.138962" lng="11.534843" name="Trappentreustraße" spot="1" number="8823" bikes="5" bike_racks="13" free_racks="7" terminal_type="7inch" bike_numbers="96662,96353,96274,97258,97202" bike_types="{"15":5}"/>
+<place uid="683277" lat="48.108697" lng="11.55723" name="Flaucher Biergarten" spot="1" number="8915" bikes="5" bike_racks="10" maintenance="1" terminal_type="7inch" bike_numbers="97192,97165,97058,96763,96500" bike_types="{"15":5}"/>
+<place uid="683284" lat="48.152895" lng="11.532981" name="Rotkreuzplatz" spot="1" number="8872" bikes="0" bike_racks="10" free_racks="10" terminal_type="7inch"/>
+<place uid="683286" lat="48.139401470067" lng="11.588881015778" name="Lehel" spot="1" number="8940" bikes="3" bike_racks="8" free_racks="5" terminal_type="7inch" bike_numbers="96499,96354,97282" bike_types="{"15":3}"/>
+<place uid="683288" lat="48.110357611506" lng="11.59508228302" name="Giesing" spot="1" number="8947" bikes="5" bike_racks="11" free_racks="4" terminal_type="7inch" bike_numbers="96835,96681,96533,96472,96358" bike_types="{"undefined":2,"15":5}"/>
+<place uid="683292" lat="48.076622" lng="11.550354" name="Großhesseloher Brücke" spot="1" number="8891" bikes="5" terminal_type="7inch" bike_numbers="97101,96996,96892,96856,96853" bike_types="{"15":5,"undefined":4}"/>
+<place uid="683298" lat="48.176093" lng="11.631521" name="St. Emmeram" spot="1" number="8965" bikes="5" bike_racks="10" free_racks="1" terminal_type="7inch" bike_numbers="97198,97111,96836,96753,96684" bike_types="{"15":5,"undefined":2}"/>
+<place uid="683300" lat="48.160057" lng="11.505439" name="Schloss Nymphenburg" spot="1" number="8860" bikes="5" bike_racks="15" terminal_type="7inch" bike_numbers="97190,96507,96190,96137,97287" bike_types="{"15":5}"/>
+<place uid="688300" lat="51.3418307" lng="12.36067373" name="BIKE 99990" bikes="1" bike="1" bike_numbers="99990"/>
+<place uid="695165" lat="48.173756" lng="11.535262" name="IT@M" spot="1" number="8821" bikes="5" bike_racks="10" terminal_type="7inch" bike_numbers="97186,97146,96902,96888,96787" bike_types="{"15":5}"/>
+<place uid="704380" lat="48.137206" lng="11.620129" name="Vogelweideplatz" spot="1" number="8922" bikes="5" bike_racks="10" free_racks="4" terminal_type="7inch" bike_numbers="97100,96912,96773,96602,96568" bike_types="{"15":5,"undefined":1}"/>
+<place uid="739196" lat="48.1639494" lng="11.6071029" name="BIKE 96218" bikes="1" bike="1" bike_numbers="96218" bike_types="{"15":1}"/>
+<place uid="740236" lat="48.14633357" lng="11.56060965" name="BIKE 96474" bikes="1" bike="1" bike_numbers="96474" bike_types="{"15":1}"/>
+<place uid="750836" lat="48.151862" lng="11.60301453" name="BIKE 97038" bikes="1" bike="1" bike_numbers="97038" bike_types="{"15":1}"/>
+<place uid="752642" lat="48.17423432" lng="11.5864721" name="BIKE 97162" bikes="1" bike="1" bike_numbers="97162" bike_types="{"15":1}"/>
+<place uid="757305" lat="48.12673668" lng="11.532142" name="BIKE 96485" bikes="1" bike="1" bike_numbers="96485" bike_types="{"15":1}"/>
+<place uid="760267" lat="48.1828749" lng="11.5475976" name="BIKE 97125" bikes="1" bike="1" bike_numbers="97125" bike_types="{"15":1}"/>
+<place uid="761303" lat="48.15215892" lng="11.59290232" name="BIKE 96563" bikes="1" bike="1" bike_numbers="96563" bike_types="{"15":1}"/>
+<place uid="761318" lat="48.15222938" lng="11.59177045" name="BIKE 97227" bikes="1" bike="1" bike_numbers="97227" bike_types="{"15":1}"/>
+<place uid="762245" lat="48.154976" lng="11.545305" name="München - Schachenmeierstraße 62" bikes="1" bike="1" bike_numbers="97317" bike_types="{"15":1}"/>
+<place uid="762959" lat="48.16396982" lng="11.59318325" name="BIKE 97285" bikes="1" bike="1" bike_numbers="97285" bike_types="{"15":1}"/>
+<place uid="764636" lat="48.12320855" lng="11.58398005" name="BIKE 96806" bikes="1" bike="1" bike_numbers="96806"/>
+<place uid="764747" lat="48.1455918" lng="11.52669647" name="BIKE 96578" bikes="1" bike="1" bike_numbers="96578" bike_types="{"15":1}"/>
+<place uid="765355" lat="48.16421987" lng="11.6076111" name="BIKE 97169" bikes="1" bike="1" bike_numbers="97169" bike_types="{"15":1}"/>
+<place uid="765383" lat="48.1417346" lng="11.51431985" name="BIKE 97073" bikes="1" bike="1" bike_numbers="97073" bike_types="{"15":1}"/>
+<place uid="765666" lat="48.13272323" lng="11.61524387" name="BIKE 96919" bikes="1" bike="1" bike_numbers="96919" bike_types="{"15":1}"/>
+<place uid="765830" lat="48.16038953" lng="11.59850927" name="BIKE 96942" bikes="1" bike="1" bike_numbers="96942" bike_types="{"15":1}"/>
+<place uid="766086" lat="48.13421745" lng="11.58051992" name="BIKE 96511" bikes="1" bike="1" bike_numbers="96511" bike_types="{"15":1}"/>
+<place uid="766819" lat="48.13318892" lng="11.62794585" name="BIKE 97308" bikes="1" bike="1" bike_numbers="97308" bike_types="{"15":1}"/>
+<place uid="768092" lat="48.12796992" lng="11.53216455" name="BIKE 96908" bikes="1" bike="1" bike_numbers="96908" bike_types="{"15":1}"/>
+<place uid="768237" lat="48.17047113" lng="11.50207752" name="BIKE 96189" bikes="1" bike="1" bike_numbers="96189" bike_types="{"15":1}"/>
+<place uid="768288" lat="48.14762477" lng="11.5162766" name="BIKE 96842" bikes="1" bike="1" bike_numbers="96842"/>
+<place uid="768348" lat="48.14851325" lng="11.56092078" name="BIKE 97297" bikes="1" bike="1" bike_numbers="97297" bike_types="{"15":1}"/>
+<place uid="769551" lat="48.16298882" lng="11.57843432" name="BIKE 97098" bikes="1" bike="1" bike_numbers="97098" bike_types="{"15":1}"/>
+<place uid="769688" lat="48.16683582" lng="11.63334695" name="BIKE 96147" bikes="1" bike="1" bike_numbers="96147" bike_types="{"15":1}"/>
+<place uid="770913" lat="48.14915072" lng="11.60376428" name="BIKE 96458" bikes="1" bike="1" bike_numbers="96458" bike_types="{"15":1}"/>
+<place uid="771020" lat="48.18257815" lng="11.58237287" name="BIKE 96336" bikes="1" bike="1" bike_numbers="96336" bike_types="{"15":1}"/>
+<place uid="771076" lat="48.16199285" lng="11.56519655" name="BIKE 96155" bikes="1" bike="1" bike_numbers="96155" bike_types="{"15":1}"/>
+<place uid="771160" lat="48.13203823" lng="11.60262793" name="BIKE 97090" bikes="1" bike="1" bike_numbers="97090" bike_types="{"15":1}"/>
+<place uid="771291" lat="48.16568057" lng="11.60931112" name="BIKE 96229" bikes="1" bike="1" bike_numbers="96229" bike_types="{"15":1}"/>
+<place uid="771759" lat="48.1505221" lng="11.56348175" name="BIKE 97336" bikes="1" bike="1" bike_numbers="97336" bike_types="{"15":1}"/>
+<place uid="772000" lat="48.15552678" lng="11.54259208" name="BIKE 96834" bikes="1" bike="1" bike_numbers="96834" bike_types="{"15":1}"/>
+<place uid="772243" lat="48.15119675" lng="11.57807983" name="BIKE 96258" bikes="1" bike="1" bike_numbers="96258" bike_types="{"15":1}"/>
+<place uid="772704" lat="48.15334718" lng="11.60446417" name="BIKE 97135" bikes="1" bike="1" bike_numbers="97135" bike_types="{"15":1}"/>
+<place uid="773725" lat="48.1556902" lng="11.5887801" name="BIKE 96819" bikes="1" bike="1" bike_numbers="96819"/>
+<place uid="773731" lat="48.15016072" lng="11.5747769" name="BIKE 96142" bikes="1" bike="1" bike_numbers="96142" bike_types="{"15":1}"/>
+<place uid="773795" lat="48.14921348" lng="11.60439175" name="BIKE 97289" bikes="1" bike="1" bike_numbers="97289" bike_types="{"15":1}"/>
+<place uid="774438" lat="48.15026197" lng="11.60236038" name="BIKE 96515" bikes="1" bike="1" bike_numbers="96515" bike_types="{"15":1}"/>
+<place uid="774474" lat="48.19010617" lng="11.56577078" name="BIKE 96894" bikes="1" bike="1" bike_numbers="96894" bike_types="{"15":1}"/>
+<place uid="774687" lat="48.14745567" lng="11.60153807" name="BIKE 97328" bikes="1" bike="1" bike_numbers="97328" bike_types="{"15":1}"/>
+<place uid="775545" lat="48.17222827" lng="11.59819268" name="BIKE 96480" bikes="1" bike="1" bike_numbers="96480" bike_types="{"15":1}"/>
+<place uid="775785" lat="48.13873785" lng="11.60605017" name="BIKE 96198" bikes="1" bike="1" bike_numbers="96198" bike_types="{"15":1}"/>
+<place uid="776375" lat="48.1565937" lng="11.58158482" name="BIKE 97154" bikes="1" bike="1" bike_numbers="97154" bike_types="{"15":1}"/>
+<place uid="776401" lat="48.15019915" lng="11.57387363" name="BIKE 96186" bikes="1" bike="1" bike_numbers="96186" bike_types="{"15":1}"/>
+<place uid="776425" lat="48.16519075" lng="11.57243567" name="BIKE 96742" bikes="1" bike="1" bike_numbers="96742" bike_types="{"15":1}"/>
+<place uid="776441" lat="48.15841327" lng="11.59114195" name="BIKE 96983" bikes="1" bike="1" bike_numbers="96983"/>
+<place uid="776773" lat="48.16058317" lng="11.59036465" name="BIKE 96893" bikes="1" bike="1" bike_numbers="96893" bike_types="{"15":1}"/>
+<place uid="776868" lat="48.1382039" lng="11.59933287" name="BIKE 96582" bikes="1" bike="1" bike_numbers="96582" bike_types="{"15":1}"/>
+<place uid="776933" lat="48.17568915" lng="11.58270868" name="BIKE 96688" bikes="1" bike="1" bike_numbers="96688"/>
+<place uid="777563" lat="48.15502508" lng="11.58271755" name="BIKE 96749" bikes="1" bike="1" bike_numbers="96749" bike_types="{"15":1}"/>
+<place uid="777855" lat="48.18995337" lng="11.56584825" name="BIKE 96509" bikes="1" bike="1" bike_numbers="96509" bike_types="{"15":1}"/>
+<place uid="777998" lat="48.14485927" lng="11.53372155" name="BIKE 96447" bikes="1" bike="1" bike_numbers="96447" bike_types="{"15":1}"/>
+<place uid="778028" lat="48.13799932" lng="11.5497582" name="BIKE 97017" bikes="1" bike="1" bike_numbers="97017" bike_types="{"15":1}"/>
+<place uid="778089" lat="48.15069757" lng="11.57494445" name="BIKE 96565" bikes="1" bike="1" bike_numbers="96565" bike_types="{"15":1}"/>
+<place uid="778195" lat="48.12883977" lng="11.6216525" name="BIKE 97213" bikes="1" bike="1" bike_numbers="97213" bike_types="{"15":1}"/>
+<place uid="778251" lat="48.1592211" lng="11.57826592" name="BIKE 97050" bikes="1" bike="1" bike_numbers="97050" bike_types="{"15":1}"/>
+<place uid="778317" lat="48.14860238" lng="11.57877432" name="BIKE 97086" bikes="1" bike="1" bike_numbers="97086" bike_types="{"15":1}"/>
+<place uid="778483" lat="48.12611697" lng="11.58021168" name="BIKE 96277" bikes="1" bike="1" bike_numbers="96277" bike_types="{"15":1}"/>
+<place uid="778761" lat="48.17996777" lng="11.54720478" name="BIKE 97027" bikes="1" bike="1" bike_numbers="97027" bike_types="{"15":1}"/>
+<place uid="778991" lat="48.13184447" lng="11.61850917" name="BIKE 97168" bikes="1" bike="1" bike_numbers="97168" bike_types="{"15":1}"/>
+<place uid="779151" lat="48.15679778" lng="11.54770973" name="BIKE 96486" bikes="1" bike="1" bike_numbers="96486" bike_types="{"15":1}"/>
+<place uid="779684" lat="48.15445925" lng="11.54638177" name="BIKE 96921" bikes="1" bike="1" bike_numbers="96921" bike_types="{"15":1}"/>
+<place uid="779740" lat="48.15870172" lng="11.56215912" name="BIKE 96484" bikes="1" bike="1" bike_numbers="96484" bike_types="{"15":1}"/>
+<place uid="780091" lat="48.12594235" lng="11.59752782" name="BIKE 97159" bikes="1" bike="1" bike_numbers="97159" bike_types="{"15":1}"/>
+<place uid="780508" lat="48.14845492" lng="11.59636757" name="BIKE 96445" bikes="1" bike="1" bike_numbers="96445" bike_types="{"15":1}"/>
+<place uid="780549" lat="48.15021083" lng="11.57511258" name="BIKE 96177" bikes="1" bike="1" bike_numbers="96177" bike_types="{"15":1}"/>
+<place uid="780874" lat="48.15859715" lng="11.58807442" name="BIKE 97114" bikes="1" bike="1" bike_numbers="97114" bike_types="{"15":1}"/>
+<place uid="780941" lat="48.11272853" lng="11.6049305" name="BIKE 96677" bikes="1" bike="1" bike_numbers="96677" bike_types="{"15":1}"/>
+<place uid="781130" lat="48.14862952" lng="11.52225432" name="BIKE 96754" bikes="1" bike="1" bike_numbers="96754" bike_types="{"15":1}"/>
+<place uid="781400" lat="48.17168447" lng="11.5339681" name="BIKE 96843" bikes="1" bike="1" bike_numbers="96843"/>
+<place uid="781413" lat="48.15019472" lng="11.57521177" name="BIKE 97320" bikes="1" bike="1" bike_numbers="97320" bike_types="{"15":1}"/>
+<place uid="781464" lat="48.163237" lng="11.50671493" name="BIKE 96396" bikes="1" bike="1" bike_numbers="96396" bike_types="{"15":1}"/>
+<place uid="781564" lat="48.13501352" lng="11.58404402" name="BIKE 96549" bikes="1" bike="1" bike_numbers="96549" bike_types="{"15":1}"/>
+<place uid="781641" lat="48.18045437" lng="11.59203117" name="BIKE 96833" bikes="1" bike="1" bike_numbers="96833"/>
+<place uid="781662" lat="48.15477852" lng="11.58280653" name="BIKE 96723" bikes="1" bike="1" bike_numbers="96723" bike_types="{"15":1}"/>
+<place uid="781716" lat="48.14674692" lng="11.60909858" name="BIKE 96619" bikes="1" bike="1" bike_numbers="96619" bike_types="{"15":1}"/>
+<place uid="781760" lat="48.160286" lng="11.575491" name="hohenzollernstr 82" bikes="1" bike="1" bike_numbers="96349" bike_types="{"15":1}"/>
+<place uid="782036" lat="48.15727588" lng="11.58920007" name="BIKE 97204" bikes="1" bike="1" bike_numbers="97204" bike_types="{"15":1}"/>
+<place uid="782350" lat="48.14367678" lng="11.55551683" name="BIKE 96891" bikes="1" bike="1" bike_numbers="96891" bike_types="{"15":1}"/>
+<place uid="782351" lat="48.09635573" lng="11.60698107" name="BIKE 97211" bikes="1" bike="1" bike_numbers="97211" bike_types="{"15":1}"/>
+<place uid="782409" lat="48.14603613" lng="11.53973562" name="BIKE 96845" bikes="1" bike="1" bike_numbers="96845"/>
+<place uid="782438" lat="48.1708073" lng="11.56153682" name="BIKE 96957" bikes="1" bike="1" bike_numbers="96957" bike_types="{"15":1}"/>
+<place uid="782448" lat="48.17328125" lng="11.50168693" name="BIKE 96201" bikes="1" bike="1" bike_numbers="96201" bike_types="{"15":1}"/>
+<place uid="782463" lat="48.1478024" lng="11.60024143" name="BIKE 96900" bikes="1" bike="1" bike_numbers="96900" bike_types="{"15":1}"/>
+<place uid="782466" lat="48.14727" lng="11.5847507" name="BIKE 97218" bikes="1" bike="1" bike_numbers="97218" bike_types="{"15":1}"/>
+<place uid="782512" lat="48.12651502" lng="11.59028957" name="BIKE 96524" bikes="1" bike="1" bike_numbers="96524" bike_types="{"15":1}"/>
+<place uid="782571" lat="48.15370247" lng="11.55719892" name="BIKE 96382" bikes="1" bike="1" bike_numbers="96382" bike_types="{"15":1}"/>
+<place uid="782585" lat="48.12540567" lng="11.52531095" name="BIKE 96600" bikes="1" bike="1" bike_numbers="96600" bike_types="{"15":1}"/>
+<place uid="782650" lat="48.16895093" lng="11.563377" name="BIKE 96411" bikes="1" bike="1" bike_numbers="96411" bike_types="{"15":1}"/>
+<place uid="782687" lat="48.14658438" lng="11.57693027" name="BIKE 96426" bikes="1" bike="1" bike_numbers="96426" bike_types="{"15":1}"/>
+<place uid="782734" lat="48.15161345" lng="11.56547738" name="BIKE 97042" bikes="1" bike="1" bike_numbers="97042" bike_types="{"15":1}"/>
+<place uid="782753" lat="48.1402082" lng="11.53643745" name="BIKE 96519" bikes="1" bike="1" bike_numbers="96519" bike_types="{"15":1}"/>
+<place uid="782865" lat="48.1814878" lng="11.53259342" name="BIKE 96374" bikes="1" bike="1" bike_numbers="96374" bike_types="{"15":1}"/>
+<place uid="782929" lat="48.17235188" lng="11.59869062" name="BIKE 96512" bikes="1" bike="1" bike_numbers="96512" bike_types="{"15":1}"/>
+<place uid="783181" lat="48.17571" lng="11.57463783" name="BIKE 96722" bikes="1" bike="1" bike_numbers="96722" bike_types="{"15":1}"/>
+<place uid="783365" lat="48.12680475" lng="11.57099857" name="BIKE 96597" bikes="1" bike="1" bike_numbers="96597" bike_types="{"15":1}"/>
+<place uid="783410" lat="48.13309732" lng="11.561336" name="BIKE 96554" bikes="1" bike="1" bike_numbers="96554" bike_types="{"15":1}"/>
+<place uid="783415" lat="48.14004388" lng="11.58641678" name="BIKE 97294" bikes="1" bike="1" bike_numbers="97294" bike_types="{"15":1}"/>
+<place uid="783435" lat="48.13825245" lng="11.6202756" name="BIKE 97232" bikes="1" bike="1" bike_numbers="97232" bike_types="{"15":1}"/>
+<place uid="783440" lat="48.1556902" lng="11.5887807" name="BIKE 97056" bikes="1" bike="1" bike_numbers="97056" bike_types="{"15":1}"/>
+<place uid="783448" lat="48.1471774" lng="11.5847478" name="BIKE 96127" bikes="0" bike="1" bike_numbers="96127" bike_types="{"15":1}"/>
+<place uid="783485" lat="48.182693" lng="11.552589" name="Olympiakirche" bikes="1" bike_numbers="96165" bike_types="{"15":1}"/>
+<place uid="783549" lat="48.14457822" lng="11.56288398" name="BIKE 97036" bikes="1" bike="1" bike_numbers="97036" bike_types="{"15":1}"/>
+<place uid="783553" lat="48.13031537" lng="11.59859532" name="BIKE 97044" bikes="1" bike="1" bike_numbers="97044" bike_types="{"15":1}"/>
+<place uid="783618" lat="48.17330208" lng="11.54406402" name="BIKE 96465" bikes="1" bike="1" bike_numbers="96465" bike_types="{"15":1}"/>
+<place uid="783621" lat="48.14772012" lng="11.51775675" name="BIKE 97047" bikes="1" bike="1" bike_numbers="97047" bike_types="{"15":1}"/>
+<place uid="783649" lat="48.13985073" lng="11.5603014" name="BIKE 96930" bikes="1" bike="1" bike_numbers="96930" bike_types="{"15":1}"/>
+<place uid="783670" lat="48.17996953" lng="11.54752033" name="BIKE 97175" bikes="1" bike="1" bike_numbers="97175" bike_types="{"15":1}"/>
+<place uid="783680" lat="48.18664355" lng="11.56925013" name="BIKE 97116" bikes="1" bike="1" bike_numbers="97116" bike_types="{"15":1}"/>
+<place uid="783719" lat="48.16545802" lng="11.57977738" name="BIKE 96680" bikes="1" bike="1" bike_numbers="96680" bike_types="{"15":1}"/>
+<place uid="783727" lat="48.13018825" lng="11.57039602" name="BIKE 96182" bikes="1" bike="1" bike_numbers="96182" bike_types="{"15":1}"/>
+<place uid="783728" lat="48.13164107" lng="11.57959083" name="BIKE 97013" bikes="1" bike="1" bike_numbers="97013" bike_types="{"15":1}"/>
+<place uid="783742" lat="48.13952563" lng="11.58099062" name="BIKE 96493" bikes="1" bike="1" bike_numbers="96493" bike_types="{"15":1}"/>
+<place uid="783776" lat="48.18067887" lng="11.54727262" name="BIKE 96267" bikes="1" bike="1" bike_numbers="96267" bike_types="{"15":1}"/>
+<place uid="783854" lat="48.13234378" lng="11.58917392" name="BIKE 96308" bikes="1" bike="1" bike_numbers="96308" bike_types="{"15":1}"/>
+<place uid="783884" lat="48.14953595" lng="11.56364362" name="BIKE 96585" bikes="1" bike="1" bike_numbers="96585" bike_types="{"15":1}"/>
+<place uid="783915" lat="48.12537183" lng="11.53530303" name="BIKE 96133" bikes="1" bike="1" bike_numbers="96133" bike_types="{"15":1}"/>
+<place uid="783980" lat="48.11288985" lng="11.60735425" name="BIKE 96599" bikes="1" bike="1" bike_numbers="96599" bike_types="{"15":1}"/>
+<place uid="784033" lat="48.106516" lng="11.594925" name="Chiemgaustr. 97" bikes="1" bike="1" bike_numbers="97112" bike_types="{"15":1}"/>
+<place uid="784109" lat="48.13514028" lng="11.61010362" name="BIKE 96393" bikes="1" bike="1" bike_numbers="96393" bike_types="{"15":1}"/>
+<place uid="784117" lat="48.13781638" lng="11.52283985" name="BIKE 96958" bikes="1" bike="1" bike_numbers="96958" bike_types="{"15":1}"/>
+<place uid="784135" lat="48.15509612" lng="11.58381032" name="BIKE 97024" bikes="1" bike="1" bike_numbers="97024" bike_types="{"15":1}"/>
+<place uid="784200" lat="48.16081487" lng="11.59823873" name="BIKE 96523" bikes="1" bike="1" bike_numbers="96523" bike_types="{"15":1}"/>
+<place uid="784232" lat="48.12998005" lng="11.58835957" name="BIKE 96390" bikes="1" bike="1" bike_numbers="96390" bike_types="{"15":1}"/>
+<place uid="784255" lat="48.13564927" lng="11.578667" name="BIKE 96123" bikes="1" bike="1" bike_numbers="96123" bike_types="{"15":1}"/>
+<place uid="784258" lat="48.13328252" lng="11.52562043" name="BIKE 96961" bikes="1" bike="1" bike_numbers="96961" bike_types="{"15":1}"/>
+<place uid="784324" lat="48.12774435" lng="11.59204523" name="BIKE 97180" bikes="1" bike="1" bike_numbers="97180" bike_types="{"15":1}"/>
+<place uid="784334" lat="48.142278" lng="11.617112" name="Stuntzstr. 5" bikes="1" bike="1" bike_numbers="96744" bike_types="{"15":1}"/>
+<place uid="784338" lat="48.17879112" lng="11.55291407" name="BIKE 96406" bikes="1" bike="1" bike_numbers="96406" bike_types="{"15":1}"/>
+<place uid="784345" lat="48.12527318" lng="11.5902067" name="BIKE 96504" bikes="1" bike="1" bike_numbers="96504" bike_types="{"15":1}"/>
+<place uid="784362" lat="48.16377335" lng="11.61607037" name="BIKE 96870" bikes="1" bike="1" bike_numbers="96870" bike_types="{"15":1}"/>
+<place uid="784458" lat="48.13207598" lng="11.57200172" name="BIKE 96618" bikes="1" bike="1" bike_numbers="96618" bike_types="{"15":1}"/>
+<place uid="784482" lat="48.13411917" lng="11.53986792" name="BIKE 97170" bikes="1" bike="1" bike_numbers="97170" bike_types="{"15":1}"/>
+<place uid="784505" lat="48.13708945" lng="11.56105772" name="BIKE 96200" bikes="1" bike="1" bike_numbers="96200" bike_types="{"15":1}"/>
+<place uid="784521" lat="48.15329253" lng="11.5787245" name="BIKE 96423" bikes="1" bike="1" bike_numbers="96423" bike_types="{"15":1}"/>
+<place uid="784546" lat="48.18413562" lng="11.53865685" name="BIKE 96427" bikes="1" bike="1" bike_numbers="96427" bike_types="{"15":1}"/>
+<place uid="784583" lat="48.1121167" lng="11.5032746" name="BIKE 96367" bikes="1" bike="1" bike_numbers="96367" bike_types="{"15":1}"/>
+<place uid="784597" lat="48.16523803" lng="11.62710025" name="BIKE 97067" bikes="1" bike="1" bike_numbers="97067" bike_types="{"15":1}"/>
+<place uid="784665" lat="48.1242707" lng="11.59269005" name="BIKE 96250" bikes="1" bike="1" bike_numbers="96250" bike_types="{"15":1}"/>
+<place uid="784666" lat="48.1226121" lng="11.57960903" name="BIKE 96233" bikes="1" bike="1" bike_numbers="96233" bike_types="{"15":1}"/>
+<place uid="784670" lat="48.13612217" lng="11.58771023" name="BIKE 96324" bikes="1" bike="1" bike_numbers="96324" bike_types="{"15":1}"/>
+<place uid="784677" lat="48.15869987" lng="11.52594015" name="BIKE 96129" bikes="1" bike="1" bike_numbers="96129" bike_types="{"15":1}"/>
+<place uid="784716" lat="48.1110557" lng="11.51393472" name="BIKE 97276" bikes="1" bike="1" bike_numbers="97276" bike_types="{"15":1}"/>
+<place uid="784739" lat="48.15708682" lng="11.5865826" name="BIKE 96506" bikes="1" bike="1" bike_numbers="96506" bike_types="{"15":1}"/>
+<place uid="784743" lat="48.12558427" lng="11.57465772" name="BIKE 96228" bikes="1" bike="1" bike_numbers="96228" bike_types="{"15":1}"/>
+<place uid="784783" lat="48.17120193" lng="11.56591372" name="BIKE 96492" bikes="1" bike="1" bike_numbers="96492" bike_types="{"15":1}"/>
+<place uid="784832" lat="48.17990217" lng="11.54736965" name="BIKE 97160" bikes="1" bike="1" bike_numbers="97160" bike_types="{"15":1}"/>
+<place uid="784852" lat="48.15518165" lng="11.5328943" name="BIKE 96775" bikes="1" bike="1" bike_numbers="96775" bike_types="{"15":1}"/>
+<place uid="784866" lat="48.11097315" lng="11.52888905" name="BIKE 96440" bikes="1" bike="1" bike_numbers="96440" bike_types="{"15":1}"/>
+<place uid="784870" lat="48.13675078" lng="11.53061167" name="BIKE 96745" bikes="1" bike="1" bike_numbers="96745"/>
+<place uid="784873" lat="48.1298347" lng="11.57806742" name="BIKE 96346" bikes="1" bike="1" bike_numbers="96346" bike_types="{"15":1}"/>
+<place uid="784884" lat="48.13834855" lng="11.58754258" name="BIKE 96495" bikes="1" bike="1" bike_numbers="96495" bike_types="{"15":1}"/>
+<place uid="784889" lat="48.14144615" lng="11.58121295" name="BIKE 96693" bikes="1" bike="1" bike_numbers="96693" bike_types="{"15":1}"/>
+<place uid="784914" lat="48.17702473" lng="11.5349999" name="BIKE 96555" bikes="1" bike="1" bike_numbers="96555" bike_types="{"15":1}"/>
+<place uid="785002" lat="48.18455913" lng="11.57703923" name="BIKE 96210" bikes="1" bike="1" bike_numbers="96210"/>
+<place uid="785011" lat="48.12444912" lng="11.60199407" name="BIKE 96782" bikes="1" bike="1" bike_numbers="96782" bike_types="{"15":1}"/>
+<place uid="785051" lat="48.12833113" lng="11.60414513" name="BIKE 97311" bikes="1" bike="1" bike_numbers="97311" bike_types="{"15":1}"/>
+<place uid="785055" lat="48.16808023" lng="11.57537678" name="BIKE 96513" bikes="1" bike="1" bike_numbers="96513" bike_types="{"15":1}"/>
+<place uid="785064" lat="48.12588832" lng="11.62265955" name="BIKE 97138" bikes="1" bike="1" bike_numbers="97138" bike_types="{"15":1}"/>
+<place uid="785072" lat="48.1891981" lng="11.584249" name="BIKE 97096" bikes="1" bike="1" bike_numbers="97096" bike_types="{"15":1}"/>
+<place uid="785082" lat="48.16684158" lng="11.57289897" name="BIKE 96972" bikes="1" bike="1" bike_numbers="96972"/>
+<place uid="785087" lat="48.11898335" lng="11.5832405" name="BIKE 96807" bikes="1" bike="1" bike_numbers="96807"/>
+<place uid="785097" lat="48.14904072" lng="11.50584917" name="BIKE 96429" bikes="1" bike="1" bike_numbers="96429" bike_types="{"15":1}"/>
+<place uid="785106" lat="48.12292257" lng="11.576915" name="BIKE 96266" bikes="1" bike="1" bike_numbers="96266" bike_types="{"15":1}"/>
+<place uid="785176" lat="48.18302142" lng="11.55122572" name="BIKE 97280" bikes="1" bike="1" bike_numbers="97280" bike_types="{"15":1}"/>
+<place uid="785207" lat="48.15104738" lng="11.58224075" name="BIKE 96322" bikes="1" bike="1" bike_numbers="96322" bike_types="{"15":1}"/>
+<place uid="785224" lat="48.15078655" lng="11.59775352" name="BIKE 96522" bikes="1" bike="1" bike_numbers="96522" bike_types="{"15":1}"/>
+<place uid="785225" lat="48.1723025" lng="11.59327632" name="BIKE 97145" bikes="1" bike="1" bike_numbers="97145" bike_types="{"15":1}"/>
+<place uid="785235" lat="48.14350908" lng="11.54376207" name="BIKE 96373" bikes="1" bike="1" bike_numbers="96373" bike_types="{"15":1}"/>
+<place uid="785236" lat="48.15423057" lng="11.5874311" name="BIKE 96372" bikes="1" bike="1" bike_numbers="96372" bike_types="{"15":1}"/>
+<place uid="785240" lat="48.17740145" lng="11.56919413" name="BIKE 96510" bikes="1" bike="1" bike_numbers="96510" bike_types="{"15":1}"/>
+<place uid="785280" lat="48.17635828" lng="11.56181712" name="BIKE 96766" bikes="1" bike="1" bike_numbers="96766" bike_types="{"15":1}"/>
+<place uid="785290" lat="48.148622" lng="11.59539522" name="BIKE 96826" bikes="1" bike="1" bike_numbers="96826"/>
+<place uid="785315" lat="48.18029505" lng="11.53537743" name="BIKE 96580" bikes="1" bike="1" bike_numbers="96580" bike_types="{"15":1}"/>
+<place uid="785329" lat="48.15044428" lng="11.55915582" name="BIKE 97184" bikes="1" bike="1" bike_numbers="97184" bike_types="{"15":1}"/>
+<place uid="785373" lat="48.13245535" lng="11.58915313" name="BIKE 96882" bikes="1" bike="1" bike_numbers="96882" bike_types="{"15":1}"/>
+<place uid="785381" lat="48.17040192" lng="11.5799746" name="BIKE 96928" bikes="1" bike="1" bike_numbers="96928" bike_types="{"15":1}"/>
+<place uid="785398" lat="48.152753" lng="11.599567" name="Am Tuchepark 16" bikes="1" bike_numbers="96854"/>
+<place uid="785400" lat="48.18331325" lng="11.61200307" name="BIKE 96668" bikes="1" bike="1" bike_numbers="96668" bike_types="{"15":1}"/>
+<place uid="785412" lat="48.17087385" lng="11.60371705" name="BIKE 97262" bikes="1" bike="1" bike_numbers="97262" bike_types="{"15":1}"/>
+<place uid="785418" lat="48.174154" lng="11.583752" name="Wartburgplatz 6" bikes="1" bike_numbers="96975"/>
+<place uid="785425" lat="48.14698315" lng="11.5758585" name="BIKE 97318" bikes="1" bike="1" bike_numbers="97318" bike_types="{"15":1}"/>
+<place uid="785459" lat="48.10049117" lng="11.5853843" name="BIKE 96243" bikes="1" bike="1" bike_numbers="96243" bike_types="{"15":1}"/>
+<place uid="785484" lat="48.13881207" lng="11.55849518" name="BIKE 96572" bikes="1" bike="1" bike_numbers="96572" bike_types="{"15":1}"/>
+<place uid="785489" lat="48.1447014" lng="11.60552705" name="BIKE 96667" bikes="1" bike="1" bike_numbers="96667" bike_types="{"15":1}"/>
+<place uid="785500" lat="48.15230685" lng="11.52908882" name="BIKE 97149" bikes="1" bike="1" bike_numbers="97149" bike_types="{"15":1}"/>
+<place uid="785502" lat="48.15725453" lng="11.51138752" name="BIKE 97093" bikes="1" bike="1" bike_numbers="97093" bike_types="{"15":1}"/>
+<place uid="785510" lat="48.14464602" lng="11.59182643" name="BIKE 96433" bikes="1" bike="1" bike_numbers="96433" bike_types="{"15":1}"/>
+<place uid="785512" lat="48.15036835" lng="11.5701861" name="BIKE 96404" bikes="1" bike="1" bike_numbers="96404" bike_types="{"15":1}"/>
+<place uid="785520" lat="48.14765855" lng="11.5780965" name="BIKE 96421" bikes="1" bike="1" bike_numbers="96421" bike_types="{"15":1}"/>
+<place uid="785527" lat="48.1288606" lng="11.59627997" name="BIKE 96199" bikes="1" bike="1" bike_numbers="96199" bike_types="{"15":1}"/>
+<place uid="785551" lat="48.14295223" lng="11.57000287" name="BIKE 96560" bikes="1" bike="1" bike_numbers="96560" bike_types="{"15":1}"/>
+<place uid="785556" lat="48.1694191" lng="11.5792725" name="BIKE 96537" bikes="1" bike="1" bike_numbers="96537" bike_types="{"15":1}"/>
+<place uid="785577" lat="48.17093045" lng="11.56194047" name="BIKE 96988" bikes="1" bike="1" bike_numbers="96988"/>
+<place uid="785584" lat="48.1446257" lng="11.5769587" name="BIKE 96342" bikes="1" bike="1" bike_numbers="96342" bike_types="{"15":1}"/>
+<place uid="785601" lat="48.12140578" lng="11.5993996" name="BIKE 97082" bikes="1" bike="1" bike_numbers="97082" bike_types="{"15":1}"/>
+<place uid="785609" lat="48.154704" lng="11.537679" name="Leonrodstr. 29" bikes="1" bike="1" bike_numbers="96683"/>
+<place uid="785614" lat="48.14965038" lng="11.5790562" name="BIKE 96313" bikes="1" bike="1" bike_numbers="96313" bike_types="{"15":1}"/>
+<place uid="785617" lat="48.13409257" lng="11.5849574" name="BIKE 96232" bikes="1" bike="1" bike_numbers="96232" bike_types="{"15":1}"/>
+<place uid="785624" lat="48.10351795" lng="11.60171192" name="BIKE 96864" bikes="1" bike="1" bike_numbers="96864" bike_types="{"15":1}"/>
+<place uid="785688" lat="48.16105948" lng="11.53801248" name="BIKE 96381" bikes="1" bike="1" bike_numbers="96381" bike_types="{"15":1}"/>
+<place uid="785691" lat="48.16398228" lng="11.56280393" name="BIKE 96645" bikes="1" bike="1" bike_numbers="96645" bike_types="{"15":1}"/>
+<place uid="785694" lat="48.15655513" lng="11.64821013" name="BIKE 96610" bikes="1" bike="1" bike_numbers="96610" bike_types="{"15":1}"/>
+<place uid="785700" lat="48.14893072" lng="11.60124772" name="BIKE 96347" bikes="1" bike="1" bike_numbers="96347" bike_types="{"15":1}"/>
+<place uid="785705" lat="48.16226388" lng="11.5430189" name="BIKE 97329" bikes="1" bike="1" bike_numbers="97329" bike_types="{"15":1}"/>
+<place uid="785714" lat="48.10264995" lng="11.5725071" name="BIKE 96635" bikes="1" bike="1" bike_numbers="96635" bike_types="{"15":1}"/>
+<place uid="785727" lat="48.12739932" lng="11.6031305" name="BIKE 96810" bikes="1" bike="1" bike_numbers="96810"/>
+<place uid="785746" lat="48.17814653" lng="11.57254143" name="BIKE 96489" bikes="1" bike="1" bike_numbers="96489" bike_types="{"15":1}"/>
+<place uid="785749" lat="48.17639907" lng="11.5876947" name="BIKE 97228" bikes="1" bike="1" bike_numbers="97228" bike_types="{"15":1}"/>
+<place uid="785771" lat="48.18021277" lng="11.57269822" name="BIKE 97147" bikes="1" bike="1" bike_numbers="97147" bike_types="{"15":1}"/>
+<place uid="785807" lat="48.1758626" lng="11.5724607" name="BIKE 96584" bikes="1" bike="1" bike_numbers="96584" bike_types="{"15":1}"/>
+<place uid="785810" lat="48.09846145" lng="11.58874292" name="BIKE 97010" bikes="1" bike="1" bike_numbers="97010" bike_types="{"15":1}"/>
+<place uid="785818" lat="48.10144733" lng="11.55779762" name="BIKE 96838" bikes="1" bike="1" bike_numbers="96838"/>
+<place uid="785826" lat="48.18058115" lng="11.55505573" name="BIKE 96286" bikes="1" bike="1" bike_numbers="96286" bike_types="{"15":1}"/>
+<place uid="785832" lat="48.1008001" lng="11.55877048" name="BIKE 96158" bikes="1" bike="1" bike_numbers="96158" bike_types="{"15":1}"/>
+<place uid="785869" lat="48.1087837" lng="11.58257382" name="BIKE 96419" bikes="1" bike="1" bike_numbers="96419" bike_types="{"15":1}"/>
+<place uid="785882" lat="48.148124" lng="11.53453102" name="BIKE 96733" bikes="1" bike="1" bike_numbers="96733" bike_types="{"15":1}"/>
+<place uid="785917" lat="48.14889085" lng="11.5076414" name="BIKE 96166" bikes="1" bike="1" bike_numbers="96166" bike_types="{"15":1}"/>
+<place uid="785919" lat="48.13928958" lng="11.50467575" name="BIKE 96341" bikes="1" bike="1" bike_numbers="96341" bike_types="{"15":1}"/>
+<place uid="785948" lat="48.14496852" lng="11.52248032" name="BIKE 97074" bikes="1" bike="1" bike_numbers="97074" bike_types="{"15":1}"/>
+<place uid="785972" lat="48.17731043" lng="11.57996608" name="BIKE 97124" bikes="1" bike="1" bike_numbers="97124" bike_types="{"15":1}"/>
+<place uid="785983" lat="48.15155457" lng="11.57671758" name="BIKE 96741" bikes="1" bike="1" bike_numbers="96741" bike_types="{"15":1}"/>
+<place uid="785994" lat="48.15295468" lng="11.55601398" name="BIKE 96462" bikes="1" bike="1" bike_numbers="96462" bike_types="{"15":1}"/>
+<place uid="785995" lat="48.15316512" lng="11.57375963" name="BIKE 96536" bikes="1" bike="1" bike_numbers="96536" bike_types="{"15":1}"/>
+<place uid="786000" lat="48.12541458" lng="11.51916757" name="BIKE 96669" bikes="1" bike="1" bike_numbers="96669" bike_types="{"15":1}"/>
+<place uid="786001" lat="48.10507605" lng="11.60810253" name="BIKE 96967" bikes="1" bike="1" bike_numbers="96967" bike_types="{"15":1}"/>
+<place uid="786015" lat="48.12620265" lng="11.5788801" name="BIKE 97016" bikes="1" bike="1" bike_numbers="97016" bike_types="{"15":1}"/>
+<place uid="786019" lat="48.16031495" lng="11.54023137" name="BIKE 96317" bikes="1" bike="1" bike_numbers="96317" bike_types="{"15":1}"/>
+<place uid="786029" lat="48.10853965" lng="11.52456545" name="BIKE 97326" bikes="1" bike="1" bike_numbers="97326" bike_types="{"15":1}"/>
+<place uid="786036" lat="48.123551" lng="11.579808" name="Falkenstr. 8 a " bikes="1" bike="1" bike_numbers="96966"/>
+<place uid="786040" lat="48.17963773" lng="11.55352512" name="BIKE 96276" bikes="1" bike="1" bike_numbers="96276" bike_types="{"15":1}"/>
+<place uid="786042" lat="48.1394545" lng="11.53120083" name="BIKE 96529" bikes="1" bike="1" bike_numbers="96529" bike_types="{"15":1}"/>
+<place uid="786050" lat="48.18063792" lng="11.51076698" name="BIKE 97185" bikes="1" bike="1" bike_numbers="97185" bike_types="{"15":1}"/>
+<place uid="786052" lat="48.10422607" lng="11.54230442" name="BIKE 96271" bikes="1" bike="1" bike_numbers="96271" bike_types="{"15":1}"/>
+<place uid="786062" lat="48.14693657" lng="11.53522217" name="BIKE 97174" bikes="1" bike="1" bike_numbers="97174" bike_types="{"15":1}"/>
+<place uid="786064" lat="48.16707082" lng="11.56067887" name="BIKE 96789" bikes="1" bike="1" bike_numbers="96789" bike_types="{"15":1}"/>
+<place uid="786065" lat="48.13451572" lng="11.54613578" name="BIKE 96706" bikes="1" bike="1" bike_numbers="96706" bike_types="{"15":1}"/>
+<place uid="786067" lat="48.162397" lng="11.53996197" name="BIKE 96270" bikes="1" bike="1" bike_numbers="96270" bike_types="{"15":1}"/>
+<place uid="786071" lat="48.18396923" lng="11.53806808" name="BIKE 96867" bikes="1" bike="1" bike_numbers="96867"/>
+<place uid="786101" lat="48.18345422" lng="11.52429308" name="BIKE 96932" bikes="1" bike="1" bike_numbers="96932" bike_types="{"15":1}"/>
+<place uid="786105" lat="48.15294318" lng="11.61038712" name="BIKE 96719" bikes="1" bike="1" bike_numbers="96719" bike_types="{"15":1}"/>
+<place uid="786117" lat="48.187018" lng="11.512346" name="Holledauer Str. 50" bikes="1" bike_numbers="96557" bike_types="{"15":1}"/>
+<place uid="786126" lat="48.12496862" lng="11.54941437" name="BIKE 96249" bikes="1" bike="1" bike_numbers="96249" bike_types="{"15":1}"/>
+<place uid="786133" lat="48.14963607" lng="11.52055962" name="BIKE 97001" bikes="1" bike="1" bike_numbers="97001" bike_types="{"15":1}"/>
+<place uid="786167" lat="48.16726295" lng="11.58054142" name="BIKE 97120" bikes="1" bike="1" bike_numbers="97120" bike_types="{"15":1}"/>
+<place uid="786195" lat="48.15014153" lng="11.58117907" name="BIKE 97025" bikes="1" bike="1" bike_numbers="97025" bike_types="{"15":1}"/>
+<place uid="786199" lat="48.13239627" lng="11.56598595" name="BIKE 96686" bikes="1" bike="1" bike_numbers="96686"/>
+<place uid="786200" lat="48.14915737" lng="11.59450888" name="BIKE 96434" bikes="1" bike="1" bike_numbers="96434" bike_types="{"15":1}"/>
+<place uid="786207" lat="48.12956017" lng="11.53453283" name="BIKE 96320" bikes="1" bike="1" bike_numbers="96320" bike_types="{"15":1}"/>
+<place uid="786208" lat="48.15063862" lng="11.54006595" name="BIKE 96590" bikes="1" bike="1" bike_numbers="96590" bike_types="{"15":1}"/>
+<place uid="786223" lat="48.17371925" lng="11.54447532" name="BIKE 96221" bikes="1" bike="1" bike_numbers="96221" bike_types="{"15":1}"/>
+<place uid="786230" lat="48.1374136" lng="11.56094363" name="BIKE 96435" bikes="1" bike="1" bike_numbers="96435" bike_types="{"15":1}"/>
+<place uid="786234" lat="48.1558903" lng="11.57707938" name="BIKE 97188" bikes="1" bike="1" bike_numbers="97188" bike_types="{"15":1}"/>
+<place uid="786242" lat="48.10717247" lng="11.5383959" name="BIKE 96236" bikes="1" bike="1" bike_numbers="96236" bike_types="{"15":1}"/>
+<place uid="786246" lat="48.12808733" lng="11.57427713" name="BIKE 97254" bikes="1" bike="1" bike_numbers="97254" bike_types="{"15":1}"/>
+<place uid="786252" lat="48.14322445" lng="11.54025247" name="BIKE 96288" bikes="1" bike="1" bike_numbers="96288" bike_types="{"15":1}"/>
+<place uid="786257" lat="48.16099033" lng="11.56245487" name="BIKE 97002" bikes="1" bike="1" bike_numbers="97002" bike_types="{"15":1}"/>
+<place uid="786265" lat="48.12114775" lng="11.60684338" name="BIKE 97103" bikes="1" bike="1" bike_numbers="97103" bike_types="{"15":1}"/>
+<place uid="786271" lat="48.14409845" lng="11.55502118" name="BIKE 97166" bikes="1" bike="1" bike_numbers="97166" bike_types="{"15":1}"/>
+<place uid="786283" lat="48.14985812" lng="11.59488398" name="BIKE 97139" bikes="1" bike="1" bike_numbers="97139" bike_types="{"15":1}"/>
+<place uid="786296" lat="48.15095555" lng="11.56937873" name="BIKE 96412" bikes="1" bike="1" bike_numbers="96412" bike_types="{"15":1}"/>
+<place uid="786312" lat="48.10449302" lng="11.52902408" name="BIKE 96460" bikes="1" bike="1" bike_numbers="96460" bike_types="{"15":1}"/>
+<place uid="786321" lat="48.15440303" lng="11.53922737" name="BIKE 96872" bikes="1" bike="1" bike_numbers="96872" bike_types="{"15":1}"/>
+<place uid="786325" lat="48.17973653" lng="11.54754618" name="BIKE 96405" bikes="1" bike="1" bike_numbers="96405" bike_types="{"15":1}"/>
+<place uid="786328" lat="48.16127323" lng="11.53267523" name="BIKE 97284" bikes="1" bike="1" bike_numbers="97284" bike_types="{"15":1}"/>
+<place uid="786348" lat="48.14461092" lng="11.55983857" name="BIKE 96989" bikes="1" bike="1" bike_numbers="96989"/>
+<place uid="786353" lat="48.1308069" lng="11.59256612" name="BIKE 97226" bikes="1" bike="1" bike_numbers="97226" bike_types="{"15":1}"/>
+<place uid="786366" lat="48.09970893" lng="11.51772003" name="BIKE 97246" bikes="1" bike="1" bike_numbers="97246" bike_types="{"15":1}"/>
+<place uid="786387" lat="48.13988275" lng="11.60418385" name="BIKE 97177" bikes="1" bike="1" bike_numbers="97177" bike_types="{"15":1}"/>
+<place uid="786389" lat="48.103455" lng="11.6015946" name="BIKE 97183" bikes="1" bike="1" bike_numbers="97183" bike_types="{"15":1}"/>
+<place uid="786392" lat="48.14935042" lng="11.57850717" name="BIKE 96145" bikes="1" bike="1" bike_numbers="96145" bike_types="{"15":1}"/>
+<place uid="786398" lat="48.1412333" lng="11.57595293" name="BIKE 96638" bikes="1" bike="1" bike_numbers="96638" bike_types="{"15":1}"/>
+<place uid="786399" lat="48.18132678" lng="11.50734762" name="BIKE 96371" bikes="1" bike="1" bike_numbers="96371" bike_types="{"15":1}"/>
+<place uid="786411" lat="48.15366243" lng="11.561301" name="BIKE 96861" bikes="1" bike="1" bike_numbers="96861" bike_types="{"15":1}"/>
+<place uid="786420" lat="48.17502335" lng="11.5553698" name="BIKE 97267" bikes="1" bike="1" bike_numbers="97267" bike_types="{"15":1}"/>
+<place uid="786425" lat="48.09828952" lng="11.50826195" name="BIKE 97300" bikes="1" bike="1" bike_numbers="97300" bike_types="{"15":1}"/>
+<place uid="786432" lat="48.14360898" lng="11.49925272" name="BIKE 96860" bikes="1" bike="1" bike_numbers="96860"/>
+<place uid="786435" lat="48.17207232" lng="11.50607678" name="BIKE 96227" bikes="1" bike="1" bike_numbers="96227" bike_types="{"15":1}"/>
+<place uid="786436" lat="48.18447645" lng="11.55329183" name="BIKE 96141" bikes="1" bike="1" bike_numbers="96141" bike_types="{"15":1}"/>
+<place uid="786440" lat="48.10115652" lng="11.55821283" name="BIKE 96666" bikes="1" bike="1" bike_numbers="96666" bike_types="{"15":1}"/>
+<place uid="786449" lat="48.18098757" lng="11.5683545" name="BIKE 97060" bikes="1" bike="1" bike_numbers="97060" bike_types="{"15":1}"/>
+<place uid="786452" lat="48.13673988" lng="11.55990188" name="BIKE 96138" bikes="1" bike="1" bike_numbers="96138" bike_types="{"15":1}"/>
+<place uid="786453" lat="48.18775898" lng="11.58525027" name="BIKE 97142" bikes="1" bike="1" bike_numbers="97142" bike_types="{"15":1}"/>
+<place uid="786455" lat="48.1601793" lng="11.57565638" name="BIKE 96914" bikes="1" bike="1" bike_numbers="96914"/>
+<place uid="786456" lat="48.132035" lng="11.538304" name="Geroltstr. 35" bikes="1" bike="1" bike_numbers="96717" bike_types="{"15":1}"/>
+<place uid="786466" lat="48.08898477" lng="11.56834952" name="BIKE 96660" bikes="1" bike="1" bike_numbers="96660" bike_types="{"15":1}"/>
+<place uid="786468" lat="48.12294248" lng="11.53962758" name="BIKE 97195" bikes="1" bike="1" bike_numbers="97195" bike_types="{"15":1}"/>
+<place uid="786474" lat="48.10891853" lng="11.60582453" name="BIKE 96626" bikes="1" bike="1" bike_numbers="96626" bike_types="{"15":1}"/>
+<place uid="786476" lat="48.18705425" lng="11.58130625" name="BIKE 96289" bikes="1" bike="1" bike_numbers="96289" bike_types="{"15":1}"/>
+<place uid="786489" lat="48.148163" lng="11.58346297" name="BIKE 96813" bikes="1" bike="1" bike_numbers="96813"/>
+<place uid="786490" lat="48.16468185" lng="11.55916693" name="BIKE 96260" bikes="1" bike="1" bike_numbers="96260" bike_types="{"15":1}"/>
+<place uid="786495" lat="48.13150987" lng="11.58931308" name="BIKE 96307" bikes="1" bike="1" bike_numbers="96307" bike_types="{"15":1}"/>
+<place uid="786504" lat="48.1061488" lng="11.587819" name="BIKE 96387" bikes="1" bike="1" bike_numbers="96387" bike_types="{"15":1}"/>
+<place uid="786506" lat="48.08752298" lng="11.5598853" name="BIKE 97264" bikes="1" bike="1" bike_numbers="97264" bike_types="{"15":1}"/>
+<place uid="786514" lat="48.14011168" lng="11.60269328" name="BIKE 97212" bikes="1" bike="1" bike_numbers="97212" bike_types="{"15":1}"/>
+<place uid="786519" lat="48.17050323" lng="11.53296808" name="BIKE 96636" bikes="1" bike="1" bike_numbers="96636" bike_types="{"15":1}"/>
+<place uid="786529" lat="48.14911408" lng="11.5765273" name="BIKE 97143" bikes="1" bike="1" bike_numbers="97143" bike_types="{"15":1}"/>
+<place uid="786538" lat="48.11072778" lng="11.59919875" name="BIKE 97340" bikes="1" bike="1" bike_numbers="97340" bike_types="{"15":1}"/>
+<place uid="786542" lat="48.18357973" lng="11.55366757" name="BIKE 96561" bikes="1" bike="1" bike_numbers="96561" bike_types="{"15":1}"/>
+<place uid="786549" lat="48.18176955" lng="11.5500848" name="BIKE 96132" bikes="1" bike="1" bike_numbers="96132" bike_types="{"15":1}"/>
+<place uid="786558" lat="48.15347538" lng="11.57469815" name="BIKE 97109" bikes="1" bike="1" bike_numbers="97109" bike_types="{"15":1}"/>
+<place uid="786569" lat="48.12791657" lng="11.5883173" name="BIKE 96644" bikes="1" bike="1" bike_numbers="96644" bike_types="{"15":1}"/>
+<place uid="786572" lat="48.14937357" lng="11.55633782" name="BIKE 96294" bikes="1" bike="1" bike_numbers="96294" bike_types="{"15":1}"/>
+<place uid="786581" lat="48.1447995" lng="11.57990858" name="BIKE 96828" bikes="1" bike="1" bike_numbers="96828"/>
+<place uid="786582" lat="48.13105712" lng="11.58808242" name="BIKE 97040" bikes="1" bike="1" bike_numbers="97040" bike_types="{"15":1}"/>
+<place uid="786586" lat="48.18050692" lng="11.57911413" name="BIKE 96425" bikes="1" bike="1" bike_numbers="96425" bike_types="{"15":1}"/>
+<place uid="786606" lat="48.13286322" lng="11.60775397" name="BIKE 97224" bikes="1" bike="1" bike_numbers="97224" bike_types="{"15":1}"/>
+<place uid="786618" lat="48.17045558" lng="11.57369247" name="BIKE 97085" bikes="1" bike="1" bike_numbers="97085" bike_types="{"15":1}"/>
+<place uid="786620" lat="48.1222993" lng="11.6205643" name="BIKE 96804" bikes="1" bike="1" bike_numbers="96804"/>
+<place uid="786622" lat="48.17981013" lng="11.54749287" name="BIKE 96799" bikes="1" bike="1" bike_numbers="96799" bike_types="{"15":1}"/>
+<place uid="786638" lat="48.10527037" lng="11.50479557" name="BIKE 96962" bikes="1" bike="1" bike_numbers="96962" bike_types="{"15":1}"/>
+<place uid="786639" lat="48.12779437" lng="11.58316573" name="BIKE 96244" bikes="1" bike="1" bike_numbers="96244" bike_types="{"15":1}"/>
+<place uid="786653" lat="48.14144265" lng="11.58121148" name="BIKE 96370" bikes="1" bike="1" bike_numbers="96370" bike_types="{"15":1}"/>
+<place uid="786654" lat="48.18018903" lng="11.55529407" name="BIKE 96532" bikes="1" bike="1" bike_numbers="96532" bike_types="{"15":1}"/>
+<place uid="786655" lat="48.16020382" lng="11.51607452" name="BIKE 96420" bikes="1" bike="1" bike_numbers="96420" bike_types="{"15":1}"/>
+<place uid="786660" lat="48.10482912" lng="11.58400992" name="BIKE 97039" bikes="1" bike="1" bike_numbers="97039" bike_types="{"15":1}"/>
+<place uid="786668" lat="48.1870551" lng="11.58102832" name="BIKE 97200" bikes="1" bike="1" bike_numbers="97200" bike_types="{"15":1}"/>
+<place uid="786687" lat="48.1528601" lng="11.57637888" name="BIKE 96131" bikes="1" bike="1" bike_numbers="96131" bike_types="{"15":1}"/>
+<place uid="786697" lat="48.1269201" lng="11.63515485" name="BIKE 97315" bikes="1" bike="1" bike_numbers="97315" bike_types="{"15":1}"/>
+<place uid="786706" lat="48.1458181" lng="11.59413178" name="BIKE 96253" bikes="1" bike="1" bike_numbers="96253" bike_types="{"15":1}"/>
+<place uid="786714" lat="48.16307257" lng="11.5449144" name="BIKE 96876" bikes="1" bike="1" bike_numbers="96876" bike_types="{"15":1}"/>
+<place uid="786721" lat="48.16251187" lng="11.5809167" name="BIKE 96648" bikes="1" bike="1" bike_numbers="96648" bike_types="{"15":1}"/>
+<place uid="786724" lat="48.1605402" lng="11.53834277" name="BIKE 96955" bikes="1" bike="1" bike_numbers="96955" bike_types="{"15":1}"/>
+<place uid="786726" lat="48.16219092" lng="11.53874927" name="BIKE 97029" bikes="1" bike="1" bike_numbers="97029" bike_types="{"15":1}"/>
+<place uid="786728" lat="48.15828117" lng="11.56555245" name="BIKE 96671" bikes="1" bike="1" bike_numbers="96671" bike_types="{"15":1}"/>
+<place uid="786730" lat="48.1415675" lng="11.62687228" name="BIKE 96357" bikes="1" bike="1" bike_numbers="96357" bike_types="{"15":1}"/>
+<place uid="786733" lat="48.1811369" lng="11.55386915" name="BIKE 96796" bikes="1" bike="1" bike_numbers="96796" bike_types="{"15":1}"/>
+<place uid="786734" lat="48.16856942" lng="11.56190342" name="BIKE 96937" bikes="1" bike="1" bike_numbers="96937" bike_types="{"15":1}"/>
+<place uid="786739" lat="48.18384697" lng="11.53880472" name="BIKE 97240" bikes="1" bike="1" bike_numbers="97240" bike_types="{"15":1}"/>
+<place uid="786743" lat="48.16015318" lng="11.57021272" name="BIKE 96502" bikes="1" bike="1" bike_numbers="96502" bike_types="{"15":1}"/>
+<place uid="786746" lat="48.129784" lng="11.50972297" name="BIKE 96608" bikes="1" bike="1" bike_numbers="96608" bike_types="{"15":1}"/>
+<place uid="786756" lat="48.15864668" lng="11.57210207" name="BIKE 96871" bikes="1" bike="1" bike_numbers="96871"/>
+<place uid="786758" lat="48.10426472" lng="11.55049513" name="BIKE 96111" bikes="1" bike="1" bike_numbers="96111" bike_types="{"15":1}"/>
+<place uid="786764" lat="48.15548785" lng="11.53424268" name="BIKE 97007" bikes="1" bike="1" bike_numbers="97007" bike_types="{"15":1}"/>
+<place uid="786768" lat="48.1160616" lng="11.59002398" name="BIKE 96479" bikes="1" bike="1" bike_numbers="96479" bike_types="{"15":1}"/>
+<place uid="786771" lat="48.1545911" lng="11.53530122" name="BIKE 97335" bikes="1" bike="1" bike_numbers="97335" bike_types="{"15":1}"/>
+<place uid="786776" lat="48.16004438" lng="11.5875562" name="BIKE 97046" bikes="1" bike="1" bike_numbers="97046" bike_types="{"15":1}"/>
+<place uid="786781" lat="48.1189592" lng="11.58335227" name="BIKE 96880" bikes="1" bike="1" bike_numbers="96880" bike_types="{"15":1}"/>
+<place uid="786782" lat="48.17437275" lng="11.58933045" name="BIKE 96351" bikes="1" bike="1" bike_numbers="96351" bike_types="{"15":1}"/>
+<place uid="786786" lat="48.1025654" lng="11.55748982" name="BIKE 96999" bikes="1" bike="1" bike_numbers="96999"/>
+<place uid="786790" lat="48.13692077" lng="11.51634082" name="BIKE 96689" bikes="1" bike="1" bike_numbers="96689"/>
+<place uid="786794" lat="48.18134782" lng="11.5666171" name="BIKE 96890" bikes="1" bike="1" bike_numbers="96890" bike_types="{"15":1}"/>
+<place uid="786796" lat="48.11888217" lng="11.57268107" name="BIKE 96518" bikes="1" bike="1" bike_numbers="96518" bike_types="{"15":1}"/>
+<place uid="786800" lat="48.14352253" lng="11.497022" name="BIKE 96949" bikes="1" bike="1" bike_numbers="96949" bike_types="{"15":1}"/>
+<place uid="786804" lat="48.1553756" lng="11.56562547" name="BIKE 96292" bikes="1" bike="1" bike_numbers="96292" bike_types="{"15":1}"/>
+<place uid="786806" lat="48.12169533" lng="11.57333197" name="BIKE 97247" bikes="1" bike="1" bike_numbers="97247" bike_types="{"15":1}"/>
+<place uid="786808" lat="48.16598772" lng="11.5828203" name="BIKE 96822" bikes="1" bike="1" bike_numbers="96822"/>
+<place uid="786812" lat="48.17923307" lng="11.55263047" name="BIKE 97083" bikes="1" bike="1" bike_numbers="97083" bike_types="{"15":1}"/>
+<place uid="786820" lat="48.18461857" lng="11.58002243" name="BIKE 96268" bikes="1" bike="1" bike_numbers="96268" bike_types="{"15":1}"/>
+<place uid="786821" lat="48.1206916" lng="11.57602085" name="BIKE 97128" bikes="1" bike="1" bike_numbers="97128" bike_types="{"15":1}"/>
+<place uid="786831" lat="48.12926682" lng="11.55742797" name="BIKE 96581" bikes="1" bike="1" bike_numbers="96581" bike_types="{"15":1}"/>
+<place uid="786835" lat="48.14725845" lng="11.5440791" name="BIKE 97330" bikes="1" bike="1" bike_numbers="97330" bike_types="{"15":1}"/>
+<place uid="786843" lat="48.17772422" lng="11.53694553" name="BIKE 97071" bikes="1" bike="1" bike_numbers="97071" bike_types="{"15":1}"/>
+<place uid="786844" lat="48.147654" lng="11.55098412" name="BIKE 96927" bikes="1" bike="1" bike_numbers="96927" bike_types="{"15":1}"/>
+<place uid="786847" lat="48.1395973" lng="11.55829932" name="BIKE 96113" bikes="1" bike="1" bike_numbers="96113" bike_types="{"15":1}"/>
+<place uid="786849" lat="48.15523905" lng="11.5117926" name="BIKE 96391" bikes="1" bike="1" bike_numbers="96391" bike_types="{"15":1}"/>
+<place uid="786852" lat="48.14104535" lng="11.56134197" name="BIKE 97122" bikes="1" bike="1" bike_numbers="97122" bike_types="{"15":1}"/>
+<place uid="786854" lat="48.17543655" lng="11.55263522" name="BIKE 96758" bikes="1" bike="1" bike_numbers="96758" bike_types="{"15":1}"/>
+<place uid="786858" lat="48.1369451" lng="11.59847763" name="BIKE 96628" bikes="1" bike="1" bike_numbers="96628" bike_types="{"15":1}"/>
+<place uid="786859" lat="48.14994278" lng="11.59497413" name="BIKE 96779" bikes="1" bike="1" bike_numbers="96779" bike_types="{"15":1}"/>
+<place uid="786860" lat="48.17717925" lng="11.53210038" name="BIKE 97266" bikes="1" bike="1" bike_numbers="97266" bike_types="{"15":1}"/>
+<place uid="786864" lat="48.14620488" lng="11.54073227" name="BIKE 96960" bikes="1" bike="1" bike_numbers="96960" bike_types="{"15":1}"/>
+<place uid="786865" lat="48.14744517" lng="11.5593157" name="BIKE 97236" bikes="1" bike="1" bike_numbers="97236" bike_types="{"15":1}"/>
+<place uid="786868" lat="48.17609002" lng="11.5374537" name="BIKE 96477" bikes="1" bike="1" bike_numbers="96477" bike_types="{"15":1}"/>
+<place uid="786870" lat="48.11123578" lng="11.59708085" name="BIKE 97132" bikes="1" bike="1" bike_numbers="97132" bike_types="{"15":1}"/>
+<place uid="786871" lat="48.15253787" lng="11.61029567" name="BIKE 96909" bikes="1" bike="1" bike_numbers="96909" bike_types="{"15":1}"/>
+<place uid="786874" lat="48.14800868" lng="11.54982785" name="BIKE 96247" bikes="1" bike="1" bike_numbers="96247" bike_types="{"15":1}"/>
+<place uid="786880" lat="48.14548043" lng="11.51853732" name="BIKE 96759" bikes="1" bike="1" bike_numbers="96759" bike_types="{"15":1}"/>
+<place uid="786881" lat="48.14766465" lng="11.54985543" name="BIKE 96407" bikes="1" bike="1" bike_numbers="96407" bike_types="{"15":1}"/>
+<place uid="786883" lat="48.12815633" lng="11.54358" name="BIKE 96839" bikes="1" bike="1" bike_numbers="96839"/>
+<place uid="786884" lat="48.12013033" lng="11.60111407" name="BIKE 96551" bikes="1" bike="1" bike_numbers="96551" bike_types="{"15":1}"/>
+<place uid="786890" lat="48.1476822" lng="11.57327653" name="BIKE 97222" bikes="1" bike="1" bike_numbers="97222" bike_types="{"15":1}"/>
+<place uid="786892" lat="48.1552061" lng="11.55553692" name="BIKE 97097" bikes="1" bike="1" bike_numbers="97097" bike_types="{"15":1}"/>
+<place uid="786897" lat="48.15807147" lng="11.56056858" name="BIKE 97205" bikes="1" bike="1" bike_numbers="97205" bike_types="{"15":1}"/>
+<place uid="786898" lat="48.13236908" lng="11.54707597" name="BIKE 96219" bikes="1" bike="1" bike_numbers="96219" bike_types="{"15":1}"/>
+<place uid="786899" lat="48.15894767" lng="11.56918027" name="BIKE 96757" bikes="1" bike="1" bike_numbers="96757" bike_types="{"15":1}"/>
+<place uid="786902" lat="48.17635657" lng="11.56161725" name="BIKE 97035" bikes="1" bike="1" bike_numbers="97035" bike_types="{"15":1}"/>
+<place uid="786903" lat="48.16649898" lng="11.59005488" name="BIKE 96711" bikes="1" bike="1" bike_numbers="96711" bike_types="{"15":1}"/>
+<place uid="786907" lat="48.15123245" lng="11.59750293" name="BIKE 97126" bikes="1" bike="1" bike_numbers="97126" bike_types="{"15":1}"/>
+<place uid="786909" lat="48.1373296" lng="11.58907187" name="BIKE 96333" bikes="1" bike="1" bike_numbers="96333" bike_types="{"15":1}"/>
+<place uid="786911" lat="48.14939798" lng="11.57925353" name="BIKE 96705" bikes="1" bike="1" bike_numbers="96705" bike_types="{"15":1}"/>
+<place uid="786919" lat="48.11594293" lng="11.58885827" name="BIKE 96678" bikes="1" bike="1" bike_numbers="96678" bike_types="{"15":1}"/>
+<place uid="786920" lat="48.14969798" lng="11.59492563" name="BIKE 96179" bikes="1" bike="1" bike_numbers="96179" bike_types="{"15":1}"/>
+<place uid="786922" lat="48.17784543" lng="11.58886878" name="BIKE 96562" bikes="1" bike="1" bike_numbers="96562" bike_types="{"15":1}"/>
+<place uid="786927" lat="48.16656575" lng="11.58985695" name="BIKE 96604" bikes="1" bike="1" bike_numbers="96604" bike_types="{"15":1}"/>
+<place uid="786929" lat="48.14640855" lng="11.53040595" name="BIKE 96929" bikes="1" bike="1" bike_numbers="96929" bike_types="{"15":1}"/>
+<place uid="786931" lat="48.15046905" lng="11.56574242" name="BIKE 96659" bikes="1" bike="1" bike_numbers="96659" bike_types="{"15":1}"/>
+<place uid="786936" lat="48.13365917" lng="11.53992045" name="BIKE 96793" bikes="1" bike="1" bike_numbers="96793" bike_types="{"15":1}"/>
+<place uid="786938" lat="48.16652735" lng="11.58995127" name="BIKE 96577" bikes="1" bike="1" bike_numbers="96577" bike_types="{"15":1}"/>
+<place uid="786940" lat="48.18098737" lng="11.5960087" name="BIKE 96171" bikes="1" bike="1" bike_numbers="96171" bike_types="{"15":1}"/>
+<place uid="786941" lat="48.1494946" lng="11.56812812" name="BIKE 96886" bikes="1" bike="1" bike_numbers="96886" bike_types="{"15":1}"/>
+<place uid="786942" lat="48.1317426" lng="11.58792103" name="BIKE 97214" bikes="1" bike="1" bike_numbers="97214" bike_types="{"15":1}"/>
+<place uid="786943" lat="48.13886185" lng="11.64164293" name="BIKE 97197" bikes="1" bike="1" bike_numbers="97197" bike_types="{"15":1}"/>
+<place uid="786945" lat="48.16289472" lng="11.58633812" name="BIKE 96212" bikes="1" bike="1" bike_numbers="96212" bike_types="{"15":1}"/>
+<place uid="786951" lat="48.14238903" lng="11.53483507" name="BIKE 96956" bikes="1" bike="1" bike_numbers="96956" bike_types="{"15":1}"/>
+<place uid="786954" lat="48.155043" lng="11.556799" name="Heßstr. 108" bikes="1" bike_numbers="96255" bike_types="{"15":1}"/>
+<place uid="786957" lat="48.15788105" lng="11.55491583" name="BIKE 96543" bikes="1" bike="1" bike_numbers="96543" bike_types="{"15":1}"/>
+<place uid="786959" lat="48.18131463" lng="11.56424573" name="BIKE 96963" bikes="1" bike="1" bike_numbers="96963" bike_types="{"15":1}"/>
+<place uid="786961" lat="48.16149062" lng="11.5889062" name="BIKE 96808" bikes="1" bike="1" bike_numbers="96808"/>
+<place uid="786963" lat="48.13874795" lng="11.64475343" name="BIKE 97063" bikes="1" bike="1" bike_numbers="97063" bike_types="{"15":1}"/>
+<place uid="786965" lat="48.1760322" lng="11.5374785" name="BIKE 96931" bikes="1" bike="1" bike_numbers="96931" bike_types="{"15":1}"/>
+<place uid="786966" lat="48.18988787" lng="11.56555328" name="BIKE 96609" bikes="1" bike="1" bike_numbers="96609" bike_types="{"15":1}"/>
+<place uid="786972" lat="48.11347725" lng="11.53377063" name="BIKE 97253" bikes="1" bike="1" bike_numbers="97253" bike_types="{"15":1}"/>
+<place uid="786977" lat="48.17297673" lng="11.53181273" name="BIKE 96517" bikes="1" bike="1" bike_numbers="96517" bike_types="{"15":1}"/>
+<place uid="786978" lat="48.14352513" lng="11.58455047" name="BIKE 96100" bikes="1" bike="1" bike_numbers="96100" bike_types="{"15":1}"/>
+<place uid="786980" lat="48.12618057" lng="11.54339685" name="BIKE 96319" bikes="1" bike="1" bike_numbers="96319" bike_types="{"15":1}"/>
+<place uid="786981" lat="48.14598962" lng="11.57508287" name="BIKE 96767" bikes="1" bike="1" bike_numbers="96767" bike_types="{"15":1}"/>
+<place uid="786984" lat="48.10114972" lng="11.54696125" name="BIKE 96818" bikes="1" bike="1" bike_numbers="96818" bike_types="{"15":1}"/>
+<place uid="786987" lat="48.1260327" lng="11.54320112" name="BIKE 97131" bikes="1" bike="1" bike_numbers="97131" bike_types="{"15":1}"/>
+<place uid="786989" lat="48.14305497" lng="11.57663155" name="BIKE 96656" bikes="1" bike="1" bike_numbers="96656" bike_types="{"15":1}"/>
+<place uid="786992" lat="48.1251556" lng="11.54878575" name="BIKE 96658" bikes="1" bike="1" bike_numbers="96658" bike_types="{"15":1}"/>
+<place uid="786995" lat="48.17812267" lng="11.53653202" name="BIKE 97156" bikes="1" bike="1" bike_numbers="97156" bike_types="{"15":1}"/>
+<place uid="786997" lat="48.1783414" lng="11.53762003" name="BIKE 96178" bikes="1" bike="1" bike_numbers="96178" bike_types="{"15":1}"/>
+<place uid="787001" lat="48.166296" lng="11.57276" name="Angererstr. 7" bikes="1" bike="1" bike_numbers="96116" bike_types="{"15":1}"/>
+<place uid="787003" lat="48.13797007" lng="11.52177442" name="BIKE 96990" bikes="1" bike="1" bike_numbers="96990"/>
+<place uid="787006" lat="48.17844998" lng="11.58712013" name="BIKE 96837" bikes="1" bike="1" bike_numbers="96837"/>
+<place uid="787008" lat="48.10368655" lng="11.58208437" name="BIKE 96637" bikes="1" bike="1" bike_numbers="96637" bike_types="{"15":1}"/>
+<place uid="787010" lat="48.12627618" lng="11.55132473" name="BIKE 97095" bikes="1" bike="1" bike_numbers="97095" bike_types="{"15":1}"/>
+<place uid="787013" lat="48.12816015" lng="11.54396707" name="BIKE 96630" bikes="1" bike="1" bike_numbers="96630" bike_types="{"15":1}"/>
+<place uid="787015" lat="48.14791128" lng="11.56198438" name="BIKE 97158" bikes="1" bike="1" bike_numbers="97158" bike_types="{"15":1}"/>
+<place uid="787018" lat="48.18027047" lng="11.53542713" name="BIKE 96124" bikes="1" bike="1" bike_numbers="96124" bike_types="{"15":1}"/>
+<place uid="787020" lat="48.14663317" lng="11.56930053" name="BIKE 96594" bikes="1" bike="1" bike_numbers="96594" bike_types="{"15":1}"/>
+<place uid="787021" lat="48.14626085" lng="11.56187323" name="BIKE 96397" bikes="1" bike="1" bike_numbers="96397" bike_types="{"15":1}"/>
+<place uid="787022" lat="48.133538" lng="11.52182" name="Westendstr./Würzburger Str." bikes="1" bike_numbers="96998"/>
+<place uid="787028" lat="48.13983967" lng="11.51837363" name="BIKE 96768" bikes="1" bike="1" bike_numbers="96768" bike_types="{"15":1}"/>
+<place uid="787029" lat="48.13353045" lng="11.57217583" name="BIKE 96437" bikes="1" bike="1" bike_numbers="96437" bike_types="{"15":1}"/>
+<place uid="787030" lat="48.17942855" lng="11.5849167" name="BIKE 96203" bikes="1" bike="1" bike_numbers="96203" bike_types="{"15":1}"/>
+<place uid="787032" lat="48.19788668" lng="11.61019548" name="BIKE 96857" bikes="1" bike="1" bike_numbers="96857" bike_types="{"15":1}"/>
+<place uid="787033" lat="48.15273905" lng="11.53890487" name="BIKE 96701" bikes="1" bike="1" bike_numbers="96701" bike_types="{"15":1}"/>
+<place uid="787037" lat="48.18429652" lng="11.5849248" name="BIKE 97030" bikes="1" bike="1" bike_numbers="97030" bike_types="{"15":1}"/>
+<place uid="787038" lat="48.1468453" lng="11.58007653" name="BIKE 96881" bikes="1" bike="1" bike_numbers="96881" bike_types="{"15":1}"/>
+<place uid="787039" lat="48.12565097" lng="11.54882225" name="BIKE 96844" bikes="1" bike="1" bike_numbers="96844"/>
+<place uid="787042" lat="48.14549903" lng="11.5188235" name="BIKE 96661" bikes="1" bike="1" bike_numbers="96661" bike_types="{"15":1}"/>
+<place uid="787044" lat="48.17094035" lng="11.53454223" name="BIKE 96655" bikes="1" bike="1" bike_numbers="96655" bike_types="{"15":1}"/>
+<place uid="787046" lat="48.1343939" lng="11.59680805" name="BIKE 96176" bikes="1" bike="1" bike_numbers="96176" bike_types="{"15":1}"/>
+<place uid="787048" lat="48.14387357" lng="11.59499302" name="BIKE 96699" bikes="1" bike="1" bike_numbers="96699" bike_types="{"15":1}"/>
+<place uid="787051" lat="48.19188927" lng="11.5694721" name="BIKE 97341" bikes="1" bike="1" bike_numbers="97341" bike_types="{"15":1}"/>
+<place uid="787053" lat="48.18914253" lng="11.57499672" name="BIKE 96994" bikes="1" bike="1" bike_numbers="96994"/>
+<place uid="787054" lat="48.15074608" lng="11.5836881" name="BIKE 96827" bikes="1" bike="1" bike_numbers="96827"/>
+<place uid="787059" lat="48.17325265" lng="11.53241337" name="BIKE 96685" bikes="1" bike="1" bike_numbers="96685"/>
+<place uid="787061" lat="48.15610508" lng="11.58268195" name="BIKE 97141" bikes="1" bike="1" bike_numbers="97141" bike_types="{"15":1}"/>
+<place uid="787062" lat="48.14450768" lng="11.56618553" name="BIKE 96156" bikes="1" bike="1" bike_numbers="96156" bike_types="{"15":1}"/>
+<place uid="787065" lat="48.13971173" lng="11.5677879" name="BIKE 96765" bikes="1" bike="1" bike_numbers="96765" bike_types="{"15":1}"/>
+<place uid="787066" lat="48.17673773" lng="11.59096073" name="BIKE 96205" bikes="1" bike="1" bike_numbers="96205" bike_types="{"15":1}"/>
+<place uid="787072" lat="48.1494503" lng="11.57253262" name="BIKE 96795" bikes="1" bike="1" bike_numbers="96795" bike_types="{"15":1}"/>
+<place uid="787074" lat="48.18069928" lng="11.54577588" name="BIKE 96679" bikes="1" bike="1" bike_numbers="96679" bike_types="{"15":1}"/>
+<place uid="787075" lat="48.12447115" lng="11.60288303" name="BIKE 96726" bikes="1" bike="1" bike_numbers="96726" bike_types="{"15":1}"/>
+<place uid="787078" lat="48.15057655" lng="11.539922" name="BIKE 96995" bikes="1" bike="1" bike_numbers="96995"/>
+<place uid="787080" lat="48.1324106" lng="11.56622965" name="BIKE 96633" bikes="1" bike="1" bike_numbers="96633" bike_types="{"15":1}"/>
+<place uid="787085" lat="48.13285535" lng="11.55786762" name="BIKE 97191" bikes="1" bike="1" bike_numbers="97191" bike_types="{"15":1}"/>
+<place uid="787087" lat="48.12925467" lng="11.55591478" name="BIKE 97288" bikes="1" bike="1" bike_numbers="97288" bike_types="{"15":1}"/>
+<place uid="787090" lat="48.1589349" lng="11.58137488" name="BIKE 96121" bikes="1" bike="1" bike_numbers="96121" bike_types="{"15":1}"/>
+<place uid="787092" lat="48.14454097" lng="11.5031345" name="BIKE 96696" bikes="1" bike="1" bike_numbers="96696"/>
+<place uid="787096" lat="48.1043546" lng="11.52893458" name="BIKE 96790" bikes="1" bike="1" bike_numbers="96790" bike_types="{"15":1}"/>
+<place uid="787097" lat="48.12243085" lng="11.59828935" name="BIKE 96889" bikes="1" bike="1" bike_numbers="96889" bike_types="{"15":1}"/>
+<place uid="787098" lat="48.18805067" lng="11.58576342" name="BIKE 96724" bikes="1" bike="1" bike_numbers="96724" bike_types="{"15":1}"/>
+<place uid="787102" lat="48.15143217" lng="11.55033773" name="BIKE 96191" bikes="1" bike="1" bike_numbers="96191" bike_types="{"15":1}"/>
+<place uid="787103" lat="48.14875848" lng="11.53679342" name="BIKE 97053" bikes="1" bike="1" bike_numbers="97053" bike_types="{"15":1}"/>
+<place uid="787105" lat="48.14279433" lng="11.54316115" name="BIKE 97070" bikes="1" bike="1" bike_numbers="97070" bike_types="{"15":1}"/>
+<place uid="787108" lat="48.15234938" lng="11.57995768" name="BIKE 96964" bikes="1" bike="1" bike_numbers="96964" bike_types="{"15":1}"/>
+<place uid="787110" lat="48.13320042" lng="11.56061587" name="BIKE 97153" bikes="1" bike="1" bike_numbers="97153" bike_types="{"15":1}"/>
+<place uid="787111" lat="48.1511771" lng="11.58176133" name="BIKE 96548" bikes="1" bike="1" bike_numbers="96548" bike_types="{"15":1}"/>
+<place uid="787114" lat="48.11643607" lng="11.53827267" name="BIKE 96746" bikes="1" bike="1" bike_numbers="96746" bike_types="{"15":1}"/>
+<place uid="787116" lat="48.15619107" lng="11.58212878" name="BIKE 96375" bikes="1" bike="1" bike_numbers="96375" bike_types="{"15":1}"/>
+<place uid="787117" lat="48.13296397" lng="11.5532519" name="BIKE 96473" bikes="1" bike="1" bike_numbers="96473" bike_types="{"15":1}"/>
+<place uid="787118" lat="48.15476465" lng="11.55724057" name="BIKE 96598" bikes="1" bike="1" bike_numbers="96598" bike_types="{"15":1}"/>
+<place uid="787120" lat="48.18230195" lng="11.5948986" name="BIKE 96331" bikes="1" bike="1" bike_numbers="96331" bike_types="{"15":1}"/>
+<place uid="787123" lat="48.17729158" lng="11.59695053" name="BIKE 97155" bikes="1" bike="1" bike_numbers="97155" bike_types="{"15":1}"/>
+<place uid="787124" lat="48.1830721" lng="11.59140345" name="BIKE 96309" bikes="1" bike="1" bike_numbers="96309" bike_types="{"15":1}"/>
+<place uid="787131" lat="48.18325272" lng="11.59154212" name="BIKE 97026" bikes="1" bike="1" bike_numbers="97026" bike_types="{"15":1}"/>
+<place uid="787132" lat="48.11907155" lng="11.58339797" name="BIKE 96318" bikes="1" bike="1" bike_numbers="96318" bike_types="{"15":1}"/>
+<place uid="787133" lat="48.18421697" lng="11.58490053" name="BIKE 96202" bikes="1" bike="1" bike_numbers="96202" bike_types="{"15":1}"/>
+<place uid="787134" lat="48.13171698" lng="11.57214567" name="BIKE 96223" bikes="1" bike="1" bike_numbers="96223" bike_types="{"15":1}"/>
+<place uid="787136" lat="48.16943512" lng="11.4962034" name="BIKE 96869" bikes="1" bike="1" bike_numbers="96869"/>
+<place uid="787141" lat="48.14315582" lng="11.56343293" name="BIKE 96167" bikes="1" bike="1" bike_numbers="96167" bike_types="{"15":1}"/>
+<place uid="787142" lat="48.16110665" lng="11.58332688" name="BIKE 97215" bikes="1" bike="1" bike_numbers="97215" bike_types="{"15":1}"/>
+<place uid="787149" lat="48.1271759" lng="11.5601712" name="BIKE 96652" bikes="1" bike="1" bike_numbers="96652" bike_types="{"15":1}"/>
+<place uid="787150" lat="48.13909022" lng="11.53891067" name="BIKE 97245" bikes="1" bike="1" bike_numbers="97245" bike_types="{"15":1}"/>
+<place uid="787151" lat="48.13647485" lng="11.55986553" name="BIKE 97006" bikes="1" bike="1" bike_numbers="97006" bike_types="{"15":1}"/>
+<place uid="787152" lat="48.13010655" lng="11.55705668" name="BIKE 96222" bikes="1" bike="1" bike_numbers="96222" bike_types="{"15":1}"/>
+<place uid="787155" lat="48.148647" lng="11.57353652" name="BIKE 96907" bikes="1" bike="1" bike_numbers="96907" bike_types="{"15":1}"/>
+<place uid="787158" lat="48.13968328" lng="11.58380195" name="BIKE 96951" bikes="1" bike="1" bike_numbers="96951" bike_types="{"15":1}"/>
+<place uid="787159" lat="48.14341097" lng="11.56713795" name="BIKE 96698" bikes="1" bike="1" bike_numbers="96698" bike_types="{"15":1}"/>
+<place uid="787161" lat="48.13312118" lng="11.5662771" name="BIKE 97271" bikes="1" bike="1" bike_numbers="97271" bike_types="{"15":1}"/>
+<place uid="787167" lat="48.17986715" lng="11.54484877" name="BIKE 96432" bikes="1" bike="1" bike_numbers="96432" bike_types="{"15":1}"/>
+<place uid="787168" lat="48.15130557" lng="11.55782775" name="BIKE 96364" bikes="1" bike="1" bike_numbers="96364" bike_types="{"15":1}"/>
+<place uid="787174" lat="48.16098018" lng="11.51379202" name="BIKE 97144" bikes="1" bike="1" bike_numbers="97144" bike_types="{"15":1}"/>
+<place uid="787176" lat="48.12091962" lng="11.60657328" name="BIKE 96471" bikes="1" bike="1" bike_numbers="96471" bike_types="{"15":1}"/>
+<place uid="787177" lat="48.16094605" lng="11.53271992" name="BIKE 96352" bikes="1" bike="1" bike_numbers="96352" bike_types="{"15":1}"/>
+<place uid="787178" lat="48.17541983" lng="11.58184718" name="BIKE 96450" bikes="1" bike="1" bike_numbers="96450" bike_types="{"15":1}"/>
+<place uid="787179" lat="48.1489906" lng="11.57174083" name="BIKE 96312" bikes="1" bike="1" bike_numbers="96312" bike_types="{"15":1}"/>
+<place uid="787180" lat="48.15087583" lng="11.5788229" name="BIKE 96847" bikes="1" bike="1" bike_numbers="96847"/>
+<place uid="787185" lat="48.12440658" lng="11.57758213" name="BIKE 96623" bikes="1" bike="1" bike_numbers="96623" bike_types="{"15":1}"/>
+<place uid="787186" lat="48.13095912" lng="11.59043295" name="BIKE 96747" bikes="1" bike="1" bike_numbers="96747" bike_types="{"15":1}"/>
+<place uid="787190" lat="48.1234472" lng="11.5546421" name="BIKE 96531" bikes="1" bike="1" bike_numbers="96531" bike_types="{"15":1}"/>
+<place uid="787193" lat="48.17833875" lng="11.56822643" name="BIKE 96459" bikes="1" bike="1" bike_numbers="96459" bike_types="{"15":1}"/>
+<place uid="787194" lat="48.17241077" lng="11.57307717" name="BIKE 96204" bikes="1" bike="1" bike_numbers="96204" bike_types="{"15":1}"/>
+<place uid="787196" lat="48.160686" lng="11.55168865" name="BIKE 96355" bikes="1" bike="1" bike_numbers="96355" bike_types="{"15":1}"/>
+<place uid="787198" lat="48.16353352" lng="11.55861175" name="BIKE 96130" bikes="1" bike="1" bike_numbers="96130" bike_types="{"15":1}"/>
+</city>
+</country>
+</markers>
