@@ -1410,7 +1410,7 @@
          </CustomerData>
       </hal2:CABSERVER.getCustomerInfo>
    </soapenv:Body>
-</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.getCustomerInfo"/></con:call></con:operation><con:operation id="761ee016-74f7-4efb-8f7a-c34213e4d55a" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listCompletedTrips" name="CABSERVER.listCompletedTrips" bindingOperationName="CABSERVER.listCompletedTrips" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="06a48ea6-ffea-43ce-8f01-09f79243602f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.getCustomerInfo"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="761ee016-74f7-4efb-8f7a-c34213e4d55a" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listCompletedTrips" name="CABSERVER.listCompletedTrips" bindingOperationName="CABSERVER.listCompletedTrips" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="06a48ea6-ffea-43ce-8f01-09f79243602f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
    <soapenv:Header/>
    <soapenv:Body>
       <hal2:CABSERVER.listCompletedTrips>
@@ -1459,13 +1459,13 @@
             </UserData>
             <!-- Only option -->
             <LanguageUID>1</LanguageUID>
-            <RequestTime>2017-01-31 18:53:20</RequestTime>
+            <RequestTime>2017-01-31 18:47:45</RequestTime>
             <!-- Only option -->
             <Version>1</Version>
          </CommonParams>
          <SearchPosition>
-            <Longitude>48.1537671</Longitude>
-            <Latitude>11.5533165</Latitude>
+            <Longitude>11.5533165</Longitude>
+            <Latitude>48.1537671</Latitude>
          </SearchPosition>
          <maxResults>100</maxResults>
          <searchRadius>5000</searchRadius>
