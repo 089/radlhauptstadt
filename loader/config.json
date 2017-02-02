@@ -1,0 +1,8 @@
+{
+  "db.connection" : {
+    "hostname" : "",
+    "database" : "",
+    "username" : "",
+    "password" : ""
+  }
+}
