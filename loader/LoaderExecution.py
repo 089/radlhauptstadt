@@ -35,8 +35,8 @@ def main():
     allStations = []
 
     mvgLoader = MvgLoader(id)
-    allVehicles.append(mvgLoader.getVehicles())
-    allStations.append(mvgLoader.getStations())
+    allVehicles += mvgLoader.getVehicles()
+    allStations += mvgLoader.getStations()
 
     # Step: save objects to database
     mysqlHandler = MysqlHandler()
