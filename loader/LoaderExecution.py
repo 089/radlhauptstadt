@@ -20,10 +20,10 @@ def main():
 
     print("LoaderExecution.config: " + config['db.connection']['hostname'])
     dbconnection = db.connect(
-        config['db.connection']['hostname'],
-        config['db.connection']['database'],
-        config['db.connection']['username'],
-        config['db.connection']['password'],
+        host=config['db.connection']['hostname'],
+        user=config['db.connection']['username'],
+        password=config['db.connection']['password'],
+        db=config['db.connection']['database']
     )
 
     # Step: create loaderIterationID
