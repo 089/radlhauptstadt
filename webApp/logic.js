@@ -4,18 +4,18 @@
 // - overlayLayerControl muss um eine Zeile ergänzt werden. 
 // - Bei der Erzeugung der Karte muss der neue Layer übergeben werden. 
 // - In addMarker muss ein neuer Pfad hinzugefügt werden.
-const MVG_BICYCLE = "MVG-Rad";
+var MVG_BICYCLE = "MVG-Rad";
 var mvgBicycleLayer = new L.LayerGroup();
-const DB_BICYCLE = "DB-Rad"; 
+var DB_BICYCLE = "DB-Rad";
 var dbBicycleLayer = new L.LayerGroup();
-const DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
+var DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
 var dbBicycleReturnAreaLayer = new L.LayerGroup();
-const MVV_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
+var MVV_BICYCLE_RETURN_AREA = "MVV-Rad Rückgabegebiet";
 var mvvBicycleReturnAreaLayer = new L.LayerGroup();
 
 
 var overlayLayerControl = {
-				MVG_BICYCLE: mvgBicycleLayer, 
+				MVG_BICYCLE.value(): mvgBicycleLayer, 
 				DB_BICYCLE: dbBicycleLayer,
 				DB_BICYCLE_RETURN_AREA: dbBicycleReturnAreaLayer,
 				MVV_BICYCLE_RETURN_AREA: mvvBicycleReturnAreaLayer
