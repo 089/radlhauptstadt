@@ -43,8 +43,8 @@ function create(){
 	var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', 
 	{
 		attribution: '&copy; '
-		+ '<a href="http://osm.org/copyright">OpenStreetMap</a> contributors '
-		+ '&copy; <a href="https://thenounproject.com/">Lluisa Iborra, Noun Project</a>'
+		+ '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors '
+		+ '| Inspired by and derived from &copy; <a href="https://thenounproject.com/term/landmark/842708/" target="_blank">Lluisa Iborra, Noun Project</a> (<a href="https://creativecommons.org/licenses/by/3.0/us/" target="_blank">CC-BY</a>)'
 	});
 	
 	// Karte erzeugen
