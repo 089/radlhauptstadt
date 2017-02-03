@@ -15,7 +15,7 @@ var mvvBicycleReturnAreaLayer = new L.LayerGroup();
 
 
 var overlayLayerControl = {
-				MVG_BICYCLE.value(): mvgBicycleLayer, 
+				MVG_BICYCLE: mvgBicycleLayer, 
 				DB_BICYCLE: dbBicycleLayer,
 				DB_BICYCLE_RETURN_AREA: dbBicycleReturnAreaLayer,
 				MVV_BICYCLE_RETURN_AREA: mvvBicycleReturnAreaLayer
