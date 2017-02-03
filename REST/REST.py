@@ -1,5 +1,5 @@
 #!/usr/local/bin/python3
-from flask import Flask, g ,jsonify
+from flask import Flask, g, jsonify
 
 import mysql.connector as db
 import json
@@ -8,12 +8,14 @@ from flask import abort
 
 app = Flask(__name__)
 
+
 def load_db_config_from_json():
     global is_db_config_loaded
     config_file_name = ('config.json')
     with open(config_file_name) as config_file:
         cfg = json.load(config_file)
     return cfg
+
 
 @app.before_request
 def db_connect():
@@ -27,13 +29,16 @@ def db_connect():
         db=config['db.connection']['database']
     )
 
+
 @app.teardown_request
-def close_db():
+def close_db(exception=None):
     if hasattr(g, 'mysql_db'):
         g.mysql_db.close()
 
+
 # load config once
 config = load_db_config_from_json()
+
 
 ########################################################################################################################
 
@@ -41,26 +46,42 @@ config = load_db_config_from_json()
 def index():
     return '{}'
 
-@app.route('/radlhauptstadt/api/v0.9/provider/<provider>/vehicle/<vehicle>', methods=['GET'])
-def hello_world(provider, vehicle):
 
+@app.route('/api/v0.9/provider/<provider>/vehicle/<vehicle>', methods=['GET'])
+def one_vehicle(provider, vehicle):
     if provider == '':
         abort(400)
 
     cursor = g.mysql_db.cursor()
 
-    if not vehicle:
-        cursor.callproc('all_vehicles', provider)
-    else:
-        cursor.callproc('one_vehicle', provider, vehicle)
+    cursor.callproc('one_vehicle', args=(provider, vehicle))
 
     results = []
-
     for result in cursor.stored_results():
         results += result.fetchall()
 
-    return jsonify(results);
+    #return app.response_class(
+    #    response=results,
+    #    status=200,
+    #    mimetype='application/json'
+    #    )
 
+    return results
+
+@app.route('/api/v0.9/provider/<provider>/vehicle', methods=['GET'])
+def all_vehicles(provider):
+    if provider == '':
+        abort(400)
+
+    cursor = g.mysql_db.cursor()
+
+    cursor.callproc('all_vehicles', args=provider)
+
+    results = []
+    for result in cursor.stored_results():
+        results += result.fetchall()
+
+    return results
 
 if __name__ == '__main__':
     app.run()
