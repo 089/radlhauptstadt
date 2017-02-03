@@ -8,25 +8,29 @@ const MVG_BICYCLE = "MVG-Rad";
 var mvgBicycleLayer = new L.LayerGroup();
 const DB_BICYCLE = "DB-Rad"; 
 var dbBicycleLayer = new L.LayerGroup();
-const DB_BICYCLE_CORE_AREA = "DB-Rad Kerngebiet"
-var dbBicycleCoreAreaLayer = new L.LayerGroup();
+const DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
+var dbBicycleReturnAreaLayer = new L.LayerGroup();
+const MVV_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
+var mvvBicycleReturnAreaLayer = new L.LayerGroup();
+
 
 var overlayLayerControl = {
 				MVG_BICYCLE: mvgBicycleLayer, 
 				DB_BICYCLE: dbBicycleLayer,
-				DB_BICYCLE_CORE_AREA: dbBicycleCoreAreaLayer
+				DB_BICYCLE_RETURN_AREA: dbBicycleReturnAreaLayer,
+				MVV_BICYCLE_RETURN_AREA: mvvBicycleReturnAreaLayer
 	};
 
 // create icons
 var blueIcon = L.icon({
-	iconUrl: 'pics/bike.svg',
+	iconUrl: 'pics/bike-blue.svg',
 
 	iconSize:     [40, 80], // size of the icon
 	iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
 	popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
 var redIcon = L.icon({
-	iconUrl: 'pics/bike-red.png',
+	iconUrl: 'pics/bike-red.svg',
 
 	iconSize:     [40, 80], // size of the icon
 	iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
@@ -45,7 +49,8 @@ function create(){
 	
 	// Karte erzeugen
 	map = L.map('map', {layers: [baseLayer, mvgBicycleLayer, 
-			dbBicycleLayer, dbBicycleCoreAreaLayer]})
+			dbBicycleLayer, dbBicycleReturnAreaLayer, 
+			mvvBicycleReturnAreaLayer]})
 		.setView([48.137220, 11.575496], 12);
 
 	// layer control hinzufügen
@@ -90,5 +95,25 @@ function addArea(){
 	[48.127364, 11.523267],
 	[48.133652, 11.533583]
 	]).setStyle({fillColor: '#cc0605', color: '#990403'})
-	.addTo(dbBicycleCoreAreaLayer);
+	.addTo(dbBicycleReturnAreaLayer);
+	
+	// Rückgabegebiet MVV_BICYCLE
+	L.polygon([
+    [48.094229, 11.587050],
+    [48.083493, 11.553522],
+    
+	[48.067462, 11.544960],
+    [48.078085, 11.540424],
+    
+	[48.088590, 11.545711],
+    [48.101867, 11.500480],
+    [48.194102, 11.505714],
+    [48.186326, 11.541337],
+    [48.183452, 11.630360],
+    [48.175471, 11.624990],
+    [48.167811, 11.661335],
+    [48.125468, 11.652927],
+    [48.087062, 11.617409]    
+	]).setStyle({fillColor: '#cc0605', color: '#BCEE68'})
+	.addTo(mvvBicycleReturnAreaLayer);
 }
