@@ -114,6 +114,6 @@ function addArea(){
     [48.167811, 11.661335],
     [48.125468, 11.652927],
     [48.087062, 11.617409]    
-	]).setStyle({fillColor: '#cc0605', color: '#BCEE68'})
+	]).setStyle({fillColor: '#4562a2', color: '#4562a2'})
 	.addTo(mvvBicycleReturnAreaLayer);
 }
