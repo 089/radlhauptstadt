@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Radlhauptstadt</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet"
+              href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+        <!-- Place favicon.ico in the root directory -->
+
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/restClient.js"></script>
+        <script src="js/logic.js>"></script>
+        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    </head>
+
+    <style>
+        html, body { height: 100%; width: 100% }
+        #map { height: 100%; width: 100% }
+    </style>
+
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="map"></div>
+        <script src="js/logic.js"></script>
+        <script>
+            create();
+            addMarker(48.151948, 11.559638, MVG_BICYCLE, 'MVG-Rad');
+            addMarker(48.136280, 11.553272, MVG_BICYCLE, 'MVG-Rad');
+            addMarker(48.1552, 11.553, MVG_BICYCLE, 'MVG-Rad');
+            addMarker(48.141307, 11.558907, DB_BICYCLE, 'DB-Rad');
+            addMarker(48.137140, 11.574745, DB_BICYCLE, 'DB-Rad');
+            addArea();
+        </script>
+    </body>
+</html>
