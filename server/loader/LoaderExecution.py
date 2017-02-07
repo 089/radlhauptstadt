@@ -1,9 +1,9 @@
 import json
 import mysql.connector as db
 
-from LoaderIteration import LoaderIteration
-from MvgLoader import MvgLoader
-from MysqlHandler import MysqlHandler
+from loader.LoaderIteration import LoaderIteration
+from loader.MvgLoader import MvgLoader
+from loader.MysqlHandler import MysqlHandler
 
 
 class LoaderExecution(object):

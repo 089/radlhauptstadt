@@ -10,9 +10,15 @@ from loader.Vehicle import Vehicle
 
 app = Flask(__name__)
 
+def mysqlToVehicle(cursor):
+    results = []
+    for result in cursor.stored_results():
+        for row in result.fetchall():
+            results.append(Vehicle(row[0], row[1], row[2], row[3], row[4], row[5]))
+
+    return jsonify(vehicles=[e.serialize() for e in results])
 
 def load_db_config_from_json():
-    global is_db_config_loaded
     config_file_name = ('config.json')
     with open(config_file_name) as config_file:
         cfg = json.load(config_file)
@@ -21,7 +27,7 @@ def load_db_config_from_json():
 
 @app.before_request
 def db_connect():
-    global is_db_config_loaded, config
+    global config
 
     print("LoaderExecution.config: " + config['db.connection']['hostname'])
     g.mysql_db = db.connect(
@@ -58,21 +64,7 @@ def one_vehicle(provider, vehicle):
 
     cursor.callproc('one_vehicle', args=(provider, vehicle))
 
-    veh = Vehicle(55,'mvg',12.23,12.34,'bike', 12345)
-    print(veh.__dict__)
-
-    results = '{}'
-    for result in cursor.stored_results():
-        #results += result.fetchall()
-        print(result.fetchall())
-
-    #return app.response_class(
-    #    response=results,
-    #    status=200,
-    #    mimetype='application/json'
-    #    )
-
-    return results
+    return mysqlToVehicle(cursor)
 
 @app.route('/api/v0.9/provider/<provider>/vehicle', methods=['GET'])
 def all_vehicles(provider):
@@ -81,13 +73,9 @@ def all_vehicles(provider):
 
     cursor = g.mysql_db.cursor()
 
-    cursor.callproc('all_vehicles', args=provider)
+    cursor.callproc('all_vehicles', args=(provider, ))
 
-    results = []
-    for result in cursor.stored_results():
-        results += result.fetchall()
-
-    return results
+    return mysqlToVehicle(cursor)
 
 if __name__ == '__main__':
     app.run()
