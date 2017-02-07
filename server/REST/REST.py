@@ -3,8 +3,8 @@ from flask import Flask, g, jsonify, abort, json
 
 import mysql.connector as db
 
-from ..loader.Station import Station
-from ..loader.Vehicle import Vehicle
+from loader.Station import Station
+from loader.Vehicle import Vehicle
 
 app = Flask(__name__)
 
