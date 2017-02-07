@@ -1,0 +1,1808 @@
+<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+   <SOAP-ENV:Body>
+      <CABSERVER.listFreeBikesResponse xmlns="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+         <CABSERVER.listFreeBikesResponse>
+            <Locations xmlns="">
+               <Description>Dachauer Str. / Erzgießereistr.</Description>
+               <Position>
+                  <Longitude>11.555506000000000</Longitude>
+                  <Latitude>48.153065000000000</Latitude>
+               </Position>
+               <Distance>180.210852000421</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0215</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Erzgießereistr. / Kreittmayrstr.</Description>
+               <Position>
+                  <Longitude>11.554401000000000</Longitude>
+                  <Latitude>48.150680000000000</Latitude>
+               </Position>
+               <Distance>352.57178027234784</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>2156</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.555606000000000</Longitude>
+                  <Latitude>48.150852000000000</Latitude>
+               </Position>
+               <Distance>365.9462466687723</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0681</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Kreittmayrstr. / Sandstr.</Description>
+               <Position>
+                  <Longitude>11.556865000000000</Longitude>
+                  <Latitude>48.151200000000000</Latitude>
+               </Position>
+               <Distance>388.29978327138167</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6342</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.555437000000000</Longitude>
+                  <Latitude>48.157070000000000</Latitude>
+               </Position>
+               <Distance>399.53310075365204</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1665</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Dachauer Str. / Sandstr.</Description>
+               <Position>
+                  <Longitude>11.557694000000000</Longitude>
+                  <Latitude>48.150950000000000</Latitude>
+               </Position>
+               <Distance>451.1984494526906</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0348</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Lothstr. / Thorwaldsenstr.</Description>
+               <Position>
+                  <Longitude>11.547621000000000</Longitude>
+                  <Latitude>48.151510000000000</Latitude>
+               </Position>
+               <Distance>491.43327409617547</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0360</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Heßstr. / Schleißheimer Str.</Description>
+               <Position>
+                  <Longitude>11.560231000000000</Longitude>
+                  <Latitude>48.153830000000000</Latitude>
+               </Position>
+               <Distance>512.9781295521723</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1670</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.555021000000000</Longitude>
+                  <Latitude>48.158253000000000</Latitude>
+               </Position>
+               <Distance>514.5845392905461</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>8164</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.554047000000000</Longitude>
+                  <Latitude>48.158775000000000</Latitude>
+               </Position>
+               <Distance>559.4834027065472</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0911</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Erzgießereistr. / Nymphenburger Str.</Description>
+               <Position>
+                  <Longitude>11.551350000000000</Longitude>
+                  <Latitude>48.148710000000000</Latitude>
+               </Position>
+               <Distance>580.9396705435831</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>2075</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Gabelsbergerstr. / Schleißheimer Str.</Description>
+               <Position>
+                  <Longitude>11.560016000000000</Longitude>
+                  <Latitude>48.150890000000000</Latitude>
+               </Position>
+               <Distance>591.06070263745</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0432</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Gabelsbergerstr. / Schleißheimer Str.</Description>
+               <Position>
+                  <Longitude>11.559785000000000</Longitude>
+                  <Latitude>48.150630000000000</Latitude>
+               </Position>
+               <Distance>593.2520806030439</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0745</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Infanteriestr. / Kathi-Kobus-Str.</Description>
+               <Position>
+                  <Longitude>11.556068000000000</Longitude>
+                  <Latitude>48.159060000000000</Latitude>
+               </Position>
+               <Distance>622.9292854712281</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1202</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Schellingstr. / Schleißheimer Str.</Description>
+               <Position>
+                  <Longitude>11.562032000000000</Longitude>
+                  <Latitude>48.154984000000000</Latitude>
+               </Position>
+               <Distance>660.5329882221957</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>5603</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Görresstr. / Schleißheimer Str.</Description>
+               <Position>
+                  <Longitude>11.561961000000000</Longitude>
+                  <Latitude>48.155315000000000</Latitude>
+               </Position>
+               <Distance>663.9531630927723</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0724</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Hilblestr. / Pfänderstr.</Description>
+               <Position>
+                  <Longitude>11.545244000000000</Longitude>
+                  <Latitude>48.156425000000000</Latitude>
+               </Position>
+               <Distance>667.7797057647477</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>4401</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Görresstr. / Zentnerstr.</Description>
+               <Position>
+                  <Longitude>11.562211000000000</Longitude>
+                  <Latitude>48.155290000000000</Latitude>
+               </Position>
+               <Distance>681.1851133112967</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0674</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Nymphenburger Str. / U-Bahnhof Maillingerstr.</Description>
+               <Position>
+                  <Longitude>11.545977000000000</Longitude>
+                  <Latitude>48.149845000000000</Latitude>
+               </Position>
+               <Distance>697.6072492915146</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1266</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Winzererstr. / Wormser Str.</Description>
+               <Position>
+                  <Longitude>11.561032000000000</Longitude>
+                  <Latitude>48.159336000000000</Latitude>
+               </Position>
+               <Distance>843.2079408891426</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0263</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Elvirastr. / Nymphenburger Str.</Description>
+               <Position>
+                  <Longitude>11.542901000000000</Longitude>
+                  <Latitude>48.150578000000000</Latitude>
+               </Position>
+               <Distance>850.1539043469248</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0864</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Görresstr. / Schwindstr.</Description>
+               <Position>
+                  <Longitude>11.564722220000000</Longitude>
+                  <Latitude>48.155277780000000</Latitude>
+               </Position>
+               <Distance>862.5995733039455</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0691</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Augustenstr. / Steinheilstr.</Description>
+               <Position>
+                  <Longitude>11.563799000000000</Longitude>
+                  <Latitude>48.150215000000000</Latitude>
+               </Position>
+               <Distance>872.1970150791656</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1409</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Augustenstr. / Rottmannstr.</Description>
+               <Position>
+                  <Longitude>11.561648000000000</Longitude>
+                  <Latitude>48.148205000000000</Latitude>
+               </Position>
+               <Distance>874.3781605760801</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0778</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Keuslinstr. / Zentnerstr.</Description>
+               <Position>
+                  <Longitude>11.564161000000000</Longitude>
+                  <Latitude>48.157497000000000</Latitude>
+               </Position>
+               <Distance>905.0592054883294</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1021</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Schleißheimer Str. / Wormser Str.</Description>
+               <Position>
+                  <Longitude>11.562727000000000</Longitude>
+                  <Latitude>48.159050000000000</Latitude>
+               </Position>
+               <Distance>912.3342819786918</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>7754</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Enhuberstr. / Steinheilstr.</Description>
+               <Position>
+                  <Longitude>11.564571000000000</Longitude>
+                  <Latitude>48.149822000000000</Latitude>
+               </Position>
+               <Distance>943.1407416172954</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1257</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Augustenstr. / Schellingstr.</Description>
+               <Position>
+                  <Longitude>11.565946000000000</Longitude>
+                  <Latitude>48.152702000000000</Latitude>
+               </Position>
+               <Distance>944.3460811318672</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0653</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Adam-Lehmann-Str. / Schwere-Reiter-Str.</Description>
+               <Position>
+                  <Longitude>11.560337000000000</Longitude>
+                  <Latitude>48.161606000000000</Latitude>
+               </Position>
+               <Distance>1015.3579557074104</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>7756</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Hiltenspergerstr. / Keuslinstr.</Description>
+               <Position>
+                  <Longitude>11.566208000000000</Longitude>
+                  <Latitude>48.157310000000000</Latitude>
+               </Position>
+               <Distance>1034.251292954999</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>5810</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Adelheidstr. / Josephsplatz</Description>
+               <Position>
+                  <Longitude>11.567001000000000</Longitude>
+                  <Latitude>48.155730000000000</Latitude>
+               </Position>
+               <Distance>1038.322565819584</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0466</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Heßstr. / Luisenstr.</Description>
+               <Position>
+                  <Longitude>11.566988000000000</Longitude>
+                  <Latitude>48.151140000000000</Latitude>
+               </Position>
+               <Distance>1055.435285972947</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6363</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Hohenzollernstr. / Schleißheimer Str.</Description>
+               <Position>
+                  <Longitude>11.563661000000000</Longitude>
+                  <Latitude>48.160297000000000</Latitude>
+               </Position>
+               <Distance>1056.4082196573422</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6544</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Luisenstr. / Steinheilstr.</Description>
+               <Position>
+                  <Longitude>11.565940000000000</Longitude>
+                  <Latitude>48.149370000000000</Latitude>
+               </Position>
+               <Distance>1056.429742447688</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0531</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Luisenstr. / Theresienstr.</Description>
+               <Position>
+                  <Longitude>11.566442500000000</Longitude>
+                  <Latitude>48.149773000000000</Latitude>
+               </Position>
+               <Distance>1070.2495207291713</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>5219</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Leonrodstr. / Neustätterstr.</Description>
+               <Position>
+                  <Longitude>11.538811000000000</Longitude>
+                  <Latitude>48.154390000000000</Latitude>
+               </Position>
+               <Distance>1078.2659400201458</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>7083</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Hohenzollernstr. / Schleißheimer Str.</Description>
+               <Position>
+                  <Longitude>11.563658000000000</Longitude>
+                  <Latitude>48.160683000000000</Latitude>
+               </Position>
+               <Distance>1086.1971312806932</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>7781</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Dachauer Str. / Karlstr.</Description>
+               <Position>
+                  <Longitude>11.559291000000000</Longitude>
+                  <Latitude>48.144820000000000</Latitude>
+               </Position>
+               <Distance>1089.1423612925173</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1806</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Augustenstr. / Dachauer Str.</Description>
+               <Position>
+                  <Longitude>11.559829000000000</Longitude>
+                  <Latitude>48.144280000000000</Latitude>
+               </Position>
+               <Distance>1160.2969630676657</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1153</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Augustenstr. / Dachauer Str.</Description>
+               <Position>
+                  <Longitude>11.559458000000000</Longitude>
+                  <Latitude>48.144108000000000</Latitude>
+               </Position>
+               <Distance>1166.6910914431387</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0788</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>DB-AG Zentrale MUC</Description>
+               <Position>
+                  <Longitude>11.556022000000000</Longitude>
+                  <Latitude>48.164130000000000</Latitude>
+               </Position>
+               <Distance>1169.6461071208507</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1279</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Blutenburgstr. / Gümbelstr.</Description>
+               <Position>
+                  <Longitude>11.538293000000000</Longitude>
+                  <Latitude>48.150400000000000</Latitude>
+               </Position>
+               <Distance>1175.715789886468</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1867</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Luisenstr. / Schellingstr.</Description>
+               <Position>
+                  <Longitude>11.569141000000000</Longitude>
+                  <Latitude>48.152134000000000</Latitude>
+               </Position>
+               <Distance>1187.8724450823395</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>5986</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Adalbertstr. / Isabellastr.</Description>
+               <Position>
+                  <Longitude>11.569529000000000</Longitude>
+                  <Latitude>48.155150000000000</Latitude>
+               </Position>
+               <Distance>1212.4486122357523</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1552</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Daimlerstr. / Neureutherstr.</Description>
+               <Position>
+                  <Longitude>11.569565000000000</Longitude>
+                  <Latitude>48.156190000000000</Latitude>
+               </Position>
+               <Distance>1235.0591486228996</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1722</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Arcisstr. / Heßstr.</Description>
+               <Position>
+                  <Longitude>11.569275000000000</Longitude>
+                  <Latitude>48.150505000000000</Latitude>
+               </Position>
+               <Distance>1238.1919701295851</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1862</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Arnulfstr. / Grete-Mosheimstr.</Description>
+               <Position>
+                  <Longitude>11.544385000000000</Longitude>
+                  <Latitude>48.144340000000000</Latitude>
+               </Position>
+               <Distance>1240.1128775197155</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>2017</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Arcisstr.21TU-München Hauptgebäude</Description>
+               <Position>
+                  <Longitude>11.568414000000000</Longitude>
+                  <Latitude>48.148846000000000</Latitude>
+               </Position>
+               <Distance>1246.5403802716517</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6540</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Daimlerstr. / Neureutherstr.</Description>
+               <Position>
+                  <Longitude>11.569747000000000</Longitude>
+                  <Latitude>48.156178000000000</Latitude>
+               </Position>
+               <Distance>1247.9511025741037</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0229</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Herzogstr. / Winzererstr.</Description>
+               <Position>
+                  <Longitude>11.563239000000000</Longitude>
+                  <Latitude>48.162846000000000</Latitude>
+               </Position>
+               <Distance>1249.3395563001231</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0602</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Dachauer Str. / Marsstr.</Description>
+               <Position>
+                  <Longitude>11.559930000000000</Longitude>
+                  <Latitude>48.143425000000000</Latitude>
+               </Position>
+               <Distance>1250.2855607691818</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1414</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Dachauer Str. / Marsstr.</Description>
+               <Position>
+                  <Longitude>11.559819000000000</Longitude>
+                  <Latitude>48.143387000000000</Latitude>
+               </Position>
+               <Distance>1250.9744690051543</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1077</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.545170000000000</Longitude>
+                  <Latitude>48.163784000000000</Latitude>
+               </Position>
+               <Distance>1267.1815069470692</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>4899</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Farinellistr. / Friedrich-Loy-Str.</Description>
+               <Position>
+                  <Longitude>11.565146000000000</Longitude>
+                  <Latitude>48.162340000000000</Latitude>
+               </Position>
+               <Distance>1295.6269605298614</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1646</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Farinellistr. / Friedrich-Loy-Str.</Description>
+               <Position>
+                  <Longitude>11.565076000000000</Longitude>
+                  <Latitude>48.162388000000000</Latitude>
+               </Position>
+               <Distance>1296.0585180190053</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1328</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Hedwig-Dransfeld-Allee / Helene Lange Weg</Description>
+               <Position>
+                  <Longitude>11.546283000000000</Longitude>
+                  <Latitude>48.164467000000000</Latitude>
+               </Position>
+               <Distance>1299.1300942279415</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6563</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Landshuter Allee/Mittlerer Ring / Schlörstr.</Description>
+               <Position>
+                  <Longitude>11.536884000000000</Longitude>
+                  <Latitude>48.149628000000000</Latitude>
+               </Position>
+               <Distance>1303.0325259122217</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0377</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Dom-Pedro-Str. / Landshuter Allee/Mittlerer Ring</Description>
+               <Position>
+                  <Longitude>11.537756000000000</Longitude>
+                  <Latitude>48.159412000000000</Latitude>
+               </Position>
+               <Distance>1313.8747214295154</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>4665</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Hirschbergstr. / Landshuter Allee</Description>
+               <Position>
+                  <Longitude>11.537144000000000</Longitude>
+                  <Latitude>48.148933000000000</Latitude>
+               </Position>
+               <Distance>1314.674023884087</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1220</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Friedrich-Loy-Str. / Herzogstr.</Description>
+               <Position>
+                  <Longitude>11.565412000000000</Longitude>
+                  <Latitude>48.162600000000000</Latitude>
+               </Position>
+               <Distance>1330.2688348324812</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1444</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Hirtenstr.</Description>
+               <Position>
+                  <Longitude>11.557555000000000</Longitude>
+                  <Latitude>48.142128000000000</Latitude>
+               </Position>
+               <Distance>1331.8631191091629</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0878</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Ackermannstr. / Elisabeth-Kohnstr.</Description>
+               <Position>
+                  <Longitude>11.553353000000000</Longitude>
+                  <Latitude>48.165783000000000</Latitude>
+               </Position>
+               <Distance>1336.1100265847838</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6366</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Arcisstr. / Gabelsbergerstr.</Description>
+               <Position>
+                  <Longitude>11.568012000000000</Longitude>
+                  <Latitude>48.146744000000000</Latitude>
+               </Position>
+               <Distance>1341.0536214369713</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6340</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Adelheidstr. / Bauerstr.</Description>
+               <Position>
+                  <Longitude>11.568129000000000</Longitude>
+                  <Latitude>48.160904000000000</Latitude>
+               </Position>
+               <Distance>1355.3659185820156</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0054</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Georgenstr. / Isabellastr.</Description>
+               <Position>
+                  <Longitude>11.571129000000000</Longitude>
+                  <Latitude>48.156500000000000</Latitude>
+               </Position>
+               <Distance>1355.8239867562</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1166</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Bauerstr. / Tengstr.</Description>
+               <Position>
+                  <Longitude>11.568882000000000</Longitude>
+                  <Latitude>48.160282000000000</Latitude>
+               </Position>
+               <Distance>1363.0491238271502</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1029</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Ebenauer Str. / Trivastr.</Description>
+               <Position>
+                  <Longitude>11.539515500000000</Longitude>
+                  <Latitude>48.162327000000000</Latitude>
+               </Position>
+               <Distance>1397.8255904191806</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6687</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Bauerstr. / Tengstr.</Description>
+               <Position>
+                  <Longitude>11.569288000000000</Longitude>
+                  <Latitude>48.160680000000000</Latitude>
+               </Position>
+               <Distance>1412.2397802173853</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>5256</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Clemensstr. / Schleißheimer Str.</Description>
+               <Position>
+                  <Longitude>11.564929000000000</Longitude>
+                  <Latitude>48.163950000000000</Latitude>
+               </Position>
+               <Distance>1422.6738083185824</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1783</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.542887000000000</Longitude>
+                  <Latitude>48.142914000000000</Latitude>
+               </Position>
+               <Distance>1433.5611182269997</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1096</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>VIR-Bergisch-GladbachDeuta-Werke   XXXXPaffratherstr.140</Description>
+               <Position>
+                  <Longitude>11.543131000000000</Longitude>
+                  <Latitude>48.142723000000000</Latitude>
+               </Position>
+               <Distance>1441.9173479334906</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1025</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Bauerstr. / Jakob-Klar-Str.</Description>
+               <Position>
+                  <Longitude>11.570555000000000</Longitude>
+                  <Latitude>48.159885000000000</Latitude>
+               </Position>
+               <Distance>1448.4045003000838</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>6624</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Elisabethstr. / Isabellastr.</Description>
+               <Position>
+                  <Longitude>11.571676000000000</Longitude>
+                  <Latitude>48.158394000000000</Latitude>
+               </Position>
+               <Distance>1455.8221802469081</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>8070</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.541218000000000</Longitude>
+                  <Latitude>48.143240000000000</Latitude>
+               </Position>
+               <Distance>1475.0811478650978</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0963</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Dachauer Str. / Luisenstr.</Description>
+               <Position>
+                  <Longitude>11.561165000000000</Longitude>
+                  <Latitude>48.141510000000000</Latitude>
+               </Position>
+               <Distance>1482.102757400049</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1002</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Katharina-Von-Bora-Str. / Sophienstr.</Description>
+               <Position>
+                  <Longitude>11.564840000000000</Longitude>
+                  <Latitude>48.142796000000000</Latitude>
+               </Position>
+               <Distance>1489.6746432659097</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>2062</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Elisabethstr. / Isabellastr.</Description>
+               <Position>
+                  <Longitude>11.572445000000000</Longitude>
+                  <Latitude>48.157898000000000</Latitude>
+               </Position>
+               <Distance>1491.42719849361</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0031</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Barer Str. / Theresienstr.</Description>
+               <Position>
+                  <Longitude>11.572039000000000</Longitude>
+                  <Latitude>48.148846000000000</Latitude>
+               </Position>
+               <Distance>1492.8416157355957</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0020</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Ebenauer Str. / Landshuter Allee/Mittlerer Ring</Description>
+               <Position>
+                  <Longitude>11.537881000000000</Longitude>
+                  <Latitude>48.162514000000000</Latitude>
+               </Position>
+               <Distance>1502.2826843268138</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0974</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Luisenstr. / Prielmayerstr.</Description>
+               <Position>
+                  <Longitude>11.561660000000000</Longitude>
+                  <Latitude>48.141445000000000</Latitude>
+               </Position>
+               <Distance>1503.4958688787844</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>2938</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Bauerstr. / Isabellastr.</Description>
+               <Position>
+                  <Longitude>11.572084000000000</Longitude>
+                  <Latitude>48.159030000000000</Latitude>
+               </Position>
+               <Distance>1510.1373720661652</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>2773</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Barer Str. / Schellingstr.</Description>
+               <Position>
+                  <Longitude>11.573333330000000</Longitude>
+                  <Latitude>48.151111110000000</Latitude>
+               </Position>
+               <Distance>1514.0090717338169</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>5226</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Arnulfstr. / Dachauer Str.</Description>
+               <Position>
+                  <Longitude>11.560728000000000</Longitude>
+                  <Latitude>48.141040000000000</Latitude>
+               </Position>
+               <Distance>1518.260305259213</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1016</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Adalbertstr. / Schraudolphstr.</Description>
+               <Position>
+                  <Longitude>11.573878000000000</Longitude>
+                  <Latitude>48.153720000000000</Latitude>
+               </Position>
+               <Distance>1525.3008643807948</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>8099</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Arnulfstr.</Description>
+               <Position>
+                  <Longitude>11.560542000000000</Longitude>
+                  <Latitude>48.140915000000000</Latitude>
+               </Position>
+               <Distance>1526.323459758264</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>2660</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Ackermannstr. / Spiridon-Louis-Ring</Description>
+               <Position>
+                  <Longitude>11.554481500000000</Longitude>
+                  <Latitude>48.167500000000000</Latitude>
+               </Position>
+               <Distance>1529.4719036055142</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1480</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Ackermannstr.</Description>
+               <Position>
+                  <Longitude>11.558756000000000</Longitude>
+                  <Latitude>48.167225000000000</Latitude>
+               </Position>
+               <Distance>1549.8849495971958</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0800</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Luisenstr. / Prielmayerstr.</Description>
+               <Position>
+                  <Longitude>11.561737000000000</Longitude>
+                  <Latitude>48.140923000000000</Latitude>
+               </Position>
+               <Distance>1558.8572292610393</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1094</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Hohenzollernplatz / Rankestr.</Description>
+               <Position>
+                  <Longitude>11.570230000000000</Longitude>
+                  <Latitude>48.162262000000000</Latitude>
+               </Position>
+               <Distance>1570.4140533745558</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>7027</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Georgenstr. / Schraudolphstr.</Description>
+               <Position>
+                  <Longitude>11.574420000000000</Longitude>
+                  <Latitude>48.155487000000000</Latitude>
+               </Position>
+               <Distance>1577.109836051713</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0557</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Dom-Pedro-Platz / Frundsbergstr.</Description>
+               <Position>
+                  <Longitude>11.534130000000000</Longitude>
+                  <Latitude>48.159958000000000</Latitude>
+               </Position>
+               <Distance>1580.9500655017189</Distance>
+               <isOutside>true</isOutside>
+               <FreeBikes>
+                  <Number>7770</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.572764000000000</Longitude>
+                  <Latitude>48.147507000000000</Latitude>
+               </Position>
+               <Distance>1601.8874944140541</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0922</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Arcostr. / Sophienstr.</Description>
+               <Position>
+                  <Longitude>11.566501000000000</Longitude>
+                  <Latitude>48.142258000000000</Latitude>
+               </Position>
+               <Distance>1610.7663908694271</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1738</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Arcostr. / Sophienstr.</Description>
+               <Position>
+                  <Longitude>11.566505000000000</Longitude>
+                  <Latitude>48.142223000000000</Latitude>
+               </Position>
+               <Distance>1614.0402604590413</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1285</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Ackermannstr.</Description>
+               <Position>
+                  <Longitude>11.559037542400000</Longitude>
+                  <Latitude>48.167804479300000</Latitude>
+               </Position>
+               <Distance>1617.53761405395</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>7201</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Emanuelstr. / Fallmerayerstr.</Description>
+               <Position>
+                  <Longitude>11.571954000000000</Longitude>
+                  <Latitude>48.161335000000000</Latitude>
+               </Position>
+               <Distance>1618.4397879844955</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1614</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.573196000000000</Longitude>
+                  <Latitude>48.147633000000000</Latitude>
+               </Position>
+               <Distance>1624.8790072344007</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1244</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>-</Description>
+               <Position>
+                  <Longitude>11.573235000000000</Longitude>
+                  <Latitude>48.147644000000000</Latitude>
+               </Position>
+               <Distance>1626.9930938038565</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>1190</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Adalbertstr. / Nordendstr.</Description>
+               <Position>
+                  <Longitude>11.575247000000000</Longitude>
+                  <Latitude>48.153023000000000</Latitude>
+               </Position>
+               <Distance>1628.9606680708334</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0179</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+            <Locations xmlns="">
+               <Description>Emanuelstr. / Fallmerayerstr.</Description>
+               <Position>
+                  <Longitude>11.572097000000000</Longitude>
+                  <Latitude>48.161370000000000</Latitude>
+               </Position>
+               <Distance>1629.525061308103</Distance>
+               <isOutside>false</isOutside>
+               <FreeBikes>
+                  <Number>0564</Number>
+                  <canBeRented>true</canBeRented>
+                  <canBeReturned>false</canBeReturned>
+                  <Version>5</Version>
+                  <MarkeID>1312</MarkeID>
+                  <MarkeName>CallBike</MarkeName>
+                  <isPedelec>false</isPedelec>
+               </FreeBikes>
+            </Locations>
+         </CABSERVER.listFreeBikesResponse>
+      </CABSERVER.listFreeBikesResponse>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
