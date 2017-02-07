@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 import os, sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "laoder"))
+sys.path.append(os.path.join(os.path.dirname(__file__), "loader"))
 
 from flask import Flask, g, jsonify
 
