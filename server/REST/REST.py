@@ -1,7 +1,4 @@
 #!/usr/local/bin/python3
-import os, sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "loader"))
-
 from flask import Flask, g, jsonify
 
 import mysql.connector as db
@@ -9,8 +6,8 @@ import json
 
 from flask import abort
 
-from loader.Station import Station
-from loader.Vehicle import Vehicle
+from ..loader.Station import Station
+from ..loader.Vehicle import Vehicle
 
 app = Flask(__name__)
 
