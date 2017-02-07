@@ -10,6 +10,7 @@ from loader.Vehicle import Vehicle
 app = Flask(__name__)
 CORS(app)
 
+
 def mysqlToVehicle(cursor):
     results = []
     for result in cursor.stored_results():
@@ -18,6 +19,7 @@ def mysqlToVehicle(cursor):
 
     return jsonify(vehicles=[e.serialize() for e in results])
 
+
 def mysqlToStation(cursor):
     results = []
     for result in cursor.stored_results():
@@ -25,6 +27,7 @@ def mysqlToStation(cursor):
             results.append(Station(row[0], row[1], row[2], row[3], row[4], row[5], row[6]))
 
     return jsonify(stations=[e.serialize() for e in results])
+
 
 def load_db_config_from_json():
     config_file_name = ('config.json')
@@ -43,6 +46,12 @@ def db_connect():
         password=config['db.connection']['password'],
         db=config['db.connection']['database']
     )
+
+
+@app.after_request
+def add_headers(response):
+    response.headers.add('Access-Control-Allow-Origin', '*')
+    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
 
 
 @app.teardown_request
