@@ -6,7 +6,7 @@ import json
 
 from flask import abort
 
-from loader import Station, Vehicle
+from loader.Vehicle import Vehicle
 
 app = Flask(__name__)
 
@@ -57,6 +57,9 @@ def one_vehicle(provider, vehicle):
     cursor = g.mysql_db.cursor()
 
     cursor.callproc('one_vehicle', args=(provider, vehicle))
+
+    veh = Vehicle(55,'mvg',12.23,12.34,'bike', 12345)
+    print(veh.__dict__)
 
     results = '{}'
     for result in cursor.stored_results():
