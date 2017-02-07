@@ -4,9 +4,9 @@
 // - overlayLayerControl muss um eine Zeile ergänzt werden.
 // - Bei der Erzeugung der Karte muss der neue Layer übergeben werden.
 // - In addMarker muss ein neuer Pfad hinzugefügt werden.
-MVG_BICYCLE = "MVG-Rad";
+MVG_BICYCLE = "mvg";
 let mvgBicycleLayer = new L.LayerGroup();
-DB_BICYCLE = "DB-Rad";
+DB_BICYCLE = "dbrad";
 let dbBicycleLayer = new L.LayerGroup();
 DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
 let dbBicycleReturnAreaLayer = new L.LayerGroup();
