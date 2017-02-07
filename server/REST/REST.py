@@ -6,6 +6,8 @@ import json
 
 from flask import abort
 
+from loader import Station, Vehicle
+
 app = Flask(__name__)
 
 
@@ -56,9 +58,9 @@ def one_vehicle(provider, vehicle):
 
     cursor.callproc('one_vehicle', args=(provider, vehicle))
 
-    results = []
-    for result in cursor.stored_results():
-        results += result.fetchall()
+    results = '{}'
+    #for result in cursor.stored_results():
+        #results += result.fetchall()
 
     #return app.response_class(
     #    response=results,
