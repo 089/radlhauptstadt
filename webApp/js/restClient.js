@@ -5,7 +5,7 @@
 $(document).ready(function() {
     $.ajax({
         dataType: "json",
-        url: "http://www.martinzell.de/radlhauptstadt/api/v0.9/provider/mvg/vehicle"
+        url: "https://www.martinzell.de/radlhauptstadt/api/v0.9/provider/mvg/vehicle"
     }).then(function(data) {
         console.log(data);
         $.each(data.vehicles, function () {

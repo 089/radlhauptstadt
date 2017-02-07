@@ -54,7 +54,7 @@ let redBicycleIcon = L.icon({
 // erzeugt die Karte und die Layer-Auswahl
 function create(){
 	// baseLayer erzeugen
-    let baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+    let baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 	{
 		attribution: '&copy; '
 		+ '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors '
