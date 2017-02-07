@@ -49,12 +49,6 @@ def db_connect():
     )
 
 
-@app.after_request
-def add_headers(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
-
-
 @app.teardown_request
 def close_db(exception=None):
     if hasattr(g, 'mysql_db'):
