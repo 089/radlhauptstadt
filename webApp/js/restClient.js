@@ -14,7 +14,7 @@ $(document).ready(function() {
         url: "https://www.martinzell.de/radlhauptstadt/rest/api/v0.9/provider/mvg/station"
     }).then(function(data) {
         console.log(data);
-        $.each(data.vehicles, function () {
+        $.each(data.stations, function () {
             addStationMarker(this.latitude, this.longitude, this.provider, this.availableBikes > 0, generateStationPopup(this.name, this.availableBikes));
         });
     });

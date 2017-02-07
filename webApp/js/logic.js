@@ -156,11 +156,11 @@ function generateBicyclePopup(number, type){
     else
         typeText = String(type);
 
-    return 'Fahrradnummer: ' + number + '\r\n' + 'Typ: ' + typeText;
+    return '<b>Fahrradnummer:</b> ' + number + '<br>' + '<b>Typ:</b> ' + typeText;
 }
 
 function generateStationPopup(name, availableBikes){
 
-    return 'Stationsname: ' + name + "\r\n" + 'verfügbare Räder: ' + availableBikes;
+    return '<b>Stationsname:</b> ' + name + '<br>' + '<b>verfügbare Räder:</b> ' + availableBikes;
 }
 
