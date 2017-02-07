@@ -1,11 +1,15 @@
 /**
  * Created by rudi on 04.02.2017.
  */
+
 $(document).ready(function() {
     $.ajax({
-        url: "http://rest-service.guides.spring.io/greeting"
+        dataType: "json",
+        url: "http://www.martinzell.de/radlhauptstadt/api/v0.9/provider/mvg/vehicle"
     }).then(function(data) {
-        $('.greeting-id').append(data.id);
-        $('.greeting-content').append(data.content);
+        console.log(data);
+        $.each(data.vehicles, function () {
+            addBicycleMarker(this.latitude, this.longitude, this.provider, generateBicyclePopup(this.number, this.type));
+        });
     });
 });

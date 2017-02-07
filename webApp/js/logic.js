@@ -22,14 +22,28 @@ let overlayLayerControl = {
 	};
 
 // create icons
-let blueIcon = L.icon({
+let blueBicycleIcon = L.icon({
 	iconUrl: 'pics/bike-blue.svg',
 
 	iconSize:     [40, 80], // size of the icon
 	iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
 	popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
-let redIcon = L.icon({
+let blueStationAvailableIcon = L.icon({
+    iconUrl: 'pics/station-a-blue.svg',
+
+    iconSize:     [40, 80], // size of the icon
+    iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
+});
+let blueStationNotAvailableIcon = L.icon({
+    iconUrl: 'pics/station-na-blue.svg',
+
+    iconSize:     [40, 80], // size of the icon
+    iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
+});
+let redBicycleIcon = L.icon({
 	iconUrl: 'pics/bike-red.svg',
 
 	iconSize:     [40, 80], // size of the icon
@@ -64,24 +78,27 @@ function create(){
 function addBicycleMarker(latitude, longitude, provider, popupText){
 	switch(provider){
 		case MVG_BICYCLE:
-			L.marker([latitude, longitude], {icon: blueIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
+			L.marker([latitude, longitude], {icon: blueBicycleIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
 			break;
 		default: //DB_BICYCLE
-			L.marker([latitude, longitude], {icon: redIcon}).bindPopup(popupText).addTo(dbBicycleLayer);
+			L.marker([latitude, longitude], {icon: redBicycleIcon}).bindPopup(popupText).addTo(dbBicycleLayer);
 	}
 }
 
-// Fügt einen Fahrrad-Marker hinzu...
+// Fügt einen Stations-Marker hinzu...
 // Latitude und longitude entsprichen den Koordinaten.
 // Als Provider wird eine der oben definierten Konstanten MVG_BICYCLE, DB_BICYCLE... übergeben.
 // der popupText ist ein beliebiger String, der später im Popup eines Markers angezeigt wird.
-function addStationMarker(latitude, longitude, provider, popupText){
+function addStationMarker(latitude, longitude, provider, vehiclesAvailable, popupText){
     switch(provider){
         case MVG_BICYCLE:
-            // keine Stationen existent
+            if(vehiclesAvailable)
+                L.marker([latitude, longitude], {icon: blueStationAvailableIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
+            else
+                L.marker([latitude, longitude], {icon: blueStationNotAvailableIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
             break;
         default: //DB_BICYCLE
-            L.marker([latitude, longitude], {icon: redIcon}).bindPopup(popupText).addTo(dbBicycleLayer);
+            // no stations existing
     }
 }
 
@@ -130,3 +147,16 @@ function addArea(){
 	]).setStyle({fillColor: '#4562a2', color: '#4562a2'})
 	.addTo(mvvBicycleReturnAreaLayer);
 }
+
+// Fügt Polygone zum visualisieren von Kern-/Geschäfts- & Rückgabegebieten hinzu.
+function generateBicyclePopup(number, type){
+    var typeText;
+    if(type == 'bike')
+        typeText = "Fahrrad";
+    //else if(type == 'newType')    <- neue Typen hinzufügen
+    else
+        typeText = String(type);
+
+    return 'Fahrradnummer: ' + number + '\r\n' + 'Typ: ' + typeText;
+}
+
