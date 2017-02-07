@@ -1,5 +1,6 @@
 #!/usr/local/bin/python3
 from flask import Flask, g, jsonify, abort, json
+from flask_cors import cross_origin
 
 import mysql.connector as db
 
@@ -56,11 +57,13 @@ config = load_db_config_from_json()
 ########################################################################################################################
 
 @app.route('/', methods=['GET'])
+@cross_origin()
 def index():
     return '{}'
 
 
 @app.route('/api/v0.9/provider/<provider>/vehicle/<vehicle>', methods=['GET'])
+@cross_origin()
 def one_vehicle(provider, vehicle):
     if provider == '':
         abort(400)
@@ -73,6 +76,7 @@ def one_vehicle(provider, vehicle):
 
 
 @app.route('/api/v0.9/provider/<provider>/vehicle', methods=['GET'])
+@cross_origin()
 def all_vehicles(provider):
     if provider == '':
         abort(400)
@@ -85,6 +89,7 @@ def all_vehicles(provider):
 
 
 @app.route('/api/v0.9/provider/<provider>/station/<station>', methods=['GET'])
+@cross_origin()
 def one_station(provider, station):
     if provider == '':
         abort(400)
@@ -97,6 +102,7 @@ def one_station(provider, station):
 
 
 @app.route('/api/v0.9/provider/<provider>/station', methods=['GET'])
+@cross_origin()
 def all_stations(provider):
     if provider == '':
         abort(400)
@@ -107,7 +113,9 @@ def all_stations(provider):
 
     return mysqlToStation(cursor)
 
+
 @app.route('/api/v0.9/provider/<provider>/area', methods=['GET'])
+@cross_origin()
 def get_area(provider):
     abort(501)
 
