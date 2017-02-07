@@ -59,8 +59,9 @@ def one_vehicle(provider, vehicle):
     cursor.callproc('one_vehicle', args=(provider, vehicle))
 
     results = '{}'
-    #for result in cursor.stored_results():
+    for result in cursor.stored_results():
         #results += result.fetchall()
+        print(result.fetchall())
 
     #return app.response_class(
     #    response=results,
