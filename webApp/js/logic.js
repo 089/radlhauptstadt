@@ -4,17 +4,17 @@
 // - overlayLayerControl muss um eine Zeile ergänzt werden.
 // - Bei der Erzeugung der Karte muss der neue Layer übergeben werden.
 // - In addMarker muss ein neuer Pfad hinzugefügt werden.
-var MVG_BICYCLE = "MVG-Rad";
-var mvgBicycleLayer = new L.LayerGroup();
-var DB_BICYCLE = "DB-Rad";
-var dbBicycleLayer = new L.LayerGroup();
-var DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
-var dbBicycleReturnAreaLayer = new L.LayerGroup();
-var MVV_BICYCLE_RETURN_AREA = "MVV-Rad Rückgabegebiet";
-var mvvBicycleReturnAreaLayer = new L.LayerGroup();
+MVG_BICYCLE = "MVG-Rad";
+let mvgBicycleLayer = new L.LayerGroup();
+DB_BICYCLE = "DB-Rad";
+let dbBicycleLayer = new L.LayerGroup();
+DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
+let dbBicycleReturnAreaLayer = new L.LayerGroup();
+MVV_BICYCLE_RETURN_AREA = "MVV-Rad Rückgabegebiet";
+let mvvBicycleReturnAreaLayer = new L.LayerGroup();
 
 
-var overlayLayerControl = {
+let overlayLayerControl = {
 				[MVG_BICYCLE]: mvgBicycleLayer,
                 [DB_BICYCLE]: dbBicycleLayer,
                 [DB_BICYCLE_RETURN_AREA]: dbBicycleReturnAreaLayer,
@@ -22,14 +22,14 @@ var overlayLayerControl = {
 	};
 
 // create icons
-var blueIcon = L.icon({
+let blueIcon = L.icon({
 	iconUrl: 'pics/bike-blue.svg',
 
 	iconSize:     [40, 80], // size of the icon
 	iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
 	popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
-var redIcon = L.icon({
+let redIcon = L.icon({
 	iconUrl: 'pics/bike-red.svg',
 
 	iconSize:     [40, 80], // size of the icon
@@ -40,7 +40,7 @@ var redIcon = L.icon({
 // erzeugt die Karte und die Layer-Auswahl
 function create(){
 	// baseLayer erzeugen
-	var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+    let baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',
 	{
 		attribution: '&copy; '
 		+ '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors '
@@ -57,12 +57,11 @@ function create(){
 	L.control.layers(null, overlayLayerControl).addTo(map);
 }
 
-// Fügt einen Marker hinzu...
+// Fügt einen Fahrrad-Marker hinzu...
 // Latitude und longitude entsprichen den Koordinaten.
 // Als Provider wird eine der oben definierten Konstanten MVG_BICYCLE, DB_BICYCLE... übergeben.
 // der popupText ist ein beliebiger String, der später im Popup eines Markers angezeigt wird.
-function addMarker(latitude, longitude, provider, popupText){
-	var icon;
+function addBicycleMarker(latitude, longitude, provider, popupText){
 	switch(provider){
 		case MVG_BICYCLE:
 			L.marker([latitude, longitude], {icon: blueIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
@@ -70,6 +69,20 @@ function addMarker(latitude, longitude, provider, popupText){
 		default: //DB_BICYCLE
 			L.marker([latitude, longitude], {icon: redIcon}).bindPopup(popupText).addTo(dbBicycleLayer);
 	}
+}
+
+// Fügt einen Fahrrad-Marker hinzu...
+// Latitude und longitude entsprichen den Koordinaten.
+// Als Provider wird eine der oben definierten Konstanten MVG_BICYCLE, DB_BICYCLE... übergeben.
+// der popupText ist ein beliebiger String, der später im Popup eines Markers angezeigt wird.
+function addStationMarker(latitude, longitude, provider, popupText){
+    switch(provider){
+        case MVG_BICYCLE:
+            // keine Stationen existent
+            break;
+        default: //DB_BICYCLE
+            L.marker([latitude, longitude], {icon: redIcon}).bindPopup(popupText).addTo(dbBicycleLayer);
+    }
 }
 
 // Fügt Polygone zum visualisieren von Kern-/Geschäfts- & Rückgabegebieten hinzu.
