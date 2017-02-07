@@ -148,7 +148,6 @@ function addArea(){
 	.addTo(mvvBicycleReturnAreaLayer);
 }
 
-// Fügt Polygone zum visualisieren von Kern-/Geschäfts- & Rückgabegebieten hinzu.
 function generateBicyclePopup(number, type){
     var typeText;
     if(type == 'bike')
@@ -158,5 +157,10 @@ function generateBicyclePopup(number, type){
         typeText = String(type);
 
     return 'Fahrradnummer: ' + number + '\r\n' + 'Typ: ' + typeText;
+}
+
+function generateStationPopup(name, availableBikes){
+
+    return 'Stationsname: ' + name + "\r\n" + 'verfügbare Räder: ' + availableBikes;
 }
 
