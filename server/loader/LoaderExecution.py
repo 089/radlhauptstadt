@@ -18,7 +18,6 @@ def main():
     with open(config_file_name) as config_file:
         config = json.load(config_file)
 
-    print("LoaderExecution.config: " + config['db.connection']['hostname'])
     dbconnection = db.connect(
         host=config['db.connection']['hostname'],
         user=config['db.connection']['username'],
