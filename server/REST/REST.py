@@ -1,5 +1,6 @@
 #!/usr/local/bin/python3
 from flask import Flask, g, jsonify, abort, json
+from flask import make_response
 from flask_cors import CORS, cross_origin
 
 import mysql.connector as db
@@ -92,7 +93,11 @@ def all_vehicles(provider):
 
     cursor.callproc('all_vehicles', args=(provider, ))
 
-    return mysqlToVehicle(cursor)
+    response = make_response(mysqlToVehicle(cursor))
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = 'GET'
+
+    return response
 
 
 @app.route('/api/v0.9/provider/<provider>/station/<station>', methods=['GET'])
