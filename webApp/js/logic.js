@@ -1,8 +1,8 @@
 // overlay layer erzeugen
 // Beim hinzufügen eines Layers muss folgendes beachtet werden.
 // - Es muss eine LayerGroup hinzugefügt werden.
-// - overlayLayerControl muss um eine Zeile ergänzt werden. 
-// - Bei der Erzeugung der Karte muss der neue Layer übergeben werden. 
+// - overlayLayerControl muss um eine Zeile ergänzt werden.
+// - Bei der Erzeugung der Karte muss der neue Layer übergeben werden.
 // - In addMarker muss ein neuer Pfad hinzugefügt werden.
 var MVG_BICYCLE = "MVG-Rad";
 var mvgBicycleLayer = new L.LayerGroup();
@@ -15,10 +15,10 @@ var mvvBicycleReturnAreaLayer = new L.LayerGroup();
 
 
 var overlayLayerControl = {
-				MVG_BICYCLE: mvgBicycleLayer, 
-				DB_BICYCLE: dbBicycleLayer,
-				DB_BICYCLE_RETURN_AREA: dbBicycleReturnAreaLayer,
-				MVV_BICYCLE_RETURN_AREA: mvvBicycleReturnAreaLayer
+				[MVG_BICYCLE]: mvgBicycleLayer,
+                [DB_BICYCLE]: dbBicycleLayer,
+                [DB_BICYCLE_RETURN_AREA]: dbBicycleReturnAreaLayer,
+                [MVV_BICYCLE_RETURN_AREA]: mvvBicycleReturnAreaLayer
 	};
 
 // create icons
@@ -40,16 +40,16 @@ var redIcon = L.icon({
 // erzeugt die Karte und die Layer-Auswahl
 function create(){
 	// baseLayer erzeugen
-	var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', 
+	var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',
 	{
 		attribution: '&copy; '
 		+ '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors '
 		+ '| Inspired by and derived from &copy; <a href="https://thenounproject.com/term/landmark/842708/" target="_blank">Lluisa Iborra, Noun Project</a> (<a href="https://creativecommons.org/licenses/by/3.0/us/" target="_blank">CC-BY</a>)'
 	});
-	
+
 	// Karte erzeugen
-	map = L.map('map', {layers: [baseLayer, mvgBicycleLayer, 
-			dbBicycleLayer, dbBicycleReturnAreaLayer, 
+	map = L.map('map', {layers: [baseLayer, mvgBicycleLayer,
+			dbBicycleLayer, dbBicycleReturnAreaLayer,
 			mvvBicycleReturnAreaLayer]})
 		.setView([48.137220, 11.575496], 12);
 
@@ -57,12 +57,12 @@ function create(){
 	L.control.layers(null, overlayLayerControl).addTo(map);
 }
 
-// Fügt einen Marker hinzu... 
+// Fügt einen Marker hinzu...
 // Latitude und longitude entsprichen den Koordinaten.
 // Als Provider wird eine der oben definierten Konstanten MVG_BICYCLE, DB_BICYCLE... übergeben.
 // der popupText ist ein beliebiger String, der später im Popup eines Markers angezeigt wird.
 function addMarker(latitude, longitude, provider, popupText){
-	var icon; 
+	var icon;
 	switch(provider){
 		case MVG_BICYCLE:
 			L.marker([latitude, longitude], {icon: blueIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
@@ -96,15 +96,15 @@ function addArea(){
 	[48.133652, 11.533583]
 	]).setStyle({fillColor: '#cc0605', color: '#990403'})
 	.addTo(dbBicycleReturnAreaLayer);
-	
+
 	// Rückgabegebiet MVV_BICYCLE
 	L.polygon([
     [48.094229, 11.587050],
     [48.083493, 11.553522],
-    
+
 	[48.067462, 11.544960],
     [48.078085, 11.540424],
-    
+
 	[48.088590, 11.545711],
     [48.101867, 11.500480],
     [48.194102, 11.505714],
@@ -113,7 +113,7 @@ function addArea(){
     [48.175471, 11.624990],
     [48.167811, 11.661335],
     [48.125468, 11.652927],
-    [48.087062, 11.617409]    
+    [48.087062, 11.617409]
 	]).setStyle({fillColor: '#4562a2', color: '#4562a2'})
 	.addTo(mvvBicycleReturnAreaLayer);
 }
