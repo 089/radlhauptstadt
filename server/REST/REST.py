@@ -93,11 +93,7 @@ def all_vehicles(provider):
 
     cursor.callproc('all_vehicles', args=(provider, ))
 
-    response = make_response(mysqlToVehicle(cursor))
-    response.headers['Access-Control-Allow-Origin'] = '*'
-    response.headers['Access-Control-Allow-Methods'] = 'GET'
-
-    return response
+    return mysqlToVehicle(cursor)
 
 
 @app.route('/api/v0.9/provider/<provider>/station/<station>', methods=['GET'])
