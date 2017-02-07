@@ -53,7 +53,7 @@ class MysqlHandler(object):
                     station.getLongitude(),
                     station.getName(),
                     station.getNumberOfStation(),
-                    station.getFreeBikes()
+                    station.getAvailableBikes()
                 ))
                 cursor.execute(self.__insertStation.format(
                     station.getIterationId(),
@@ -62,7 +62,7 @@ class MysqlHandler(object):
                     station.getLongitude(),
                     station.getName(),
                     station.getNumberOfStation(),
-                    station.getFreeBikes()
+                    station.getAvailableBikes()
                 ))
             connection.commit()
         except MysqlError as error:

@@ -1,9 +1,9 @@
 import json
 import mysql.connector as db
 
-from LoaderIteration import LoaderIteration
-from MvgLoader import MvgLoader
-from MysqlHandler import MysqlHandler
+from loader.LoaderIteration import LoaderIteration
+from loader.MvgLoader import MvgLoader
+from loader.MysqlHandler import MysqlHandler
 
 
 class LoaderExecution(object):
@@ -18,7 +18,6 @@ def main():
     with open(config_file_name) as config_file:
         config = json.load(config_file)
 
-    print("LoaderExecution.config: " + config['db.connection']['hostname'])
     dbconnection = db.connect(
         host=config['db.connection']['hostname'],
         user=config['db.connection']['username'],

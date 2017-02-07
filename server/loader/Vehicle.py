@@ -25,3 +25,12 @@ class Vehicle(object):
 
     def getNumberOfVehicle(self):
         return self.__numberOfVehicle
+
+    def serialize(self):
+        return {
+            'provider': self.getProvider(),
+            'latitude': self.getLatitude(),
+            'longitude': self.getLongitude(),
+            'type': self.getType(),
+            'number': self.getNumberOfVehicle(),
+        }
