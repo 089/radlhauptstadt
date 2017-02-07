@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="978ca85e-359e-4e65-b926-3d6b7a61d68b" activeEnvironment="Default" name="Call-A-Bike" resourceRoot="" soapui-version="5.3.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="f2a478b2-8015-45ac-8b8b-33e172e62ee3" wsaVersion="NONE" name="HAL2_CABSERVERSOAP" type="wsdl" bindingName="{https://xml.dbcarsharing-buchung.de/hal2_cabserver/}HAL2_CABSERVERSOAP" soapVersion="1_1" anonymous="optional" definition="file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl"><con:part><con:url>file:/home/andreas/Documents/Andreas%20Reiser/Programmieren/Projekte/MvgRad/SoapDescription.wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="HAL2_CABSERVER" targetNamespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="https://xml.dbcarsharing-buchung.de/hal2_cabserver/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <wsdl:types>
+    <xsd:schema targetNamespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+      <xsd:annotation>
+        <xsd:documentation>Parameter, die bei allen Methoden genutzt werden</xsd:documentation>
+      </xsd:annotation>
+      <xsd:simpleType name="Type_BikeNumber">
+        <xsd:annotation>
+          <xsd:documentation>Bikenummer</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:length value="4"/>
+          <xsd:pattern value="\d{4}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_BikeCode">
+        <xsd:annotation>
+          <xsd:documentation>Ã–ffnungs- oder Quittungscode</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:length value="4"/>
+          <xsd:pattern value="\d{4}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_CustomerNumber">
+        <xsd:annotation>
+          <xsd:documentation>Kundennummer</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:length value="10"/>
+          <xsd:pattern value="\d{10}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_CustomerPhone">
+        <xsd:annotation>
+          <xsd:documentation>Telefonnummer</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:minLength value="5"/>
+          <xsd:maxLength value="15"/>
+          <xsd:pattern value="\d{5,15}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_CustomerPassword">
+        <xsd:annotation>
+          <xsd:documentation>Kundenpasswort</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:minLength value="1"/>
+          <xsd:maxLength value="255"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_UserName">
+        <xsd:annotation>
+          <xsd:documentation>Nutzername</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:minLength value="1"/>
+          <xsd:maxLength value="25"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_UserPassword">
+        <xsd:annotation>
+          <xsd:documentation>Nutzerpasswort</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:minLength value="1"/>
+          <xsd:maxLength value="32"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_SlotCount">
+        <xsd:annotation>
+          <xsd:documentation>Anzahl StellplÃ¤tze</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:int">
+          <xsd:minInclusive value="0"/>
+          <xsd:maxInclusive value="99"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_LocationDescription">
+        <xsd:annotation>
+          <xsd:documentation>Standortbeschreibung</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:minLength value="1"/>
+          <xsd:maxLength value="255"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="Type_Currency">
+        <xsd:annotation>
+          <xsd:documentation>WÃ¤hrung nach ISO 4217</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:length value="3"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="Type_Price">
+        <xsd:annotation>
+          <xsd:documentation>Preis</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Value" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Wert in kleinster Einheit der WÃ¤hrung (z.B. Cent)</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Currency" type="tns:Type_Currency" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>WÃ¤hrung</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_GeoPosition">
+        <xsd:annotation>
+          <xsd:documentation>Geoposition</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Longitude" type="xsd:float" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Longitude</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Latitude" type="xsd:float" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Latitude</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_CustomerData">
+        <xsd:annotation>
+          <xsd:documentation>Kundendaten, Number ist nur optional wenn Phone angegeben und vice versa</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Number" type="tns:Type_CustomerNumber" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Kundennummer</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Phone" type="tns:Type_CustomerPhone" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Kundentelefonnummer</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Password" type="tns:Type_CustomerPassword" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Kundenpasswort</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="PhoneUserEdited" type="xsd:boolean" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Telefonnummer wurde vom Nutzer
+            					bearbeitet</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="UsageType" type="xsd:string" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>gibt optional an, welcher Kundentyp genutzt werden soll, wenn es sich um Kettenkunden handelt</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_UserData">
+        <xsd:annotation>
+          <xsd:documentation>Nutzerdaten</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="User" type="tns:Type_UserName" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Nutzername</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Password" type="tns:Type_UserPassword" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>NutzerPasswort</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_BikeCustomer">
+        <xsd:annotation>
+          <xsd:documentation>Bike eines Kunden</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Bike" type="tns:Type_Bike" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Informationen zum Bike</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="OpeningCode" type="tns:Type_BikeCode" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>aktueller Ã–ffnungscode</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="TripDuration" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>aktuelle Fahrtzeit in Sekunden</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_LocationRenting">
+        <xsd:annotation>
+          <xsd:documentation>Standort fÃ¼r Entleiheanfragen</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Description" type="tns:Type_LocationDescription" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Beschreibung des Standorts</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Position" type="tns:Type_GeoPosition" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>geographische Position</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Distance" type="xsd:float" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Entfernung vom Suchpunkt in Metern</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="isOutside" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Ist der Standort als "auÃŸerhalb"
+            					markiert ?</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="FreeBikes" type="tns:Type_Bike" maxOccurs="unbounded" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Liste der Bikes am Standort</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="usedSlots" type="tns:Type_SlotCount" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>genutzte StellplÃ¤tze</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="maxSlots" type="tns:Type_SlotCount" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>maximale StellplÃ¤tze</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="virtStationRadius" type="xsd:int" maxOccurs="1" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_LocationReturning">
+        <xsd:annotation>
+          <xsd:documentation>Standort fÃ¼r eine RÃ¼ckgabe</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="UID" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Eindeutige ID</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Description" type="tns:Type_LocationDescription" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Beschreibung des Standortes</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Position" type="tns:Type_GeoPosition" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>geopgraphische Position</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Distance" type="xsd:float" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Entfernung zum Suchpunkt in Metern</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="isOutside" type="xsd:boolean" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="usedSlots" type="tns:Type_SlotCount" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>genutze StellplÃ¤tze</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="maxSlots" type="tns:Type_SlotCount" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>maximale StellplÃ¤tze</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="virtStationRadius" type="xsd:int" maxOccurs="1" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponseGetCustomerInfo">
+        <xsd:annotation>
+          <xsd:documentation>Ergebnis der Methode getCustomerInfo</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="UID" type="xsd:int" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>eindeutige Kennung des Kunden, optional, um abwÃ¤rtskompatibel zu bleiben</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Number" type="tns:Type_CustomerNumber" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Kundennummer, optional, um abwÃ¤rtskompatibel zu bleiben</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Bikes" type="tns:Type_BikeCustomer" maxOccurs="unbounded" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Bikes, die auf den Kunden entliehen sind</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Saldo" type="tns:Type_Saldo" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>aktueller Kundensaldo</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="LanguageUID" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Eindeutige ID der Sprache des Kunden</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="persCode" type="tns:Type_BikeCode" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>persÃ¶nliche Kundencode, sofern vorhanden</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="BikesAllowed" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Anzahl der maximal gleichzeitig
+            					ausleihbaren Bikes</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="RentingAllowed" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Darf der Kunde entleihen?</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="RentingNotAllowedReasonID" type="xsd:int" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>ID des Verbotsgrundes</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="RentingNotAllowedReasonString" type="xsd:string" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Beschreibung des Verbotsgrundes</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="canRedeemBonusCode" type="xsd:boolean" maxOccurs="1" minOccurs="1"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponseListFreeBikes">
+        <xsd:annotation>
+          <xsd:documentation>Ergebnis der Funktion listFreeBikes</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Locations" type="tns:Type_LocationRenting" maxOccurs="unbounded" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Standorte mit den Bikelisten</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponseListReturnLocations">
+        <xsd:annotation>
+          <xsd:documentation>Ergebnis der Methode listReturnLocations</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Locations" type="tns:Type_LocationReturning" maxOccurs="unbounded" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>mÃ¶gliche Standorte fÃ¼r die RÃ¼ckgabe</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponseRentBike">
+        <xsd:annotation>
+          <xsd:documentation>Ergebnis der Methode rentBike</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="OpeningCode" type="tns:Type_BikeCode" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Ã–ffnungscode</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="rentTime" type="xsd:dateTime" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Zeitpunkt der Entleihe</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponseReturnBike">
+        <xsd:annotation>
+          <xsd:documentation>Ergebnis der Methode returnBike</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="returnTime" type="xsd:dateTime" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Zeitpunkt der RÃ¼ckgabe</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="TripDuration" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Fahrtdauer in Sekunden</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="TripPrice" type="tns:Type_Price" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Preis der Fahrt</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="CustomerSaldo" type="tns:Type_Price" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>aktueller Kundensaldo</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponseRequestNewPassword">
+        <xsd:annotation>
+          <xsd:documentation>Ergebnis der Methode requestNewPassword</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="PasswordSend" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Wurde Passwort verschickt? Sollte immer auf TRUE stehen, da sonst ein FAULT eintritt</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_CommonParams">
+        <xsd:annotation>
+          <xsd:documentation>Parameter die von allem Methoden benutzt werden</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="UserData" type="tns:Type_UserData" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Nutzerdaten</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="LanguageUID" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Sprache fÃ¼r die zurÃ¼ckgegebenen Texte</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="RequestTime" type="xsd:dateTime" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Anfragezeitpunkt</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Version" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_CustomerDataOptional">
+        <xsd:annotation>
+          <xsd:documentation>Hilfstyp fÃ¼r optionale Kundendaten</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="CustomerData" type="tns:Type_CustomerData" maxOccurs="1" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="Type_ErrorText">
+        <xsd:annotation>
+          <xsd:documentation>Kundentext des Fehlers</xsd:documentation>
+        </xsd:annotation>
+        <xsd:restriction base="xsd:string">
+          <xsd:minLength value="0"/>
+          <xsd:maxLength value="255"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="Type_Error">
+        <xsd:annotation>
+          <xsd:documentation>Fehlermeldung des Servers</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Number" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>eindeutige Fehlernummer</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Text" type="tns:Type_ErrorText" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Fehlertext</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_Bike">
+        <xsd:annotation>
+          <xsd:documentation>Informationen zum Bike</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Number" type="tns:Type_BikeNumber" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="canBeRented" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Ist Ã¼ber diese Schnittstelle
+                				grundsÃ¤tzlich eine Entleihe mÃ¶glich?</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="canBeReturned" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Ist Ã¼ber diese Schnittstelle
+                				grundsÃ¤tzlich eine RÃ¼ckgabe mÃ¶glich?</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Version" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Bikeversion</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="MarkeID" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>eindeutige ID der Marke</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="MarkeName" type="xsd:string" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Markenname</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="isPedelec" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Gibt an, ob das Bike ein Pedelec ist oder nicht.</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponsecheckTripStart">
+        <xsd:sequence>
+          <xsd:element name="TripStarted" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>TRUE -> Fahrt wurde angetreten</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponseChangePersCode">
+        <xsd:sequence>
+          <xsd:element name="codeChanged" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Ergebnis der Operation</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ResponsegetBikeInfo">
+        <xsd:sequence>
+          <xsd:element name="Bike" type="tns:Type_Bike" maxOccurs="1" minOccurs="1"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Type_Error_Element" type="tns:Type_Error"></xsd:element>
+      <xsd:complexType name="Type_ListProductInfoResponse">
+        <xsd:sequence>
+          <xsd:element name="Product" type="tns:Type_Product" maxOccurs="unbounded" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Produkte</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_Product">
+        <xsd:sequence>
+          <xsd:element name="ProductID" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>eindeutige ID des Produktes</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Description" type="xsd:string" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Produktbeschreibung</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Position" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Reihenfolgeposition</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="BonusCard" type="tns:Type_BonusCard" maxOccurs="unbounded" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Produktvoraussetzungen</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="AllowedPayment" maxOccurs="unbounded" minOccurs="1">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="1"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="SepaInfo" type="tns:Type_SepaInfo" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Informationen zu SEPA
+                                Diese sind nur dann relevant,
+                                wenn der Kunde Lastschrift auswÃ¤hlt.</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Fee" type="tns:Type_Fee" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_BonusCard">
+        <xsd:sequence>
+          <xsd:element name="CardID" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>eindeutige KartenID (ID der
+            					Produktvorraussetzung)</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="CardName" type="xsd:string" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Name der Karte (Produktvorraussetzung)</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="CardNummerName" type="xsd:string" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Bezeichnung der Nummer, die eingetragen werden soll (z.B. Bahncardnummer oder Matrikelnummer)</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="CardErklaerung" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+          <xsd:element name="needValidDate" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>N -> braucht kein GÃ¼ltig-Bis M ->
+                    			braucht monatsgenaues GÃ¼ltig-Bis T ->
+                    			braucht taggenaues GÃ¼ltig-Bis</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="needValidDateFrom" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>J -> braucht GÃ¼ltig-Von (Genauigkeit wie
+                    			needValidDate) N -> braucht kein
+                    			GÃ¼ltig-Von</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="group" type="xsd:string" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Gruppierung, Bonuskarten mit gleicher Gruppierung sind als ODER-VerknÃ¼pfung zu betrachten</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_SepaInfo">
+        <xsd:sequence>
+          <xsd:element name="onlySepa" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Gibt an, ob nur noch mit SEPA (IBAN/BIC) gearbeitet werden darf</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="CreditorIdentifier" type="xsd:string" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>SEPA-GlÃ¤ubiger-ID des Mandanten</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_AddCustomerResponse">
+        <xsd:sequence>
+          <xsd:element name="CustomerNumber" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_NewCustomerData">
+        <xsd:sequence>
+          <xsd:element name="ProductID" type="xsd:int" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Geschlecht</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Sex" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Vorname</xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="1"/>
+                <xsd:enumeration value="m"/>
+                <xsd:enumeration value="w"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Forename" type="xsd:string" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>LÃ¤ndercode nach ISO 3166</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Surname" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="Birthday" type="xsd:date" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="Street" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="Streetnumber" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="Town" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="Zipcode" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="CountryCode" maxOccurs="1" minOccurs="1">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:minLength value="2"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Email" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="Phonenumber" type="xsd:string" maxOccurs="1" minOccurs="0"></xsd:element>
+          <xsd:element name="Payment" type="tns:Type_Payment" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="BonusCard" type="tns:Type_BonusCardData" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_DamageData">
+        <xsd:annotation>
+          <xsd:documentation>wurde der Schaden erfolgreich geschrieben?</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="Text" type="xsd:string" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Bikenummer optional (wenn nicht gesetzt, muÃŸ LocationUID gesetzt sein)</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="BikeNumber" type="tns:Type_BikeNumber" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>eindeitige ID des Standorts optional</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="LocationUID" type="xsd:int" maxOccurs="1" minOccurs="0"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ReportDamageResponse">
+        <xsd:sequence>
+          <xsd:element name="damageWritten" type="xsd:boolean" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Schadensmeldung</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_RedeemBonusCodeResponse">
+        <xsd:sequence>
+          <xsd:element name="Saldo" type="tns:Type_Saldo" maxOccurs="1" minOccurs="1"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_Saldo">
+        <xsd:sequence>
+          <xsd:element name="Balance" type="tns:Type_Price" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Gesamtsaldo des Kunden</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="BalanceInvoice" type="tns:Type_Price" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Saldo der Rechnungsvorschau (Fahrten)</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="BalanceOpen" type="tns:Type_Price" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>noch nicht bezahlte Forderungen</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="Credit" type="tns:Type_Price" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="CreditOpen" type="tns:Type_Price" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="CreditUsed" type="tns:Type_Price" maxOccurs="1" minOccurs="1"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_TripLimits">
+        <xsd:sequence>
+          <xsd:element name="FirstEntry" type="xsd:int" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Wieviele Fahrten sollen angezeigt werden? (Default 20, Maximum 20)</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="EntryCount" type="xsd:int" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Ab welchem Eintrag sollen die Fahrten angezeigt werden? (Default 0)</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+          <xsd:element name="StartTime" type="xsd:dateTime" maxOccurs="1" minOccurs="0"></xsd:element>
+          <xsd:element name="EndTime" type="xsd:dateTime" maxOccurs="1" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_ListCompletedTripsResponse">
+        <xsd:sequence>
+          <xsd:element name="TripData" type="tns:Type_TripData" maxOccurs="unbounded" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_TripData">
+        <xsd:sequence>
+          <xsd:element name="BikeNumber" type="tns:Type_BikeNumber" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="MarkeName" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="TownName" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="StartTime" type="xsd:dateTime" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="EndTime" type="xsd:dateTime" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="TripPrice" type="tns:Type_Price" maxOccurs="1" minOccurs="1"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_Payment">
+        <xsd:sequence>
+          <xsd:element name="CreditCard" type="tns:Type_Creditcard" maxOccurs="1" minOccurs="0"></xsd:element>
+          <xsd:element name="BankAccount" type="tns:Type_BankAccount" maxOccurs="1" minOccurs="0"></xsd:element>
+          <xsd:element name="PaymentMethod" maxOccurs="1" minOccurs="1">
+            <xsd:annotation>
+              <xsd:documentation>Art des Payments ('K' -> Kreditkarte, 'L' -> Lastschrift)</xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:length value="1"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_Creditcard">
+        <xsd:sequence>
+          <xsd:element name="CardNumber" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="ExpirationDate" type="xsd:date" maxOccurs="1" minOccurs="1"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_BankAccount">
+        <xsd:sequence>
+          <xsd:element name="IBAN" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+          <xsd:element name="BIC" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+          <xsd:element name="Bankcode" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+          <xsd:element name="AccountNumber" type="xsd:string" maxOccurs="1" minOccurs="0"/>
+          <xsd:element name="SepaAgreement" type="xsd:dateTime" maxOccurs="1" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation>Zeitpunkt der SEPA-Zustimmung</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_BonusCardData">
+        <xsd:sequence>
+          <xsd:element name="CardID" type="xsd:int" maxOccurs="1" minOccurs="1"/>
+          <xsd:element name="CardNumber" type="xsd:string" maxOccurs="1" minOccurs="1"/>
+          <xsd:element name="ValidDate" type="xsd:date" maxOccurs="1" minOccurs="0"></xsd:element>
+          <xsd:element name="ValidDateFrom" type="xsd:date" maxOccurs="1" minOccurs="0"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_Fee">
+        <xsd:sequence>
+          <xsd:element name="Text" type="xsd:string" maxOccurs="1" minOccurs="1"></xsd:element>
+          <xsd:element name="Price" type="tns:Type_Price" maxOccurs="1" minOccurs="1"></xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Type_SalesChannel">
+        <xsd:annotation>
+          <xsd:documentation xml:lang="de">Informationen zu einen Buchungsweg</xsd:documentation>
+          <xsd:documentation xml:lang="en">Information to an SalesChannel</xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element name="referrer" type="xsd:string" minOccurs="0">
+            <xsd:annotation>
+              <xsd:documentation xml:lang="de">URI als Referenzlink</xsd:documentation>
+              <xsd:documentation xml:lang="en">URI for reference</xsd:documentation>
+            </xsd:annotation>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="CABSERVER.getCustomerInfoRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="CustomerData" type="tns:Type_CustomerData">
+      <wsdl:documentation>Kundendate</wsdl:documentation>
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.getCustomerInfoResponse">
+    <wsdl:part name="CABSERVER.getCustomerInfoResponse" type="tns:Type_ResponseGetCustomerInfo"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listFreeBikesRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="SearchPosition" type="tns:Type_GeoPosition">
+      <wsdl:documentation>Mittelpunkt der "Bikesuche"</wsdl:documentation>
+    </wsdl:part>
+    <wsdl:part name="maxResults" type="xsd:int">
+      <wsdl:documentation>maximale Anzahl von Bikes die zurÃ¼ckgeliefert werde</wsdl:documentation>
+    </wsdl:part>
+    <wsdl:part name="searchRadius" type="xsd:int">
+      <wsdl:documentation>Suchradius in Meter</wsdl:documentation>
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listFreeBikesResponse">
+    <wsdl:part name="CABSERVER.listFreeBikesResponse" type="tns:Type_ResponseListFreeBikes"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listReturnLocationsRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="BikeNumber" type="tns:Type_BikeNumber"/>
+    <wsdl:part name="SearchPosition" type="tns:Type_GeoPosition">
+      <wsdl:documentation>Mittelpunkt der "Standortuche"</wsdl:documentation>
+    </wsdl:part>
+    <wsdl:part name="maxResults" type="xsd:int">
+      <wsdl:documentation>maximale Anzahl von Standorten die zurÃ¼ckgeliefert wir</wsdl:documentation>
+    </wsdl:part>
+    <wsdl:part name="searchRadius" type="xsd:int">
+      <wsdl:documentation>Suchradius in Meter</wsdl:documentation>
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listReturnLocationsResponse">
+    <wsdl:part name="CABSERVER.listReturnLocationsResponse" type="tns:Type_ResponseListReturnLocations"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.rentBikeRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="CustomerData" type="tns:Type_CustomerData"/>
+    <wsdl:part name="BikeNumber" type="tns:Type_BikeNumber"/>
+    <wsdl:part name="SalesChannel" type="tns:Type_SalesChannel"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.rentBikeResponse">
+    <wsdl:part name="CABSERVER.rentBikeResponse" type="tns:Type_ResponseRentBike"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.returnBikeRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="BikeNumber" type="tns:Type_BikeNumber"/>
+    <wsdl:part name="ReturnCode" type="tns:Type_BikeCode"/>
+    <wsdl:part name="LocationUID" type="xsd:int"/>
+    <wsdl:part name="CustomerDataOptional" type="tns:Type_CustomerDataOptional"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.returnBikeResponse">
+    <wsdl:part name="CABSERVER.returnBikeResponse" type="tns:Type_ResponseReturnBike"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.requestNewPasswordRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="PhoneNumber" type="tns:Type_CustomerPhone"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.requestNewPasswordResponse">
+    <wsdl:part name="CABSERVER.requestNewPasswordResponse" type="tns:Type_ResponseRequestNewPassword"/>
+  </wsdl:message>
+  <wsdl:message name="hcs_getCustomerInfo_faultMsg">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="hcs_listFreeBikes_faultMsg">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="hcs_listReturnLocations_faultMsg">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="hcs_rentBike_faultMsg">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="hcs_returnBike_faultMsg">
+    <wsdl:part name="Error" type="tns:Type_Error"/>
+  </wsdl:message>
+  <wsdl:message name="hcs_requestNewPassword_faultMsg">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.checkTripStartRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="CustomerData" type="tns:Type_CustomerData"/>
+    <wsdl:part name="BikeNumber" type="tns:Type_BikeNumber"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.checkTripStartResponse">
+    <wsdl:part name="CABSERVER.checkTripStartResponse" type="tns:Type_ResponsecheckTripStart"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.checkTripStart_faultMsg">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.changePersCodeRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="CustomerData" type="tns:Type_CustomerData"/>
+    <wsdl:part name="persCode" type="tns:Type_BikeCode"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.changePersCodeResponse">
+    <wsdl:part name="CABSERVER.changePersCodeResponse" type="tns:Type_ResponseChangePersCode"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.changePersCode_faultMsg">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.getBikeInfoRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="BikeNumber" type="tns:Type_BikeNumber"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.getBikeInfoResponse">
+    <wsdl:part name="CABSERVER.getBikeInfoResponse" type="tns:Type_ResponsegetBikeInfo"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.getBikeInfoFault">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listProductInfoRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listProductInfoResponse">
+    <wsdl:part name="CABSERVER.listProductInfoResponse" type="tns:Type_ListProductInfoResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listProductInfoFault">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.addCustomerRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="NewCustomerData" type="tns:Type_NewCustomerData"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.addCustomerResponse">
+    <wsdl:part name="CABSERVER.addCustomerResponse" type="tns:Type_AddCustomerResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.addCustomerFault">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.reportDamageRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="CustomerData" type="tns:Type_CustomerData"/>
+    <wsdl:part name="DamageData" type="tns:Type_DamageData"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.reportDamageResponse">
+    <wsdl:part name="CABSERVER.reportDamageResponse" type="tns:Type_ReportDamageResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.reportDamageFault">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.redeemBonusCodeRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="CustomerData" type="tns:Type_CustomerData"/>
+    <wsdl:part name="BonusCode" type="xsd:string"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.redeemBonusCodeResponse">
+    <wsdl:part name="CABSERVER.redeemBonusCodeResponse" type="tns:Type_RedeemBonusCodeResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.redeemBonusCodeFault">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listCompletedTripsRequest">
+    <wsdl:part name="CommonParams" type="tns:Type_CommonParams"/>
+    <wsdl:part name="CustomerData" type="tns:Type_CustomerData"/>
+    <wsdl:part name="TripLimits" type="tns:Type_TripLimits"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listCompletedTripsResponse">
+    <wsdl:part name="CABSERVER.listCompletedTripsResponse" type="tns:Type_ListCompletedTripsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="CABSERVER.listCompletedTripsFault">
+    <wsdl:part name="Error" element="tns:Type_Error_Element"/>
+  </wsdl:message>
+  <wsdl:portType name="HAL2_CABSERVER">
+    <wsdl:operation name="CABSERVER.getCustomerInfo">
+      <wsdl:documentation>Liefert Informationen zum Kunden</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.getCustomerInfoRequest"/>
+      <wsdl:output message="tns:CABSERVER.getCustomerInfoResponse"/>
+      <wsdl:fault name="fault" message="tns:hcs_getCustomerInfo_faultMsg"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.listFreeBikes">
+      <wsdl:documentation>Listet freie Bikes der Umgebung auf</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.listFreeBikesRequest"/>
+      <wsdl:output message="tns:CABSERVER.listFreeBikesResponse"/>
+      <wsdl:fault name="fault" message="tns:hcs_listFreeBikes_faultMsg"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.listReturnLocations">
+      <wsdl:documentation>listet mÃ¶gliche RÃ¼ckgabestandorte auf</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.listReturnLocationsRequest"/>
+      <wsdl:output message="tns:CABSERVER.listReturnLocationsResponse"/>
+      <wsdl:fault name="fault" message="tns:hcs_listReturnLocations_faultMsg"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.rentBike">
+      <wsdl:documentation>entleiht ein Bike</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.rentBikeRequest"/>
+      <wsdl:output message="tns:CABSERVER.rentBikeResponse"/>
+      <wsdl:fault name="fault" message="tns:hcs_rentBike_faultMsg"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.returnBike">
+      <wsdl:documentation>gibt ein Bike zurÃ¼ck</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.returnBikeRequest"/>
+      <wsdl:output message="tns:CABSERVER.returnBikeResponse"/>
+      <wsdl:fault name="fault" message="tns:hcs_returnBike_faultMsg"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.requestNewPassword">
+      <wsdl:documentation>fordert ein neues Passwort an</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.requestNewPasswordRequest"/>
+      <wsdl:output message="tns:CABSERVER.requestNewPasswordResponse"/>
+      <wsdl:fault name="fault" message="tns:hcs_requestNewPassword_faultMsg"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.checkTripStart">
+      <wsdl:documentation>Ã¼berprÃ¼ft, ob eine Fahrt bereits begonnen wurd</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.checkTripStartRequest"/>
+      <wsdl:output message="tns:CABSERVER.checkTripStartResponse"/>
+      <wsdl:fault name="fault" message="tns:CABSERVER.checkTripStart_faultMsg"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.changePersCode">
+      <wsdl:documentation>Ã¤ndert den persÃ¶nlichen Kundencod</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.changePersCodeRequest"/>
+      <wsdl:output message="tns:CABSERVER.changePersCodeResponse"/>
+      <wsdl:fault name="fault" message="tns:CABSERVER.changePersCode_faultMsg"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.getBikeInfo">
+      <wsdl:input message="tns:CABSERVER.getBikeInfoRequest"/>
+      <wsdl:output message="tns:CABSERVER.getBikeInfoResponse"/>
+      <wsdl:fault name="fault" message="tns:CABSERVER.getBikeInfoFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.listProductInfo">
+      <wsdl:documentation>liefert die mÃ¶glichen Produkte zur Kundenanlag</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.listProductInfoRequest"/>
+      <wsdl:output message="tns:CABSERVER.listProductInfoResponse"/>
+      <wsdl:fault name="fault" message="tns:CABSERVER.listProductInfoFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.addCustomer">
+      <wsdl:input message="tns:CABSERVER.addCustomerRequest"/>
+      <wsdl:output message="tns:CABSERVER.addCustomerResponse"/>
+      <wsdl:fault name="fault" message="tns:CABSERVER.addCustomerFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.reportDamage">
+      <wsdl:documentation>erstellt eine Schadensmeldung</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.reportDamageRequest"/>
+      <wsdl:output message="tns:CABSERVER.reportDamageResponse"/>
+      <wsdl:fault name="fault" message="tns:CABSERVER.reportDamageFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.redeemBonusCode">
+      <wsdl:input message="tns:CABSERVER.redeemBonusCodeRequest"/>
+      <wsdl:output message="tns:CABSERVER.redeemBonusCodeResponse"/>
+      <wsdl:fault name="fault" message="tns:CABSERVER.redeemBonusCodeFault"/>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.listCompletedTrips">
+      <wsdl:documentation>Listet die abgeschlossenen Fahrten au</wsdl:documentation>
+      <wsdl:input message="tns:CABSERVER.listCompletedTripsRequest"/>
+      <wsdl:output message="tns:CABSERVER.listCompletedTripsResponse"/>
+      <wsdl:fault name="fault" message="tns:CABSERVER.listCompletedTripsFault"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="HAL2_CABSERVERSOAP" type="tns:HAL2_CABSERVER">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="CABSERVER.getCustomerInfo">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.getCustomerInfo"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.listFreeBikes">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listFreeBikes"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.listReturnLocations">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listReturnLocations"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.rentBike">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.rentBike"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.returnBike">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.returnBike"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.requestNewPassword">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.requestNewPassword"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.checkTripStart">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.checkTripStart"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.changePersCode">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.changePersCode"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.getBikeInfo">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.getBikeInfo"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.listProductInfo">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listProductInfo"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.addCustomer">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.addCustomer"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.reportDamage">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.reportDamage"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.redeemBonusCode">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.redeemBonusCode"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="CABSERVER.listCompletedTrips">
+      <soap:operation soapAction="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listCompletedTrips"/>
+      <wsdl:input>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="https://xml.dbcarsharing-buchung.de/hal2_cabserver/"/>
+      </wsdl:output>
+      <wsdl:fault name="fault">
+        <soap:fault use="literal" name="fault"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="HAL2_CABSERVER">
+    <wsdl:documentation>Server fÃ¼r Anfragen von Call a Bike</wsdl:documentation>
+    <wsdl:port name="HAL2_CABSERVERSOAP" binding="tns:HAL2_CABSERVERSOAP">
+      <soap:address location="https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint></con:endpoints><con:operation id="ff8a82b9-f5a8-44c9-b885-e57105113e36" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.addCustomer" name="CABSERVER.addCustomer" bindingOperationName="CABSERVER.addCustomer" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a48cd451-e90c-4635-9a80-fd6fef9de68c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.addCustomer>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <NewCustomerData>
+            <ProductID>?</ProductID>
+            <Sex>?</Sex>
+            <Forename>?</Forename>
+            <Surname>?</Surname>
+            <Birthday>?</Birthday>
+            <Street>?</Street>
+            <Streetnumber>?</Streetnumber>
+            <Town>?</Town>
+            <Zipcode>?</Zipcode>
+            <CountryCode>?</CountryCode>
+            <Email>?</Email>
+            <!--Optional:-->
+            <Phonenumber>?</Phonenumber>
+            <Payment>
+               <!--Optional:-->
+               <CreditCard>
+                  <CardNumber>?</CardNumber>
+                  <ExpirationDate>?</ExpirationDate>
+               </CreditCard>
+               <!--Optional:-->
+               <BankAccount>
+                  <!--Optional:-->
+                  <IBAN>?</IBAN>
+                  <!--Optional:-->
+                  <BIC>?</BIC>
+                  <!--Optional:-->
+                  <Bankcode>?</Bankcode>
+                  <!--Optional:-->
+                  <AccountNumber>?</AccountNumber>
+                  <!--Optional:-->
+                  <SepaAgreement>?</SepaAgreement>
+               </BankAccount>
+               <PaymentMethod>?</PaymentMethod>
+            </Payment>
+            <!--Zero or more repetitions:-->
+            <BonusCard>
+               <CardID>?</CardID>
+               <CardNumber>?</CardNumber>
+               <!--Optional:-->
+               <ValidDate>?</ValidDate>
+               <!--Optional:-->
+               <ValidDateFrom>?</ValidDateFrom>
+            </BonusCard>
+         </NewCustomerData>
+      </hal2:CABSERVER.addCustomer>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.addCustomer"/></con:call></con:operation><con:operation id="d8b93112-597e-4ba2-8b06-27233c6d25ab" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.changePersCode" name="CABSERVER.changePersCode" bindingOperationName="CABSERVER.changePersCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="3f42bb23-a96c-44a4-8d8b-19f29bddfc7c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.changePersCode>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <CustomerData>
+            <!--Optional:-->
+            <Number>?</Number>
+            <!--Optional:-->
+            <Phone>?</Phone>
+            <Password>?</Password>
+            <!--Optional:-->
+            <PhoneUserEdited>?</PhoneUserEdited>
+            <!--Optional:-->
+            <UsageType>?</UsageType>
+         </CustomerData>
+         <persCode>?</persCode>
+      </hal2:CABSERVER.changePersCode>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.changePersCode"/></con:call></con:operation><con:operation id="332db1d9-0c5c-448a-bc3e-662c09fdf277" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.checkTripStart" name="CABSERVER.checkTripStart" bindingOperationName="CABSERVER.checkTripStart" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e4755ac8-a979-4bf1-bfc1-a33dd0098bb1" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.checkTripStart>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <CustomerData>
+            <!--Optional:-->
+            <Number>?</Number>
+            <!--Optional:-->
+            <Phone>?</Phone>
+            <Password>?</Password>
+            <!--Optional:-->
+            <PhoneUserEdited>?</PhoneUserEdited>
+            <!--Optional:-->
+            <UsageType>?</UsageType>
+         </CustomerData>
+         <BikeNumber>?</BikeNumber>
+      </hal2:CABSERVER.checkTripStart>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.checkTripStart"/></con:call></con:operation><con:operation id="99001e66-b547-40d5-9047-8f6244e294ef" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.getBikeInfo" name="CABSERVER.getBikeInfo" bindingOperationName="CABSERVER.getBikeInfo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b31b0c7f-1a1c-4d28-9ee7-9836d77df503" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.getBikeInfo>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <BikeNumber>?</BikeNumber>
+      </hal2:CABSERVER.getBikeInfo>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.getBikeInfo"/></con:call></con:operation><con:operation id="66111290-a1df-4257-a4aa-35ff08054f79" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.getCustomerInfo" name="CABSERVER.getCustomerInfo" bindingOperationName="CABSERVER.getCustomerInfo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5da3349c-05ed-47e8-927e-c08f61985730" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.getCustomerInfo>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <CustomerData>
+            <!--Optional:-->
+            <Number>?</Number>
+            <!--Optional:-->
+            <Phone>?</Phone>
+            <Password>?</Password>
+            <!--Optional:-->
+            <PhoneUserEdited>?</PhoneUserEdited>
+            <!--Optional:-->
+            <UsageType>?</UsageType>
+         </CustomerData>
+      </hal2:CABSERVER.getCustomerInfo>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.getCustomerInfo"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="761ee016-74f7-4efb-8f7a-c34213e4d55a" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listCompletedTrips" name="CABSERVER.listCompletedTrips" bindingOperationName="CABSERVER.listCompletedTrips" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="06a48ea6-ffea-43ce-8f01-09f79243602f" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.listCompletedTrips>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <CustomerData>
+            <!--Optional:-->
+            <Number>?</Number>
+            <!--Optional:-->
+            <Phone>?</Phone>
+            <Password>?</Password>
+            <!--Optional:-->
+            <PhoneUserEdited>?</PhoneUserEdited>
+            <!--Optional:-->
+            <UsageType>?</UsageType>
+         </CustomerData>
+         <TripLimits>
+            <!--Optional:-->
+            <FirstEntry>?</FirstEntry>
+            <!--Optional:-->
+            <EntryCount>?</EntryCount>
+            <!--Optional:-->
+            <StartTime>?</StartTime>
+            <!--Optional:-->
+            <EndTime>?</EndTime>
+         </TripLimits>
+      </hal2:CABSERVER.listCompletedTrips>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listCompletedTrips"/></con:call></con:operation><con:operation id="a787ee0f-a469-4153-8348-d1675bbe1882" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listFreeBikes" name="CABSERVER.listFreeBikes" bindingOperationName="CABSERVER.listFreeBikes" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f5099060-d1d4-49ee-adb1-8dacd5ae54b6" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.listFreeBikes>
+         <CommonParams>
+            <UserData>
+            	<!-- From android app -->
+               <User>t_cab_android</User>
+            	<!-- From android app -->
+               <Password>3b3cc28469</Password>
+            </UserData>
+            <!-- Only option -->
+            <LanguageUID>1</LanguageUID>
+            <RequestTime>2017-01-31 18:47:45</RequestTime>
+            <!-- Only option -->
+            <Version>1</Version>
+         </CommonParams>
+         <SearchPosition>
+            <Longitude>11.5533165</Longitude>
+            <Latitude>48.1537671</Latitude>
+         </SearchPosition>
+         <maxResults>100</maxResults>
+         <searchRadius>5000</searchRadius>
+      </hal2:CABSERVER.listFreeBikes>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listFreeBikes"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="350c74e5-c735-4f41-95ce-f6d6d75ec0e7" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listProductInfo" name="CABSERVER.listProductInfo" bindingOperationName="CABSERVER.listProductInfo" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7a5d0b3c-b462-45fe-82a1-e9017e96441c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.listProductInfo>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+      </hal2:CABSERVER.listProductInfo>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listProductInfo"/></con:call></con:operation><con:operation id="0a68f563-f3d2-44c3-94e1-9179def114bb" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listReturnLocations" name="CABSERVER.listReturnLocations" bindingOperationName="CABSERVER.listReturnLocations" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="fdbb009d-7e0b-4de2-8975-ad6589cb5c7e" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.listReturnLocations>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <BikeNumber>?</BikeNumber>
+         <SearchPosition>
+            <Longitude>?</Longitude>
+            <Latitude>?</Latitude>
+         </SearchPosition>
+         <maxResults>?</maxResults>
+         <searchRadius>?</searchRadius>
+      </hal2:CABSERVER.listReturnLocations>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.listReturnLocations"/></con:call></con:operation><con:operation id="2dbdf584-ac31-48a9-8aae-eaf27401ff0c" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.redeemBonusCode" name="CABSERVER.redeemBonusCode" bindingOperationName="CABSERVER.redeemBonusCode" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="9115ec0b-cf57-48fc-aadf-45d9f8110294" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.redeemBonusCode>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <CustomerData>
+            <!--Optional:-->
+            <Number>?</Number>
+            <!--Optional:-->
+            <Phone>?</Phone>
+            <Password>?</Password>
+            <!--Optional:-->
+            <PhoneUserEdited>?</PhoneUserEdited>
+            <!--Optional:-->
+            <UsageType>?</UsageType>
+         </CustomerData>
+         <BonusCode>?</BonusCode>
+      </hal2:CABSERVER.redeemBonusCode>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.redeemBonusCode"/></con:call></con:operation><con:operation id="0986db2a-3d7b-4ae1-8d61-dc96d6f19da1" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.rentBike" name="CABSERVER.rentBike" bindingOperationName="CABSERVER.rentBike" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c6558331-42f6-4467-b31e-a11abb8b61ad" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.rentBike>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <CustomerData>
+            <!--Optional:-->
+            <Number>?</Number>
+            <!--Optional:-->
+            <Phone>?</Phone>
+            <Password>?</Password>
+            <!--Optional:-->
+            <PhoneUserEdited>?</PhoneUserEdited>
+            <!--Optional:-->
+            <UsageType>?</UsageType>
+         </CustomerData>
+         <BikeNumber>?</BikeNumber>
+         <SalesChannel>
+            <!--Optional:-->
+            <referrer>?</referrer>
+         </SalesChannel>
+      </hal2:CABSERVER.rentBike>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.rentBike"/></con:call></con:operation><con:operation id="42f7639f-04ae-4438-9599-b9527a66f5d2" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.reportDamage" name="CABSERVER.reportDamage" bindingOperationName="CABSERVER.reportDamage" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f0ce85f5-17a9-4875-a587-ac8e224e8f78" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.reportDamage>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <CustomerData>
+            <!--Optional:-->
+            <Number>?</Number>
+            <!--Optional:-->
+            <Phone>?</Phone>
+            <Password>?</Password>
+            <!--Optional:-->
+            <PhoneUserEdited>?</PhoneUserEdited>
+            <!--Optional:-->
+            <UsageType>?</UsageType>
+         </CustomerData>
+         <DamageData>
+            <Text>?</Text>
+            <!--Optional:-->
+            <BikeNumber>?</BikeNumber>
+            <!--Optional:-->
+            <LocationUID>?</LocationUID>
+         </DamageData>
+      </hal2:CABSERVER.reportDamage>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.reportDamage"/></con:call></con:operation><con:operation id="28039620-102c-4709-9271-7cae31d3415f" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.requestNewPassword" name="CABSERVER.requestNewPassword" bindingOperationName="CABSERVER.requestNewPassword" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="3c22ecef-60d7-4edd-936c-5a6cf6fecdfe" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.requestNewPassword>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <PhoneNumber>?</PhoneNumber>
+      </hal2:CABSERVER.requestNewPassword>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.requestNewPassword"/></con:call></con:operation><con:operation id="60c3d0f7-4f21-463e-b60e-f4bf7ae3df39" isOneWay="false" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.returnBike" name="CABSERVER.returnBike" bindingOperationName="CABSERVER.returnBike" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="0dee9bf0-cb76-4e02-83d8-685fc0c99aff" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_3.php</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:hal2="https://xml.dbcarsharing-buchung.de/hal2_cabserver/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <hal2:CABSERVER.returnBike>
+         <CommonParams>
+            <UserData>
+               <User>?</User>
+               <Password>?</Password>
+            </UserData>
+            <LanguageUID>?</LanguageUID>
+            <RequestTime>?</RequestTime>
+            <Version>?</Version>
+         </CommonParams>
+         <BikeNumber>?</BikeNumber>
+         <ReturnCode>?</ReturnCode>
+         <LocationUID>?</LocationUID>
+         <CustomerDataOptional>
+            <!--Optional:-->
+            <CustomerData>
+               <!--Optional:-->
+               <Number>?</Number>
+               <!--Optional:-->
+               <Phone>?</Phone>
+               <Password>?</Password>
+               <!--Optional:-->
+               <PhoneUserEdited>?</PhoneUserEdited>
+               <!--Optional:-->
+               <UsageType>?</UsageType>
+            </CustomerData>
+         </CustomerDataOptional>
+      </hal2:CABSERVER.returnBike>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="https://xml.dbcarsharing-buchung.de/hal2_cabserver/CABSERVER.returnBike"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
