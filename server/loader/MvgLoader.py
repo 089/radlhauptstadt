@@ -1,8 +1,9 @@
 import json
 import requests
-from AbstractLoader import AbstractLoader
-from Station import Station
-from Vehicle import Vehicle
+
+from loader.AbstractLoader import AbstractLoader
+from loader.Station import Station
+from loader.Vehicle import Vehicle
 
 
 class MvgLoader(AbstractLoader):
