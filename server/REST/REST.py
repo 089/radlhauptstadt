@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 from flask import Flask, g, jsonify, abort, json
-from flask_cors import cross_origin
+from flask_cors import CORS, cross_origin
 
 import mysql.connector as db
 
@@ -8,6 +8,7 @@ from loader.Station import Station
 from loader.Vehicle import Vehicle
 
 app = Flask(__name__)
+CORS(app)
 
 def mysqlToVehicle(cursor):
     results = []
