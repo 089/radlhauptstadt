@@ -1,10 +1,7 @@
 #!/usr/local/bin/python3
-from flask import Flask, g, jsonify
+from flask import Flask, g, jsonify, abort, json
 
 import mysql.connector as db
-import json
-
-from flask import abort
 
 from ..loader.Station import Station
 from ..loader.Vehicle import Vehicle
