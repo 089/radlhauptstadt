@@ -5,16 +5,16 @@
 // - Bei der Erzeugung der Karte muss der neue Layer übergeben werden.
 // - In addMarker muss ein neuer Pfad hinzugefügt werden.
 MVG_BICYCLE = "mvg";
-let mvgBicycleLayer = new L.LayerGroup();
+var mvgBicycleLayer = new L.LayerGroup();
 DB_BICYCLE = "dbrad";
-let dbBicycleLayer = new L.LayerGroup();
+var dbBicycleLayer = new L.LayerGroup();
 DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
-let dbBicycleReturnAreaLayer = new L.LayerGroup();
+var dbBicycleReturnAreaLayer = new L.LayerGroup();
 MVV_BICYCLE_RETURN_AREA = "MVV-Rad Rückgabegebiet";
-let mvvBicycleReturnAreaLayer = new L.LayerGroup();
+var mvvBicycleReturnAreaLayer = new L.LayerGroup();
 
 
-let overlayLayerControl = {
+var overlayLayerControl = {
 				[MVG_BICYCLE]: mvgBicycleLayer,
                 [DB_BICYCLE]: dbBicycleLayer,
                 [DB_BICYCLE_RETURN_AREA]: dbBicycleReturnAreaLayer,
@@ -22,28 +22,28 @@ let overlayLayerControl = {
 	};
 
 // create icons
-let blueBicycleIcon = L.icon({
+var blueBicycleIcon = L.icon({
 	iconUrl: 'pics/bike-blue.svg',
 
 	iconSize:     [40, 80], // size of the icon
 	iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
 	popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
-let blueStationAvailableIcon = L.icon({
+var blueStationAvailableIcon = L.icon({
     iconUrl: 'pics/station-a-blue.svg',
 
     iconSize:     [40, 80], // size of the icon
     iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
     popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
-let blueStationNotAvailableIcon = L.icon({
+var blueStationNotAvailableIcon = L.icon({
     iconUrl: 'pics/station-na-blue.svg',
 
     iconSize:     [40, 80], // size of the icon
     iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
     popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
-let redBicycleIcon = L.icon({
+var redBicycleIcon = L.icon({
 	iconUrl: 'pics/bike-red.svg',
 
 	iconSize:     [40, 80], // size of the icon
@@ -54,7 +54,7 @@ let redBicycleIcon = L.icon({
 // erzeugt die Karte und die Layer-Auswahl
 function create(){
 	// baseLayer erzeugen
-    let baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    var baseLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 	{
 		attribution: '&copy; '
 		+ '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors '
