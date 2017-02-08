@@ -11,14 +11,18 @@ var dbBicycleLayer = new L.LayerGroup();
 DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
 var dbBicycleReturnAreaLayer = new L.LayerGroup();
 MVV_BICYCLE_RETURN_AREA = "MVV-Rad Rückgabegebiet";
+<<<<<<< HEAD
 var mvvBicycleReturnAreaLayer = new L.LayerGroup();
+=======
+let mvgBicycleReturnAreaLayer = new L.LayerGroup();
+>>>>>>> 18fff2e4b6ff823f146c396995afb396e48ae6c9
 
 
 var overlayLayerControl = {
 				[MVG_BICYCLE]: mvgBicycleLayer,
                 [DB_BICYCLE]: dbBicycleLayer,
                 [DB_BICYCLE_RETURN_AREA]: dbBicycleReturnAreaLayer,
-                [MVV_BICYCLE_RETURN_AREA]: mvvBicycleReturnAreaLayer
+                [MVV_BICYCLE_RETURN_AREA]: mvgBicycleReturnAreaLayer
 	};
 
 // create icons
@@ -64,11 +68,14 @@ function create(){
 	// Karte erzeugen
 	map = L.map('map', {layers: [baseLayer, mvgBicycleLayer,
 			dbBicycleLayer, dbBicycleReturnAreaLayer,
-			mvvBicycleReturnAreaLayer]})
+			mvgBicycleReturnAreaLayer]})
 		.setView([48.137220, 11.575496], 12);
 
 	// layer control hinzufügen
 	L.control.layers(null, overlayLayerControl).addTo(map);
+
+	map.removeLayer(mvgBicycleReturnAreaLayer)
+	map.removeLayer(dbBicycleReturnAreaLayer);
 }
 
 // Fügt einen Fahrrad-Marker hinzu...
@@ -145,7 +152,7 @@ function addArea(){
     [48.125468, 11.652927],
     [48.087062, 11.617409]
 	]).setStyle({fillColor: '#4562a2', color: '#4562a2'})
-	.addTo(mvvBicycleReturnAreaLayer);
+	.addTo(mvgBicycleReturnAreaLayer);
 }
 
 function generateBicyclePopup(number, type){
