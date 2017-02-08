@@ -1,0 +1,13 @@
+// https://www.martinzell.de/radlhauptstadt/rest/api/v0.9/provider/mvg/station/8923
+{
+  "stations": [
+    {
+      "availableBikes": 1, 
+      "latitude": 48.126324, 
+      "longitude": 11.566774, 
+      "name": "Am Glockenbach", 
+      "number": 8923, 
+      "provider": "mvg"
+    }
+  ]
+}

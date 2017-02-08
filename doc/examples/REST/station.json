@@ -1,0 +1,677 @@
+//https://www.martinzell.de/radlhauptstadt/rest/api/v0.9/provider/mvg/station
+{
+  "stations": [
+    {
+      "availableBikes": 1, 
+      "latitude": 48.168243, 
+      "longitude": 11.564687, 
+      "name": "Ackermannstra\u00dfe", 
+      "number": 8908, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.098367, 
+      "longitude": 11.524111, 
+      "name": "Aidenbachstra\u00dfe", 
+      "number": 8867, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.155261, 
+      "longitude": 11.540118, 
+      "name": "Albrechtstra\u00dfe", 
+      "number": 8975, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 1, 
+      "latitude": 48.126324, 
+      "longitude": 11.566774, 
+      "name": "Am Glockenbach", 
+      "number": 8923, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.165279, 
+      "longitude": 11.493183, 
+      "name": "Amalienburgstra\u00dfe", 
+      "number": 8853, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.179593, 
+      "longitude": 11.589057, 
+      "name": "Anni-Albers-Stra\u00dfe", 
+      "number": 8938, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.138831, 
+      "longitude": 11.528262, 
+      "name": "Barthstra\u00dfe", 
+      "number": 8974, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.135933, 
+      "longitude": 11.633757, 
+      "name": "Berg am Laim", 
+      "number": 8979, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.143249, 
+      "longitude": 11.615016, 
+      "name": "B\u00f6hmerwaldplatz", 
+      "number": 8959, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.166605, 
+      "longitude": 11.578632, 
+      "name": "Bonner Platz", 
+      "number": 8927, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.164678, 
+      "longitude": 11.502476, 
+      "name": "Botanischer Garten", 
+      "number": 8854, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.112674, 
+      "longitude": 11.549036, 
+      "name": "Bruderm\u00fchlstra\u00dfe", 
+      "number": 8890, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 1, 
+      "latitude": 48.111762, 
+      "longitude": 11.569943, 
+      "name": "Candidplatz", 
+      "number": 8976, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.131578, 
+      "longitude": 11.585261, 
+      "name": "Deutsches Museum", 
+      "number": 8977, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.159958, 
+      "longitude": 11.533891, 
+      "name": "Dom-Pedro-Platz", 
+      "number": 8874, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.142826, 
+      "longitude": 11.588664, 
+      "name": "Eisbachwelle", 
+      "number": 8972, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.108697, 
+      "longitude": 11.55723, 
+      "name": "Flaucher Biergarten", 
+      "number": 8915, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.10719, 
+      "longitude": 11.552429, 
+      "name": "Flauchersteg", 
+      "number": 8978, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.132034, 
+      "longitude": 11.576473, 
+      "name": "G\u00e4rtnerplatz", 
+      "number": 8937, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 2, 
+      "latitude": 48.163555, 
+      "longitude": 11.529047, 
+      "name": "Gern", 
+      "number": 8868, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.110357611506, 
+      "longitude": 11.59508228302, 
+      "name": "Giesing", 
+      "number": 8947, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.076622, 
+      "longitude": 11.550354, 
+      "name": "Gro\u00dfhesseloher Br\u00fccke", 
+      "number": 8891, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.142939, 
+      "longitude": 11.548748, 
+      "name": "Hackerbr\u00fccke", 
+      "number": 8892, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.116564, 
+      "longitude": 11.539056, 
+      "name": "Harras", 
+      "number": 8879, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.133633, 
+      "longitude": 11.533697, 
+      "name": "Heimeranplatz", 
+      "number": 8869, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.125179, 
+      "longitude": 11.541297, 
+      "name": "Herzog-Ernst-Platz", 
+      "number": 8880, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.154061, 
+      "longitude": 11.553513, 
+      "name": "Hochschule M\u00fcnchen", 
+      "number": 8893, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.16106058151, 
+      "longitude": 11.56799567867, 
+      "name": "Hohenzollernplatz", 
+      "number": 8916, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.119676, 
+      "longitude": 11.548198, 
+      "name": "Implerstra\u00dfe", 
+      "number": 8894, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 2, 
+      "latitude": 48.161772, 
+      "longitude": 11.553114, 
+      "name": "Infanteriestra\u00dfe", 
+      "number": 8895, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.120627, 
+      "longitude": 11.617856, 
+      "name": "Innsbrucker Ring", 
+      "number": 8961, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.134847779868, 
+      "longitude": 11.583087444305, 
+      "name": "Isartor", 
+      "number": 8929, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.173756, 
+      "longitude": 11.535262, 
+      "name": "IT@M", 
+      "number": 8821, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 1, 
+      "latitude": 48.155143, 
+      "longitude": 11.566763, 
+      "name": "Josephsplatz", 
+      "number": 8917, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.118118810109, 
+      "longitude": 11.609416007996, 
+      "name": "Karl-Preis-Platz", 
+      "number": 8954, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.140052, 
+      "longitude": 11.564655, 
+      "name": "Karlsplatz", 
+      "number": 8918, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.109438, 
+      "longitude": 11.474976, 
+      "name": "Klinikum Gro\u00dfhadern", 
+      "number": 8851, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.086635, 
+      "longitude": 11.554905, 
+      "name": "Klinikum Harlaching", 
+      "number": 8896, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.120442, 
+      "longitude": 11.576512, 
+      "name": "Kolumbusplatz", 
+      "number": 8930, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.123755, 
+      "longitude": 11.548709, 
+      "name": "Kreisverwaltungsreferat", 
+      "number": 8906, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.13548, 
+      "longitude": 11.503531, 
+      "name": "Laimer Platz", 
+      "number": 8857, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 2, 
+      "latitude": 48.139401470067, 
+      "longitude": 11.588881015778, 
+      "name": "Lehel", 
+      "number": 8940, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.159515927492, 
+      "longitude": 11.546545028687, 
+      "name": "Leonrodplatz", 
+      "number": 8897, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 1, 
+      "latitude": 48.150387, 
+      "longitude": 11.544791, 
+      "name": "Maillingerstra\u00dfe", 
+      "number": 8898, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.097853, 
+      "longitude": 11.581266, 
+      "name": "Mangfallplatz", 
+      "number": 8931, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.119983, 
+      "longitude": 11.540533, 
+      "name": "Margaretenplatz", 
+      "number": 8881, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 2, 
+      "latitude": 48.138255997208, 
+      "longitude": 11.576854832347, 
+      "name": "Marienplatz", 
+      "number": 8932, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 2, 
+      "latitude": 48.135795, 
+      "longitude": 11.598703, 
+      "name": "Max-Weber-Platz", 
+      "number": 8948, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.133231, 
+      "longitude": 11.689663, 
+      "name": "Messestadt West", 
+      "number": 8971, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.11913229957, 
+      "longitude": 11.630562543869, 
+      "name": "Michaelibad", 
+      "number": 8963, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.108988, 
+      "longitude": 11.536077, 
+      "name": "Mittersendling", 
+      "number": 8882, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.181027, 
+      "longitude": 11.506213, 
+      "name": "Moosach", 
+      "number": 8858, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 1, 
+      "latitude": 48.162734, 
+      "longitude": 11.586536, 
+      "name": "M\u00fcnchner Freiheit", 
+      "number": 8941, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.176418, 
+      "longitude": 11.506589, 
+      "name": "Netzerstra\u00dfe", 
+      "number": 8980, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.089578, 
+      "longitude": 11.644626, 
+      "name": "Neuperlach S\u00fcd", 
+      "number": 8969, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.160208, 
+      "longitude": 11.564191, 
+      "name": "Nordbad", 
+      "number": 8912, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 2, 
+      "latitude": 48.173771, 
+      "longitude": 11.597309, 
+      "name": "Nordfriedhof", 
+      "number": 8949, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.185973, 
+      "longitude": 11.547581, 
+      "name": "Oberwiesenfeld", 
+      "number": 8973, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.181853, 
+      "longitude": 11.529929, 
+      "name": "Olympia-Einkaufszentrum", 
+      "number": 8870, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.178416, 
+      "longitude": 11.556576, 
+      "name": "Olympiazentrum", 
+      "number": 8913, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.117123, 
+      "longitude": 11.526344, 
+      "name": "Partnachplatz", 
+      "number": 8871, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.17103, 
+      "longitude": 11.584925, 
+      "name": "Parzivalplatz", 
+      "number": 8943, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.175195, 
+      "longitude": 11.56624, 
+      "name": "Petuelring", 
+      "number": 8920, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.132416, 
+      "longitude": 11.571441, 
+      "name": "Planungsreferat", 
+      "number": 8924, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.154133, 
+      "longitude": 11.511574, 
+      "name": "Romanplatz", 
+      "number": 8859, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.152895, 
+      "longitude": 11.532981, 
+      "name": "Rotkreuzplatz", 
+      "number": 8872, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.171051, 
+      "longitude": 11.572876, 
+      "name": "Scheidplatz", 
+      "number": 8921, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.160057, 
+      "longitude": 11.505439, 
+      "name": "Schloss Nymphenburg", 
+      "number": 8860, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.186927, 
+      "longitude": 11.591119, 
+      "name": "Schwabing Nord", 
+      "number": 8945, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 3, 
+      "latitude": 48.10331, 
+      "longitude": 11.597364, 
+      "name": "Schwanseestra\u00dfe", 
+      "number": 8951, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 2, 
+      "latitude": 48.133633, 
+      "longitude": 11.544081, 
+      "name": "Schwanthalerh\u00f6he", 
+      "number": 8883, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 2, 
+      "latitude": 48.115488, 
+      "longitude": 11.580735, 
+      "name": "Silberhornstra\u00dfe", 
+      "number": 8934, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.176093, 
+      "longitude": 11.631521, 
+      "name": "St. Emmeram", 
+      "number": 8965, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.14694, 
+      "longitude": 11.559044, 
+      "name": "Stiglmaierplatz", 
+      "number": 8914, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.171239, 
+      "longitude": 11.531241, 
+      "name": "SWM Zentrale, Haupteingang", 
+      "number": 8875, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.150101, 
+      "longitude": 11.568184, 
+      "name": "Technische Universit\u00e4t M\u00fcnchen", 
+      "number": 8926, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.101272, 
+      "longitude": 11.546429, 
+      "name": "Thalkirchen (Tierpark)", 
+      "number": 8901, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 4, 
+      "latitude": 48.138962, 
+      "longitude": 11.534843, 
+      "name": "Trappentreustra\u00dfe", 
+      "number": 8823, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.149538, 
+      "longitude": 11.580649, 
+      "name": "Universit\u00e4t", 
+      "number": 8935, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.112947195717, 
+      "longitude": 11.58759355545, 
+      "name": "Untersbergstra\u00dfe", 
+      "number": 8946, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.137206, 
+      "longitude": 11.620129, 
+      "name": "Vogelweideplatz", 
+      "number": 8922, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.134657, 
+      "longitude": 11.522706, 
+      "name": "Westendstra\u00dfe", 
+      "number": 8865, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 0, 
+      "latitude": 48.169119409919, 
+      "longitude": 11.52916431427, 
+      "name": "Westfriedhof", 
+      "number": 8873, 
+      "provider": "mvg"
+    }, 
+    {
+      "availableBikes": 5, 
+      "latitude": 48.118452, 
+      "longitude": 11.515564, 
+      "name": "Westpark", 
+      "number": 8866, 
+      "provider": "mvg"
+    }
+  ]
+}

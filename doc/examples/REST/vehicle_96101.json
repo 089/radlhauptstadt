@@ -1,0 +1,12 @@
+https://www.martinzell.de/radlhauptstadt/rest/api/v0.9/provider/mvg/vehicle/96101
+{
+  "vehicles": [
+    {
+      "latitude": 48.12344227, 
+      "longitude": 11.55498563, 
+      "number": 96101, 
+      "provider": "mvg", 
+      "type": "bike"
+    }
+  ]
+}

@@ -1,0 +1,4135 @@
+//https://www.martinzell.de/radlhauptstadt/rest/api/v0.9/provider/mvg/vehicle
+{
+  "vehicles": [
+    {
+      "latitude": 48.12344227, 
+      "longitude": 11.55498563, 
+      "number": 96101, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16000718, 
+      "longitude": 11.59170767, 
+      "number": 96106, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1394972, 
+      "longitude": 11.52505768, 
+      "number": 96109, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10217502, 
+      "longitude": 11.55830468, 
+      "number": 96111, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1732997, 
+      "longitude": 11.53128652, 
+      "number": 96112, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15998512, 
+      "longitude": 11.5706385, 
+      "number": 96119, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12973065, 
+      "longitude": 11.59274597, 
+      "number": 96120, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11809043, 
+      "longitude": 11.57230982, 
+      "number": 96123, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1805282, 
+      "longitude": 11.57924512, 
+      "number": 96127, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16353355, 
+      "longitude": 11.51725533, 
+      "number": 96129, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18119688, 
+      "longitude": 11.59658847, 
+      "number": 96130, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15563368, 
+      "longitude": 11.58552442, 
+      "number": 96132, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16016203, 
+      "longitude": 11.57861147, 
+      "number": 96138, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16186438, 
+      "longitude": 11.56927138, 
+      "number": 96141, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15952897, 
+      "longitude": 11.54526133, 
+      "number": 96143, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15994145, 
+      "longitude": 11.55496817, 
+      "number": 96145, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16683582, 
+      "longitude": 11.63334695, 
+      "number": 96147, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16199285, 
+      "longitude": 11.56519655, 
+      "number": 96155, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11499175, 
+      "longitude": 11.5488229, 
+      "number": 96156, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10777418, 
+      "longitude": 11.56500638, 
+      "number": 96157, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16010752, 
+      "longitude": 11.5917935, 
+      "number": 96159, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18437285, 
+      "longitude": 11.61051612, 
+      "number": 96160, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1819563, 
+      "longitude": 11.59770827, 
+      "number": 96163, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16662875, 
+      "longitude": 11.57717752, 
+      "number": 96166, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14152153, 
+      "longitude": 11.57516833, 
+      "number": 96167, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10287513, 
+      "longitude": 11.59192682, 
+      "number": 96169, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13821628, 
+      "longitude": 11.56381678, 
+      "number": 96170, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15222042, 
+      "longitude": 11.56248645, 
+      "number": 96176, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15211197, 
+      "longitude": 11.56561543, 
+      "number": 96177, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10866592, 
+      "longitude": 11.56812923, 
+      "number": 96179, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14411197, 
+      "longitude": 11.5722723, 
+      "number": 96180, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15190135, 
+      "longitude": 11.56486223, 
+      "number": 96181, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15039182, 
+      "longitude": 11.52008063, 
+      "number": 96186, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.129045, 
+      "longitude": 11.59272505, 
+      "number": 96188, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16170257, 
+      "longitude": 11.54248587, 
+      "number": 96190, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17095167, 
+      "longitude": 11.56238425, 
+      "number": 96191, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17356492, 
+      "longitude": 11.5030649, 
+      "number": 96195, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13180947, 
+      "longitude": 11.55667423, 
+      "number": 96196, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12919038, 
+      "longitude": 11.57140512, 
+      "number": 96198, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14350365, 
+      "longitude": 11.5684089, 
+      "number": 96200, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18525438, 
+      "longitude": 11.60320207, 
+      "number": 96202, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15484125, 
+      "longitude": 11.58083935, 
+      "number": 96204, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18546878, 
+      "longitude": 11.60356983, 
+      "number": 96205, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.09451683, 
+      "longitude": 11.60628723, 
+      "number": 96206, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15937377, 
+      "longitude": 11.57840618, 
+      "number": 96207, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1016658, 
+      "longitude": 11.51891752, 
+      "number": 96208, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11210715, 
+      "longitude": 11.62507173, 
+      "number": 96212, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13943268, 
+      "longitude": 11.58079612, 
+      "number": 96214, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14280263, 
+      "longitude": 11.57763867, 
+      "number": 96220, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13527088, 
+      "longitude": 11.56339355, 
+      "number": 96223, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12060783, 
+      "longitude": 11.62016787, 
+      "number": 96225, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11566898, 
+      "longitude": 11.59424168, 
+      "number": 96226, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18367357, 
+      "longitude": 11.53777765, 
+      "number": 96227, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12558427, 
+      "longitude": 11.57465772, 
+      "number": 96228, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15962007, 
+      "longitude": 11.59983687, 
+      "number": 96229, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13775227, 
+      "longitude": 11.5912824, 
+      "number": 96232, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13758352, 
+      "longitude": 11.62425022, 
+      "number": 96234, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17424795, 
+      "longitude": 11.58385527, 
+      "number": 96235, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.19343185, 
+      "longitude": 11.56974803, 
+      "number": 96240, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10049117, 
+      "longitude": 11.5853843, 
+      "number": 96243, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1279955, 
+      "longitude": 11.58278493, 
+      "number": 96244, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10587795, 
+      "longitude": 11.5753021, 
+      "number": 96249, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15662413, 
+      "longitude": 11.54855912, 
+      "number": 96253, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12238905, 
+      "longitude": 11.5656707, 
+      "number": 96254, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15457517, 
+      "longitude": 11.5564357, 
+      "number": 96255, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12413693, 
+      "longitude": 11.61414502, 
+      "number": 96257, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18876227, 
+      "longitude": 11.61417127, 
+      "number": 96258, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11412495, 
+      "longitude": 11.61377652, 
+      "number": 96263, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17422498, 
+      "longitude": 11.55150077, 
+      "number": 96269, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17812393, 
+      "longitude": 11.5954148, 
+      "number": 96271, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15677002, 
+      "longitude": 11.56393682, 
+      "number": 96274, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14799627, 
+      "longitude": 11.55225072, 
+      "number": 96275, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18390103, 
+      "longitude": 11.563092, 
+      "number": 96276, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17970658, 
+      "longitude": 11.5847324, 
+      "number": 96277, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18687753, 
+      "longitude": 11.58129777, 
+      "number": 96280, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14786358, 
+      "longitude": 11.55681567, 
+      "number": 96281, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12247187, 
+      "longitude": 11.54847702, 
+      "number": 96284, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10108473, 
+      "longitude": 11.6076333, 
+      "number": 96285, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17790177, 
+      "longitude": 11.59634142, 
+      "number": 96286, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11734255, 
+      "longitude": 11.60168607, 
+      "number": 96288, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15132853, 
+      "longitude": 11.59770607, 
+      "number": 96292, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13718727, 
+      "longitude": 11.52450208, 
+      "number": 96293, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16485628, 
+      "longitude": 11.60823445, 
+      "number": 96294, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14521138, 
+      "longitude": 11.61669368, 
+      "number": 96298, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17708468, 
+      "longitude": 11.53297387, 
+      "number": 96299, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18997042, 
+      "longitude": 11.5655141, 
+      "number": 96301, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15014662, 
+      "longitude": 11.54581498, 
+      "number": 96302, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18751405, 
+      "longitude": 11.57135067, 
+      "number": 96303, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13757492, 
+      "longitude": 11.59067967, 
+      "number": 96308, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13604258, 
+      "longitude": 11.56826958, 
+      "number": 96309, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16497033, 
+      "longitude": 11.51074957, 
+      "number": 96311, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15598287, 
+      "longitude": 11.54893918, 
+      "number": 96312, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14322073, 
+      "longitude": 11.55803017, 
+      "number": 96313, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14698238, 
+      "longitude": 11.57964517, 
+      "number": 96316, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17333967, 
+      "longitude": 11.54407477, 
+      "number": 96317, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15551342, 
+      "longitude": 11.58392367, 
+      "number": 96318, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13023018, 
+      "longitude": 11.55564598, 
+      "number": 96319, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12933715, 
+      "longitude": 11.64322075, 
+      "number": 96321, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17630938, 
+      "longitude": 11.53752198, 
+      "number": 96322, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11840197, 
+      "longitude": 11.63293823, 
+      "number": 96323, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12629362, 
+      "longitude": 11.5723485, 
+      "number": 96325, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13372913, 
+      "longitude": 11.60330862, 
+      "number": 96326, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.19323528, 
+      "longitude": 11.5724013, 
+      "number": 96331, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15874833, 
+      "longitude": 11.5830119, 
+      "number": 96333, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11705275, 
+      "longitude": 11.54353713, 
+      "number": 96336, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12330757, 
+      "longitude": 11.63491248, 
+      "number": 96338, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16416198, 
+      "longitude": 11.58303638, 
+      "number": 96342, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17328072, 
+      "longitude": 11.5445118, 
+      "number": 96345, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15513463, 
+      "longitude": 11.5289497, 
+      "number": 96346, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.144417, 
+      "longitude": 11.59180065, 
+      "number": 96347, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.160286, 
+      "longitude": 11.575491, 
+      "number": 96349, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12584077, 
+      "longitude": 11.56981453, 
+      "number": 96353, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18262963, 
+      "longitude": 11.56887265, 
+      "number": 96354, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15727633, 
+      "longitude": 11.53939772, 
+      "number": 96355, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14102035, 
+      "longitude": 11.62745667, 
+      "number": 96357, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10241668, 
+      "longitude": 11.60900688, 
+      "number": 96358, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.08817165, 
+      "longitude": 11.59541117, 
+      "number": 96361, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13291808, 
+      "longitude": 11.60795913, 
+      "number": 96363, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14509632, 
+      "longitude": 11.53303613, 
+      "number": 96364, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12884763, 
+      "longitude": 11.5437436, 
+      "number": 96365, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1487312, 
+      "longitude": 11.46180697, 
+      "number": 96367, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1376526, 
+      "longitude": 11.5815721, 
+      "number": 96369, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18716033, 
+      "longitude": 11.5637201, 
+      "number": 96370, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15060495, 
+      "longitude": 11.56696247, 
+      "number": 96371, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15212377, 
+      "longitude": 11.56144713, 
+      "number": 96373, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1036686, 
+      "longitude": 11.5398972, 
+      "number": 96374, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16916333, 
+      "longitude": 11.57395122, 
+      "number": 96375, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17399445, 
+      "longitude": 11.47851832, 
+      "number": 96376, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11532333, 
+      "longitude": 11.55065777, 
+      "number": 96377, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10882775, 
+      "longitude": 11.5512843, 
+      "number": 96378, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14809128, 
+      "longitude": 11.5738129, 
+      "number": 96379, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10593252, 
+      "longitude": 11.5630342, 
+      "number": 96382, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13074267, 
+      "longitude": 11.6849222, 
+      "number": 96383, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14188275, 
+      "longitude": 11.56954743, 
+      "number": 96384, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1543901, 
+      "longitude": 11.57399512, 
+      "number": 96387, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13861435, 
+      "longitude": 11.60727485, 
+      "number": 96391, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13993472, 
+      "longitude": 11.51878433, 
+      "number": 96392, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13223935, 
+      "longitude": 11.6099846, 
+      "number": 96393, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15088053, 
+      "longitude": 11.54002305, 
+      "number": 96394, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12809858, 
+      "longitude": 11.54369988, 
+      "number": 96399, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14269873, 
+      "longitude": 11.60464228, 
+      "number": 96401, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13951285, 
+      "longitude": 11.60961798, 
+      "number": 96402, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12112567, 
+      "longitude": 11.5493687, 
+      "number": 96404, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16250968, 
+      "longitude": 11.57424813, 
+      "number": 96412, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15129268, 
+      "longitude": 11.57689065, 
+      "number": 96414, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14825943, 
+      "longitude": 11.57310412, 
+      "number": 96416, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17681535, 
+      "longitude": 11.51351808, 
+      "number": 96418, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10967888, 
+      "longitude": 11.58534318, 
+      "number": 96419, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15427087, 
+      "longitude": 11.513387, 
+      "number": 96420, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14582662, 
+      "longitude": 11.57002572, 
+      "number": 96424, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18284792, 
+      "longitude": 11.59479592, 
+      "number": 96426, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14305388, 
+      "longitude": 11.55220667, 
+      "number": 96427, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15086578, 
+      "longitude": 11.59493712, 
+      "number": 96429, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13684693, 
+      "longitude": 11.56190898, 
+      "number": 96433, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1357002, 
+      "longitude": 11.56062385, 
+      "number": 96435, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17122552, 
+      "longitude": 11.58756015, 
+      "number": 96437, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14573727, 
+      "longitude": 11.59416432, 
+      "number": 96439, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10542203, 
+      "longitude": 11.5911854, 
+      "number": 96440, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13768012, 
+      "longitude": 11.57142548, 
+      "number": 96442, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12545323, 
+      "longitude": 11.54926247, 
+      "number": 96447, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10907587, 
+      "longitude": 11.57450212, 
+      "number": 96449, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18864095, 
+      "longitude": 11.5864669, 
+      "number": 96450, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1529202, 
+      "longitude": 11.57369598, 
+      "number": 96455, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.08813087, 
+      "longitude": 11.59550635, 
+      "number": 96458, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14750073, 
+      "longitude": 11.56201305, 
+      "number": 96459, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12656217, 
+      "longitude": 11.61536285, 
+      "number": 96460, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15175733, 
+      "longitude": 11.5285283, 
+      "number": 96462, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1429812, 
+      "longitude": 11.5537279, 
+      "number": 96467, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17422595, 
+      "longitude": 11.59514403, 
+      "number": 96469, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15016278, 
+      "longitude": 11.57873282, 
+      "number": 96470, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18894038, 
+      "longitude": 11.58059613, 
+      "number": 96471, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11455963, 
+      "longitude": 11.57913605, 
+      "number": 96472, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13888862, 
+      "longitude": 11.5738564, 
+      "number": 96477, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14461432, 
+      "longitude": 11.60197848, 
+      "number": 96479, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.09350613, 
+      "longitude": 11.56286262, 
+      "number": 96481, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13841433, 
+      "longitude": 11.619136, 
+      "number": 96482, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14124357, 
+      "longitude": 11.58496953, 
+      "number": 96483, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12673668, 
+      "longitude": 11.532142, 
+      "number": 96485, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15679778, 
+      "longitude": 11.54770973, 
+      "number": 96486, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1400248, 
+      "longitude": 11.58659027, 
+      "number": 96487, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12797962, 
+      "longitude": 11.53471098, 
+      "number": 96488, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17621735, 
+      "longitude": 11.58664778, 
+      "number": 96489, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13582772, 
+      "longitude": 11.60211717, 
+      "number": 96491, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15502702, 
+      "longitude": 11.57967652, 
+      "number": 96493, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1470905, 
+      "longitude": 11.56326818, 
+      "number": 96495, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17901637, 
+      "longitude": 11.5515543, 
+      "number": 96496, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17543127, 
+      "longitude": 11.58870647, 
+      "number": 96498, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14524775, 
+      "longitude": 11.53032752, 
+      "number": 96502, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17555022, 
+      "longitude": 11.517959, 
+      "number": 96505, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16296582, 
+      "longitude": 11.5417972, 
+      "number": 96506, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15472218, 
+      "longitude": 11.55978355, 
+      "number": 96510, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11166785, 
+      "longitude": 11.60377895, 
+      "number": 96513, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10888958, 
+      "longitude": 11.58288665, 
+      "number": 96515, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16919148, 
+      "longitude": 11.53446408, 
+      "number": 96516, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12736642, 
+      "longitude": 11.58506365, 
+      "number": 96518, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14431153, 
+      "longitude": 11.57828657, 
+      "number": 96519, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18180908, 
+      "longitude": 11.58939447, 
+      "number": 96520, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15704977, 
+      "longitude": 11.57285302, 
+      "number": 96522, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16081487, 
+      "longitude": 11.59823873, 
+      "number": 96523, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15492187, 
+      "longitude": 11.57934852, 
+      "number": 96524, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16285817, 
+      "longitude": 11.53749148, 
+      "number": 96528, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10162235, 
+      "longitude": 11.5469948, 
+      "number": 96531, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14692262, 
+      "longitude": 11.57548273, 
+      "number": 96532, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.187788, 
+      "longitude": 11.5729793, 
+      "number": 96536, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16094768, 
+      "longitude": 11.57595585, 
+      "number": 96537, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14234408, 
+      "longitude": 11.570975, 
+      "number": 96538, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12236723, 
+      "longitude": 11.59827152, 
+      "number": 96543, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11434523, 
+      "longitude": 11.5826269, 
+      "number": 96546, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17472187, 
+      "longitude": 11.58613307, 
+      "number": 96548, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15761212, 
+      "longitude": 11.50343857, 
+      "number": 96550, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16517552, 
+      "longitude": 11.51202608, 
+      "number": 96551, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14040237, 
+      "longitude": 11.52458055, 
+      "number": 96554, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17986463, 
+      "longitude": 11.54761423, 
+      "number": 96555, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18366817, 
+      "longitude": 11.60943435, 
+      "number": 96556, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16635637, 
+      "longitude": 11.51469425, 
+      "number": 96557, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14279193, 
+      "longitude": 11.56992342, 
+      "number": 96560, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16363823, 
+      "longitude": 11.56530377, 
+      "number": 96562, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13825235, 
+      "longitude": 11.58031815, 
+      "number": 96563, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12659052, 
+      "longitude": 11.57753075, 
+      "number": 96564, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14514592, 
+      "longitude": 11.54045637, 
+      "number": 96565, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15877748, 
+      "longitude": 11.5821275, 
+      "number": 96566, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15588062, 
+      "longitude": 11.58208532, 
+      "number": 96570, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12291527, 
+      "longitude": 11.56355867, 
+      "number": 96572, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13992495, 
+      "longitude": 11.592256, 
+      "number": 96575, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13370785, 
+      "longitude": 11.58305613, 
+      "number": 96576, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18810255, 
+      "longitude": 11.61324212, 
+      "number": 96577, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1455918, 
+      "longitude": 11.52669647, 
+      "number": 96578, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15876668, 
+      "longitude": 11.5400316, 
+      "number": 96579, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.0986425, 
+      "longitude": 11.51172195, 
+      "number": 96581, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17091705, 
+      "longitude": 11.58646477, 
+      "number": 96582, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17268697, 
+      "longitude": 11.57381773, 
+      "number": 96584, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12561657, 
+      "longitude": 11.54852682, 
+      "number": 96587, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12413338, 
+      "longitude": 11.54493675, 
+      "number": 96589, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14886702, 
+      "longitude": 11.52707832, 
+      "number": 96590, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18073958, 
+      "longitude": 11.54577067, 
+      "number": 96594, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15088915, 
+      "longitude": 11.5948246, 
+      "number": 96595, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12680475, 
+      "longitude": 11.57099857, 
+      "number": 96597, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15362028, 
+      "longitude": 11.59953803, 
+      "number": 96598, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12540567, 
+      "longitude": 11.52531095, 
+      "number": 96600, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16299273, 
+      "longitude": 11.58947915, 
+      "number": 96603, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17844828, 
+      "longitude": 11.58715472, 
+      "number": 96604, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1628032, 
+      "longitude": 11.57318773, 
+      "number": 96606, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16848363, 
+      "longitude": 11.56270738, 
+      "number": 96609, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13355997, 
+      "longitude": 11.52184508, 
+      "number": 96612, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1315053, 
+      "longitude": 11.58815967, 
+      "number": 96619, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1009038, 
+      "longitude": 11.54692487, 
+      "number": 96621, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17803082, 
+      "longitude": 11.59233705, 
+      "number": 96625, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10189715, 
+      "longitude": 11.57243195, 
+      "number": 96628, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12819942, 
+      "longitude": 11.57278845, 
+      "number": 96630, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16638217, 
+      "longitude": 11.57179615, 
+      "number": 96636, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14630332, 
+      "longitude": 11.54609907, 
+      "number": 96639, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12571347, 
+      "longitude": 11.58577965, 
+      "number": 96641, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12791657, 
+      "longitude": 11.5883173, 
+      "number": 96644, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16289945, 
+      "longitude": 11.56398463, 
+      "number": 96645, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11964173, 
+      "longitude": 11.60148815, 
+      "number": 96646, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17941093, 
+      "longitude": 11.55321542, 
+      "number": 96647, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.0942739, 
+      "longitude": 11.60627788, 
+      "number": 96650, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12065372, 
+      "longitude": 11.57555412, 
+      "number": 96652, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18518837, 
+      "longitude": 11.51163272, 
+      "number": 96654, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16507473, 
+      "longitude": 11.5347154, 
+      "number": 96655, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15620488, 
+      "longitude": 11.5758889, 
+      "number": 96659, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13831988, 
+      "longitude": 11.56663973, 
+      "number": 96661, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15763388, 
+      "longitude": 11.56143923, 
+      "number": 96662, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17351253, 
+      "longitude": 11.57481492, 
+      "number": 96663, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11335008, 
+      "longitude": 11.5760405, 
+      "number": 96666, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1794801, 
+      "longitude": 11.55072677, 
+      "number": 96668, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14041893, 
+      "longitude": 11.57375343, 
+      "number": 96669, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17256268, 
+      "longitude": 11.57291302, 
+      "number": 96670, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17515702, 
+      "longitude": 11.55573598, 
+      "number": 96674, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17401633, 
+      "longitude": 11.58908713, 
+      "number": 96675, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17007308, 
+      "longitude": 11.5650974, 
+      "number": 96676, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.09589885, 
+      "longitude": 11.58849118, 
+      "number": 96677, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17884882, 
+      "longitude": 11.59525635, 
+      "number": 96678, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1127226, 
+      "longitude": 11.57124342, 
+      "number": 96679, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17701678, 
+      "longitude": 11.53643977, 
+      "number": 96680, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10699337, 
+      "longitude": 11.62783258, 
+      "number": 96681, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16154117, 
+      "longitude": 11.55591693, 
+      "number": 96682, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.170588, 
+      "longitude": 11.572941, 
+      "number": 96683, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16000772, 
+      "longitude": 11.53967738, 
+      "number": 96685, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12398015, 
+      "longitude": 11.61450532, 
+      "number": 96686, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18665467, 
+      "longitude": 11.57952537, 
+      "number": 96688, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13842173, 
+      "longitude": 11.59070463, 
+      "number": 96691, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1647976, 
+      "longitude": 11.54071257, 
+      "number": 96693, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15176155, 
+      "longitude": 11.58053843, 
+      "number": 96695, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14566425, 
+      "longitude": 11.51884075, 
+      "number": 96697, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17889327, 
+      "longitude": 11.59494455, 
+      "number": 96701, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16658725, 
+      "longitude": 11.59019463, 
+      "number": 96703, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1489411, 
+      "longitude": 11.59451133, 
+      "number": 96704, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1457014, 
+      "longitude": 11.5071647, 
+      "number": 96705, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1331319, 
+      "longitude": 11.52090388, 
+      "number": 96706, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10124372, 
+      "longitude": 11.55830295, 
+      "number": 96709, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15108745, 
+      "longitude": 11.54884355, 
+      "number": 96710, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15609403, 
+      "longitude": 11.58282865, 
+      "number": 96711, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13186843, 
+      "longitude": 11.58851247, 
+      "number": 96713, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13287175, 
+      "longitude": 11.55805377, 
+      "number": 96714, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13958058, 
+      "longitude": 11.60003285, 
+      "number": 96716, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16055572, 
+      "longitude": 11.58657125, 
+      "number": 96717, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12678687, 
+      "longitude": 11.5530781, 
+      "number": 96718, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15795658, 
+      "longitude": 11.56797448, 
+      "number": 96719, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12070868, 
+      "longitude": 11.63016455, 
+      "number": 96720, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1233303, 
+      "longitude": 11.60786595, 
+      "number": 96722, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15624643, 
+      "longitude": 11.58286753, 
+      "number": 96723, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1825837, 
+      "longitude": 11.59537658, 
+      "number": 96724, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14682725, 
+      "longitude": 11.56203372, 
+      "number": 96726, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18524593, 
+      "longitude": 11.60312165, 
+      "number": 96728, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18206422, 
+      "longitude": 11.59090065, 
+      "number": 96732, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15255435, 
+      "longitude": 11.54082317, 
+      "number": 96733, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1364294, 
+      "longitude": 11.58633067, 
+      "number": 96735, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17702953, 
+      "longitude": 11.56051993, 
+      "number": 96739, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12940265, 
+      "longitude": 11.57529145, 
+      "number": 96741, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16344467, 
+      "longitude": 11.5745598, 
+      "number": 96742, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13543015, 
+      "longitude": 11.60578178, 
+      "number": 96744, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10870657, 
+      "longitude": 11.57476145, 
+      "number": 96745, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12483127, 
+      "longitude": 11.54896182, 
+      "number": 96747, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13387663, 
+      "longitude": 11.5957375, 
+      "number": 96748, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13864273, 
+      "longitude": 11.55721193, 
+      "number": 96749, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14176847, 
+      "longitude": 11.58510742, 
+      "number": 96753, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14862952, 
+      "longitude": 11.52225432, 
+      "number": 96754, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13779912, 
+      "longitude": 11.56357047, 
+      "number": 96756, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14261412, 
+      "longitude": 11.55200345, 
+      "number": 96759, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14886265, 
+      "longitude": 11.6491759, 
+      "number": 96761, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16957277, 
+      "longitude": 11.60297702, 
+      "number": 96762, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15553227, 
+      "longitude": 11.5742661, 
+      "number": 96765, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15937998, 
+      "longitude": 11.58185007, 
+      "number": 96766, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10743657, 
+      "longitude": 11.57482363, 
+      "number": 96767, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18815908, 
+      "longitude": 11.58369687, 
+      "number": 96775, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11596547, 
+      "longitude": 11.55160887, 
+      "number": 96778, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18302605, 
+      "longitude": 11.60966977, 
+      "number": 96779, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12444912, 
+      "longitude": 11.60199407, 
+      "number": 96782, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15944208, 
+      "longitude": 11.57526702, 
+      "number": 96786, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1545443, 
+      "longitude": 11.55535848, 
+      "number": 96788, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1487852, 
+      "longitude": 11.56697555, 
+      "number": 96789, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15382377, 
+      "longitude": 11.5544118, 
+      "number": 96794, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11810657, 
+      "longitude": 11.5833921, 
+      "number": 96795, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15722933, 
+      "longitude": 11.58467202, 
+      "number": 96796, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12889108, 
+      "longitude": 11.57464765, 
+      "number": 96797, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15268432, 
+      "longitude": 11.5776455, 
+      "number": 96799, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15984015, 
+      "longitude": 11.59810677, 
+      "number": 96804, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13988377, 
+      "longitude": 11.583974, 
+      "number": 96806, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10880982, 
+      "longitude": 11.60629668, 
+      "number": 96808, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14840168, 
+      "longitude": 11.573757, 
+      "number": 96812, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13540338, 
+      "longitude": 11.63312958, 
+      "number": 96816, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15803257, 
+      "longitude": 11.5790367, 
+      "number": 96824, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13223717, 
+      "longitude": 11.56305778, 
+      "number": 96825, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14875393, 
+      "longitude": 11.59530642, 
+      "number": 96826, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.19227882, 
+      "longitude": 11.57483807, 
+      "number": 96827, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13867773, 
+      "longitude": 11.60978205, 
+      "number": 96829, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15188793, 
+      "longitude": 11.57929235, 
+      "number": 96833, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17810778, 
+      "longitude": 11.6017626, 
+      "number": 96834, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1595628, 
+      "longitude": 11.56510325, 
+      "number": 96839, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14807687, 
+      "longitude": 11.54952658, 
+      "number": 96840, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18691718, 
+      "longitude": 11.5332905, 
+      "number": 96842, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11077042, 
+      "longitude": 11.59253942, 
+      "number": 96843, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.097194, 
+      "longitude": 11.56160472, 
+      "number": 96844, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1518944, 
+      "longitude": 11.60517683, 
+      "number": 96845, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14859673, 
+      "longitude": 11.55604482, 
+      "number": 96846, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15013253, 
+      "longitude": 11.56467892, 
+      "number": 96847, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13012445, 
+      "longitude": 11.57305607, 
+      "number": 96848, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14881298, 
+      "longitude": 11.60440865, 
+      "number": 96850, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10606278, 
+      "longitude": 11.61833878, 
+      "number": 96854, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15170918, 
+      "longitude": 11.55397105, 
+      "number": 96855, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12692418, 
+      "longitude": 11.61537708, 
+      "number": 96858, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13558478, 
+      "longitude": 11.58519773, 
+      "number": 96860, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12607033, 
+      "longitude": 11.52667892, 
+      "number": 96863, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14112657, 
+      "longitude": 11.51114238, 
+      "number": 96867, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17623383, 
+      "longitude": 11.5375168, 
+      "number": 96869, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14988865, 
+      "longitude": 11.56363988, 
+      "number": 96871, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14258607, 
+      "longitude": 11.5432466, 
+      "number": 96872, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17813315, 
+      "longitude": 11.59635008, 
+      "number": 96873, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16307257, 
+      "longitude": 11.5449144, 
+      "number": 96876, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11093368, 
+      "longitude": 11.56637893, 
+      "number": 96879, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18793895, 
+      "longitude": 11.58448393, 
+      "number": 96882, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15914043, 
+      "longitude": 11.58416518, 
+      "number": 96884, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12684035, 
+      "longitude": 11.56121368, 
+      "number": 96885, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13171533, 
+      "longitude": 11.60115235, 
+      "number": 96889, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17725513, 
+      "longitude": 11.53229737, 
+      "number": 96891, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1548784, 
+      "longitude": 11.56055062, 
+      "number": 96893, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15081795, 
+      "longitude": 11.58227295, 
+      "number": 96894, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15246068, 
+      "longitude": 11.55526417, 
+      "number": 96895, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15036115, 
+      "longitude": 11.6014818, 
+      "number": 96900, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16882835, 
+      "longitude": 11.58649065, 
+      "number": 96902, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17751585, 
+      "longitude": 11.59779105, 
+      "number": 96906, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10577302, 
+      "longitude": 11.54380297, 
+      "number": 96907, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16099252, 
+      "longitude": 11.62228555, 
+      "number": 96909, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13415498, 
+      "longitude": 11.6078498, 
+      "number": 96911, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13248302, 
+      "longitude": 11.56606682, 
+      "number": 96912, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14672103, 
+      "longitude": 11.569289, 
+      "number": 96913, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14152593, 
+      "longitude": 11.58592195, 
+      "number": 96914, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17211623, 
+      "longitude": 11.5671955, 
+      "number": 96915, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1409469, 
+      "longitude": 11.51866183, 
+      "number": 96918, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13981477, 
+      "longitude": 11.5996752, 
+      "number": 96919, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.183542, 
+      "longitude": 11.607579, 
+      "number": 96921, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15703492, 
+      "longitude": 11.56863672, 
+      "number": 96922, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14412762, 
+      "longitude": 11.59524598, 
+      "number": 96925, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18045992, 
+      "longitude": 11.57915218, 
+      "number": 96926, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16226207, 
+      "longitude": 11.58971145, 
+      "number": 96928, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15982485, 
+      "longitude": 11.56485068, 
+      "number": 96931, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12671533, 
+      "longitude": 11.51357477, 
+      "number": 96933, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10322755, 
+      "longitude": 11.58041787, 
+      "number": 96935, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14858292, 
+      "longitude": 11.56848423, 
+      "number": 96936, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18008013, 
+      "longitude": 11.5550511, 
+      "number": 96937, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.09897387, 
+      "longitude": 11.60702712, 
+      "number": 96940, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15592943, 
+      "longitude": 11.57652975, 
+      "number": 96942, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1439755, 
+      "longitude": 11.5551684, 
+      "number": 96944, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15760055, 
+      "longitude": 11.51653767, 
+      "number": 96946, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15085608, 
+      "longitude": 11.56408312, 
+      "number": 96947, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13276737, 
+      "longitude": 11.58410778, 
+      "number": 96948, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1640665, 
+      "longitude": 11.53480665, 
+      "number": 96949, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15598718, 
+      "longitude": 11.58251003, 
+      "number": 96950, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15735842, 
+      "longitude": 11.57072, 
+      "number": 96951, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18110945, 
+      "longitude": 11.58515593, 
+      "number": 96956, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16047868, 
+      "longitude": 11.59164307, 
+      "number": 96960, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13328252, 
+      "longitude": 11.52562043, 
+      "number": 96961, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17574942, 
+      "longitude": 11.56157948, 
+      "number": 96963, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17422167, 
+      "longitude": 11.5614495, 
+      "number": 96964, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17426087, 
+      "longitude": 11.58382832, 
+      "number": 96966, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1604731, 
+      "longitude": 11.5664421, 
+      "number": 96969, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15632005, 
+      "longitude": 11.58898172, 
+      "number": 96971, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14713963, 
+      "longitude": 11.56381292, 
+      "number": 96972, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11714995, 
+      "longitude": 11.57521565, 
+      "number": 96974, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12058175, 
+      "longitude": 11.56165433, 
+      "number": 96979, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13228908, 
+      "longitude": 11.53597392, 
+      "number": 96980, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13152383, 
+      "longitude": 11.55355025, 
+      "number": 96981, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1652584, 
+      "longitude": 11.49447575, 
+      "number": 96982, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15005252, 
+      "longitude": 11.58490978, 
+      "number": 96983, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1283312, 
+      "longitude": 11.59346985, 
+      "number": 96985, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15795007, 
+      "longitude": 11.58619127, 
+      "number": 96988, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16190563, 
+      "longitude": 11.58919153, 
+      "number": 96989, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17423622, 
+      "longitude": 11.59512437, 
+      "number": 96991, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15515923, 
+      "longitude": 11.557765, 
+      "number": 96993, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18071357, 
+      "longitude": 11.59031398, 
+      "number": 96994, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11519097, 
+      "longitude": 11.58837095, 
+      "number": 96995, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12031097, 
+      "longitude": 11.55775538, 
+      "number": 96997, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11616337, 
+      "longitude": 11.6073974, 
+      "number": 96998, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11858402, 
+      "longitude": 11.5769219, 
+      "number": 96999, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17416187, 
+      "longitude": 11.58639485, 
+      "number": 97001, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1528232, 
+      "longitude": 11.55500412, 
+      "number": 97006, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18460925, 
+      "longitude": 11.5666285, 
+      "number": 97007, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17824158, 
+      "longitude": 11.63705058, 
+      "number": 97009, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13887268, 
+      "longitude": 11.5777486, 
+      "number": 97010, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18409017, 
+      "longitude": 11.5970339, 
+      "number": 97011, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11497667, 
+      "longitude": 11.59564657, 
+      "number": 97013, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15101545, 
+      "longitude": 11.55580127, 
+      "number": 97014, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13799932, 
+      "longitude": 11.5497582, 
+      "number": 97017, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16672578, 
+      "longitude": 11.56065105, 
+      "number": 97020, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17326672, 
+      "longitude": 11.53227595, 
+      "number": 97022, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1856751, 
+      "longitude": 11.58765777, 
+      "number": 97023, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15820265, 
+      "longitude": 11.64076435, 
+      "number": 97024, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17996777, 
+      "longitude": 11.54720478, 
+      "number": 97027, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10669642, 
+      "longitude": 11.58233703, 
+      "number": 97028, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17860783, 
+      "longitude": 11.59164733, 
+      "number": 97030, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15264535, 
+      "longitude": 11.53717417, 
+      "number": 97033, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14604578, 
+      "longitude": 11.58405422, 
+      "number": 97034, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1172372, 
+      "longitude": 11.58238968, 
+      "number": 97038, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14820025, 
+      "longitude": 11.54077453, 
+      "number": 97040, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1545551, 
+      "longitude": 11.55526822, 
+      "number": 97041, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13126538, 
+      "longitude": 11.56073465, 
+      "number": 97043, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14737105, 
+      "longitude": 11.60163923, 
+      "number": 97044, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12436782, 
+      "longitude": 11.5901352, 
+      "number": 97045, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1820311, 
+      "longitude": 11.58943837, 
+      "number": 97046, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14772012, 
+      "longitude": 11.51775675, 
+      "number": 97047, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15332282, 
+      "longitude": 11.60825495, 
+      "number": 97050, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1439491, 
+      "longitude": 11.55447442, 
+      "number": 97055, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16876028, 
+      "longitude": 11.53751942, 
+      "number": 97056, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11481678, 
+      "longitude": 11.59372132, 
+      "number": 97059, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1767843, 
+      "longitude": 11.58220065, 
+      "number": 97060, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1281231, 
+      "longitude": 11.61887568, 
+      "number": 97062, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18883787, 
+      "longitude": 11.58639957, 
+      "number": 97064, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14206663, 
+      "longitude": 11.59266253, 
+      "number": 97065, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17549398, 
+      "longitude": 11.64059072, 
+      "number": 97067, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14165412, 
+      "longitude": 11.5137823, 
+      "number": 97073, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15069903, 
+      "longitude": 11.5649427, 
+      "number": 97074, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14765603, 
+      "longitude": 11.54224677, 
+      "number": 97079, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.09474735, 
+      "longitude": 11.59615577, 
+      "number": 97080, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11258612, 
+      "longitude": 11.571525, 
+      "number": 97081, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17546533, 
+      "longitude": 11.60769035, 
+      "number": 97082, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14527105, 
+      "longitude": 11.57335232, 
+      "number": 97083, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14860238, 
+      "longitude": 11.57877432, 
+      "number": 97086, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14352227, 
+      "longitude": 11.5583567, 
+      "number": 97090, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1525714, 
+      "longitude": 11.60545895, 
+      "number": 97091, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15921263, 
+      "longitude": 11.57481238, 
+      "number": 97092, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12140862, 
+      "longitude": 11.52914297, 
+      "number": 97093, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15793722, 
+      "longitude": 11.5767718, 
+      "number": 97094, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14218348, 
+      "longitude": 11.51448525, 
+      "number": 97095, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15014405, 
+      "longitude": 11.62648665, 
+      "number": 97097, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16298882, 
+      "longitude": 11.57843432, 
+      "number": 97098, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18266808, 
+      "longitude": 11.59369158, 
+      "number": 97109, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.106516, 
+      "longitude": 11.594925, 
+      "number": 97112, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15262348, 
+      "longitude": 11.53883788, 
+      "number": 97113, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15859715, 
+      "longitude": 11.58807442, 
+      "number": 97114, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14411297, 
+      "longitude": 11.59321218, 
+      "number": 97117, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18379503, 
+      "longitude": 11.60743607, 
+      "number": 97118, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12069705, 
+      "longitude": 11.60146738, 
+      "number": 97119, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16130872, 
+      "longitude": 11.58105218, 
+      "number": 97122, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.19251122, 
+      "longitude": 11.56324188, 
+      "number": 97124, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13530257, 
+      "longitude": 11.57403548, 
+      "number": 97126, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13673078, 
+      "longitude": 11.56512052, 
+      "number": 97128, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18640237, 
+      "longitude": 11.5156135, 
+      "number": 97129, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17877952, 
+      "longitude": 11.58646527, 
+      "number": 97130, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11487373, 
+      "longitude": 11.5717301, 
+      "number": 97131, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15853988, 
+      "longitude": 11.58192888, 
+      "number": 97134, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12588832, 
+      "longitude": 11.62265955, 
+      "number": 97138, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14256307, 
+      "longitude": 11.57668763, 
+      "number": 97141, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15736485, 
+      "longitude": 11.57820207, 
+      "number": 97142, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15240995, 
+      "longitude": 11.5866389, 
+      "number": 97143, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18002608, 
+      "longitude": 11.59503987, 
+      "number": 97144, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17603487, 
+      "longitude": 11.53742182, 
+      "number": 97145, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15454225, 
+      "longitude": 11.55697815, 
+      "number": 97146, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15204903, 
+      "longitude": 11.52655303, 
+      "number": 97149, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1555056, 
+      "longitude": 11.58590838, 
+      "number": 97150, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12544218, 
+      "longitude": 11.58899523, 
+      "number": 97153, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1318273, 
+      "longitude": 11.57045775, 
+      "number": 97154, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18655905, 
+      "longitude": 11.54379075, 
+      "number": 97155, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16287978, 
+      "longitude": 11.58673837, 
+      "number": 97158, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12299497, 
+      "longitude": 11.58864613, 
+      "number": 97159, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18590318, 
+      "longitude": 11.58753988, 
+      "number": 97162, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14212533, 
+      "longitude": 11.58618092, 
+      "number": 97166, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15273903, 
+      "longitude": 11.51127697, 
+      "number": 97168, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17867443, 
+      "longitude": 11.53801758, 
+      "number": 97169, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1283828, 
+      "longitude": 11.54477405, 
+      "number": 97170, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16729098, 
+      "longitude": 11.53192145, 
+      "number": 97172, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16678455, 
+      "longitude": 11.53478417, 
+      "number": 97174, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15586783, 
+      "longitude": 11.5770142, 
+      "number": 97175, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11215033, 
+      "longitude": 11.54625762, 
+      "number": 97177, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12502562, 
+      "longitude": 11.54931463, 
+      "number": 97178, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15134418, 
+      "longitude": 11.55765932, 
+      "number": 97180, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16614007, 
+      "longitude": 11.5561899, 
+      "number": 97184, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14621178, 
+      "longitude": 11.57504523, 
+      "number": 97186, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14562713, 
+      "longitude": 11.52962643, 
+      "number": 97188, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1333939, 
+      "longitude": 11.56746857, 
+      "number": 97190, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14563435, 
+      "longitude": 11.55811248, 
+      "number": 97193, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17939953, 
+      "longitude": 11.55163868, 
+      "number": 97195, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12236602, 
+      "longitude": 11.59835198, 
+      "number": 97196, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13863758, 
+      "longitude": 11.64476777, 
+      "number": 97198, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.10755635, 
+      "longitude": 11.60231287, 
+      "number": 97201, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11697877, 
+      "longitude": 11.55726565, 
+      "number": 97204, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15766325, 
+      "longitude": 11.5549448, 
+      "number": 97205, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13416975, 
+      "longitude": 11.56810347, 
+      "number": 97208, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11695877, 
+      "longitude": 11.57274812, 
+      "number": 97211, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12590262, 
+      "longitude": 11.54337752, 
+      "number": 97212, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12877598, 
+      "longitude": 11.6226347, 
+      "number": 97213, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11374785, 
+      "longitude": 11.57921045, 
+      "number": 97216, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14399708, 
+      "longitude": 11.55521825, 
+      "number": 97224, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15437043, 
+      "longitude": 11.5578833, 
+      "number": 97226, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13923517, 
+      "longitude": 11.57996693, 
+      "number": 97227, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.176466, 
+      "longitude": 11.5618255, 
+      "number": 97228, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13825245, 
+      "longitude": 11.6202756, 
+      "number": 97232, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14090963, 
+      "longitude": 11.56790978, 
+      "number": 97235, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13253875, 
+      "longitude": 11.56607708, 
+      "number": 97240, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14817518, 
+      "longitude": 11.55598443, 
+      "number": 97242, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11766598, 
+      "longitude": 11.57183992, 
+      "number": 97244, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12519787, 
+      "longitude": 11.53352885, 
+      "number": 97253, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1622713, 
+      "longitude": 11.5901436, 
+      "number": 97254, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14748, 
+      "longitude": 11.58469542, 
+      "number": 97257, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13008638, 
+      "longitude": 11.56019118, 
+      "number": 97258, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12273465, 
+      "longitude": 11.61308373, 
+      "number": 97264, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12683435, 
+      "longitude": 11.57891753, 
+      "number": 97265, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1736388, 
+      "longitude": 11.53231882, 
+      "number": 97267, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12704925, 
+      "longitude": 11.57876017, 
+      "number": 97268, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12380023, 
+      "longitude": 11.57360557, 
+      "number": 97272, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13900158, 
+      "longitude": 11.57553318, 
+      "number": 97274, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1742277, 
+      "longitude": 11.55099295, 
+      "number": 97275, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1795094, 
+      "longitude": 11.58431262, 
+      "number": 97277, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1128913, 
+      "longitude": 11.56710833, 
+      "number": 97279, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.13925632, 
+      "longitude": 11.58402493, 
+      "number": 97282, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14864542, 
+      "longitude": 11.58122137, 
+      "number": 97284, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14916258, 
+      "longitude": 11.57149615, 
+      "number": 97287, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.09569513, 
+      "longitude": 11.595186, 
+      "number": 97289, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16904263, 
+      "longitude": 11.53676278, 
+      "number": 97294, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1556533, 
+      "longitude": 11.5743594, 
+      "number": 97295, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11744133, 
+      "longitude": 11.60090762, 
+      "number": 97297, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16024655, 
+      "longitude": 11.51607295, 
+      "number": 97300, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17860815, 
+      "longitude": 11.5162292, 
+      "number": 97301, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16426187, 
+      "longitude": 11.56618035, 
+      "number": 97302, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.14737907, 
+      "longitude": 11.53515943, 
+      "number": 97303, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18060583, 
+      "longitude": 11.57973192, 
+      "number": 97311, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15052328, 
+      "longitude": 11.62844275, 
+      "number": 97315, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15130727, 
+      "longitude": 11.52260648, 
+      "number": 97317, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18019008, 
+      "longitude": 11.56476857, 
+      "number": 97318, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.138092, 
+      "longitude": 11.5218454, 
+      "number": 97323, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.11554968, 
+      "longitude": 11.59535757, 
+      "number": 97325, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.12321828, 
+      "longitude": 11.60782343, 
+      "number": 97326, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18913217, 
+      "longitude": 11.57841448, 
+      "number": 97327, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15201835, 
+      "longitude": 11.59828215, 
+      "number": 97330, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.17641033, 
+      "longitude": 11.56187882, 
+      "number": 97334, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.15560948, 
+      "longitude": 11.5617167, 
+      "number": 97335, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.16719628, 
+      "longitude": 11.58257837, 
+      "number": 97336, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.1356479, 
+      "longitude": 11.5890305, 
+      "number": 97343, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 48.18110487, 
+      "longitude": 11.59431085, 
+      "number": 97347, 
+      "provider": "mvg", 
+      "type": "bike"
+    }, 
+    {
+      "latitude": 51.3418307, 
+      "longitude": 12.36067373, 
+      "number": 99990, 
+      "provider": "mvg", 
+      "type": "bike"
+    }
+  ]
+}
