@@ -1,7 +1,6 @@
 #!/usr/local/bin/python3
 from flask import Flask, g, jsonify, abort, json
-from flask import make_response
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 
 import mysql.connector as db
 

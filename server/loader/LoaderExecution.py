@@ -1,6 +1,7 @@
 import json
 import mysql.connector as db
 
+from loader.DbRadLoader import DbRadLoader
 from loader.LoaderIteration import LoaderIteration
 from loader.MvgLoader import MvgLoader
 from loader.MysqlHandler import MysqlHandler
@@ -33,9 +34,14 @@ def main():
     allVehicles = []
     allStations = []
 
+    # MVG
     mvgLoader = MvgLoader(id)
     allVehicles += mvgLoader.getVehicles()
     allStations += mvgLoader.getStations()
+
+    # DB-Rad
+    dbRadLoader = DbRadLoader(id)
+    allVehicles += dbRadLoader.getVehicles()
 
     # Step: save objects to database
     mysqlHandler = MysqlHandler()

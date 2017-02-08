@@ -150,11 +150,14 @@ function addArea(){
 
 function generateBicyclePopup(number, type){
     var typeText;
-    if(type == 'bike')
+    if(type == 'bike') {
         typeText = "Fahrrad";
+	} else if(type == 'pedelec') {
+    	typeText = "Radl für Faule";
     //else if(type == 'newType')    <- neue Typen hinzufügen
-    else
+	} else {
         typeText = String(type);
+	}
 
     return '<b>Fahrradnummer:</b> ' + number + '<br>' + '<b>Typ:</b> ' + typeText;
 }
