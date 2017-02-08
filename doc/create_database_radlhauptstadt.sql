@@ -3,7 +3,7 @@ USE `radlhauptstadt`;
 
 DELIMITER $$
 DROP PROCEDURE IF EXISTS `all_stations`$$
-PROCEDURE `all_stations`(IN prov VARCHAR(16))
+CREATE PROCEDURE `all_stations`(IN prov VARCHAR(16))
 BEGIN
 	SELECT * FROM `station` 
 	WHERE 
@@ -12,7 +12,7 @@ BEGIN
 END$$
 
 DROP PROCEDURE IF EXISTS `all_vehicles`$$
-PROCEDURE `all_vehicles`(IN prov VARCHAR(16))
+CREATE PROCEDURE `all_vehicles`(IN prov VARCHAR(16))
 BEGIN
 	SELECT * FROM `vehicle` 
 	WHERE 
@@ -21,7 +21,7 @@ BEGIN
 END$$
 
 DROP PROCEDURE IF EXISTS `one_station`$$
-PROCEDURE `one_station`(IN prov VARCHAR(16), num INT(11))
+CREATE PROCEDURE `one_station`(IN prov VARCHAR(16), num INT(11))
 BEGIN
 	SELECT * FROM `station` 
 	WHERE 
@@ -30,7 +30,7 @@ BEGIN
 END$$
 
 DROP PROCEDURE IF EXISTS `one_vehicle`$$
-PROCEDURE `one_vehicle`(IN prov VARCHAR(16), num INT(11))
+CREATE PROCEDURE `one_vehicle`(IN prov VARCHAR(16), num INT(11))
 BEGIN
 	SELECT * FROM `vehicle` 
 	WHERE 
