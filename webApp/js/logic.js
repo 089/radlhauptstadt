@@ -11,12 +11,7 @@ var dbBicycleLayer = new L.LayerGroup();
 DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
 var dbBicycleReturnAreaLayer = new L.LayerGroup();
 MVV_BICYCLE_RETURN_AREA = "MVV-Rad Rückgabegebiet";
-<<<<<<< HEAD
 var mvvBicycleReturnAreaLayer = new L.LayerGroup();
-=======
-let mvgBicycleReturnAreaLayer = new L.LayerGroup();
->>>>>>> 18fff2e4b6ff823f146c396995afb396e48ae6c9
-
 
 var overlayLayerControl = {
 				[MVG_BICYCLE]: mvgBicycleLayer,
