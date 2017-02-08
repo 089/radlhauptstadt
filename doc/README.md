@@ -1,3 +1,9 @@
+# Schnittstellenanalyse
+
+# Loader
+
+# Datenbank
+
 # Definition der REST-Schnittstelle
 
 In der aktuellen Konfiguration lautet eine vollständige REST-Anfrage z.B. [https://www.martinzell.de/radlhauptstadt**/rest/api/v0.9/provider/mvg/vehicle**](https://www.martinzell.de/radlhauptstadt/rest/api/v0.9/provider/mvg/vehicle)
@@ -22,3 +28,4 @@ In der aktuellen Konfiguration lautet eine vollständige REST-Anfrage z.B. [http
  rel. URL | Methode | Beschreibung | JSON-Antwort |
 ------|------|------|------|
 
+# Technologie
