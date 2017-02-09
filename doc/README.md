@@ -33,3 +33,17 @@ In der aktuellen Konfiguration lautet eine vollständige REST-Anfrage z.B. [http
 ------|------|------|------|
 
 # Technologie
+
+## Frontend 
+
+### Leaflet.js
+
+### jQuery
+
+## Backend
+
+### Python + Flask
+
+## MySQL
+
+
