@@ -19,3 +19,6 @@ Die Anbieter haben Webschnittstellen über die Informationen über Fahrzeuge und
 
 ## Dokumentation
 Weitere Dokumentation kann dem Sourcecode sowie dem Ordner [doc](/doc) entnommen werden. 
+
+## Credits
+Danke an https://robbi5.de/ für die Idee und die Tipps.

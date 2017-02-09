@@ -76,7 +76,26 @@ In der aktuellen Konfiguration lautet eine vollständige REST-Anfrage z.B. [http
 ## Backend
 
 ### Python + Flask
+Die Entscheidung für Python fiel unter anderem wegen folgender Gründe:
+
+1. Auseinandersetzung mit einer neuen Programmiersprache, mit der noch keiner von uns größere Projekte umgesetzt hat. 
+1. Python war auf dem eingesetzten Server bereits vorhanden und kann einfach erweitert werden.
+1. Python kann nicht nur zur objektorientierten Programmierung, sondern auch als Skriptsprache genutzt werden. 
+1. Für Python gibt es gute und einfache REST-Frameworks wie das verwendete Flask. Damit lässt sich mit wenigen Zeilen Code bereits eine umfangreiche REST-Schnittstelle definieren (vgl. Beispiel unten).  
+
+
+```Python
+@app.route('/api/v0.9/provider/<provider>/vehicle', methods=['GET'])
+def all_vehicles(provider):
+    if provider == '':
+        abort(400)
+
+    cursor = g.mysql_db.cursor()
+
+    cursor.callproc('all_vehicles', args=(provider, ))
+
+    return mysqlToVehicle(cursor)
+```
 
 ## MySQL
-
-
+Aufgrund der - bei diesem [Angebot](https://uberspace.de/prices) gut hinnehmbaren - Einschränkungen auf dem Server fiel die Entscheidung schnell auf MySQL. Die Lösung ist derzeit auf MySQL ausgerichtet, könnte aber mit wenig Aufwand auf andere Datenbanken portiert werden. Aufgrund der zur Verfügung stehenden Zeit, haben wir hier bisher noch keine weitere Abstraktion vorgenommen. 
