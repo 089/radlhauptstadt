@@ -8,9 +8,9 @@ Class MysqlHandler, used to insert vehicles and stations to the database.
 class MysqlHandler(object):
 
     # The insert vehicle query with placeholders for the values
-    __insertVehicle = "INSERT INTO vehicle (iteration_id, provider, latitude, longitude, type, number_of_vehicle) VALUES ({}, '{}', {}, {}, '{}', {})"
+    __insertVehicle = "INSERT INTO vehicle (iteration_id, provider, latitude, longitude, type, number_of_vehicle) VALUES ({}, '{}', {}, {}, '{}', '{}')"
     # The insert station query with placeholders for the values
-    __insertStation = "INSERT INTO station (iteration_id, provider, latitude, longitude, name, number_of_station, free_bikes) VALUES ({}, '{}', {}, {}, '{}', {}, {})"
+    __insertStation = "INSERT INTO station (iteration_id, provider, latitude, longitude, name, number_of_station, free_bikes) VALUES ({}, '{}', {}, {}, '{}', '{}', {})"
 
     def saveVehicles(self, connection, vehicles):
         """
