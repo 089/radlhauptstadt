@@ -6,13 +6,17 @@ from loader.LoaderIteration import LoaderIteration
 from loader.MvgLoader import MvgLoader
 from loader.MysqlHandler import MysqlHandler
 
-
 class LoaderExecution(object):
 
     def __init__(self, connection):
         self.__dbconnection = connection
 
+
 def main():
+    """
+    Main Function for the LoaderExecution, connects to the database and calls the loaders.
+    After that, the results are handed over to MysqlHandler
+    """
     config_file_name = ('config.json')
 
     # Step: load config
