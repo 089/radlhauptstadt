@@ -27,6 +27,8 @@ Von den JSON-Daten interessieren uns nur die Einträge, die im Array `['countrie
     * bike_numbers: z.B. "97162" 
     
 ## DB-Rad
+Zuerst wollten wir die öffentlich dokumentierte [Schnittstelle](https://xml.dbcarsharing-buchung.de/hal2_cabserver/hal2_cabserver_2.php) per SOAP einbinden. Letztlich haben wir aber in einem ähnlichen 
+Projekt namens [Pybikes](https://github.com/eskerda/pybikes) eine URL zu einer JSON Datei gefunden, die wir an unsere Bedürfnisse angepasst haben. 
 
 # Loader
 
