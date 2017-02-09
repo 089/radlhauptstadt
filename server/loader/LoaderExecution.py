@@ -5,6 +5,8 @@ from loader.DbRadLoader import DbRadLoader
 from loader.LoaderIteration import LoaderIteration
 from loader.MvgLoader import MvgLoader
 from loader.MysqlHandler import MysqlHandler
+from loader.Car2GoLoader import Car2GoLoader
+
 
 class LoaderExecution(object):
 
@@ -52,6 +54,12 @@ def main():
     dbRadLoader = DbRadLoader(id)
     allVehicles += dbRadLoader.getVehicles()
     print('DbLoader finished')
+
+    #car2go
+    print('starting car2goLoader')
+    car2goLoader = Car2GoLoader(id)
+    allVehicles += car2goLoader.getVehicles()
+    print('car2goLoader finished')
 
     # Step: save objects to database
     print('starting MysqlHandler')
