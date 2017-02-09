@@ -4,6 +4,8 @@
 // - overlayLayerControl muss um eine Zeile ergänzt werden.
 // - Bei der Erzeugung der Karte muss der neue Layer übergeben werden.
 // - In addMarker muss ein neuer Pfad hinzugefügt werden.
+// - In layer2String muss ein neues Mapping des internen provider-Kürzels
+//   zu einem lesbaren String hinzugefügt werden.
 MVG_BICYCLE = "mvg";
 var mvgBicycleLayer = new L.LayerGroup();
 DB_BICYCLE = "dbrad";
@@ -15,12 +17,24 @@ var mvgBicycleReturnAreaLayer = new L.LayerGroup();
 CAR_2_GO = "car2go";
 var car2goLayer = new L.LayerGroup();
 
+var layer2String = {};
+layer2String[MVG_BICYCLE] = "MVG-Rad";
+layer2String[DB_BICYCLE] = "call a bike";
+layer2String[DB_BICYCLE_RETURN_AREA] = "call a bike Rückgabegebiet";
+layer2String[MVV_BICYCLE_RETURN_AREA] = "MVG-Rad Rückgabegebiet";
+layer2String[CAR_2_GO] = "car2go";
+
+var type2String = {};
+type2String['bike'] = "Fahrrad";
+type2String['pedelec'] = "Radl für Faule";
+type2String['car'] = "Auto";
+
 var overlayLayerControl = {
-				[MVG_BICYCLE]: mvgBicycleLayer,
-                [DB_BICYCLE]: dbBicycleLayer,
-    			[CAR_2_GO]: car2goLayer,
-                [MVV_BICYCLE_RETURN_AREA]: mvgBicycleReturnAreaLayer,
-    			[DB_BICYCLE_RETURN_AREA]: dbBicycleReturnAreaLayer
+				[layer2String[MVG_BICYCLE]]: mvgBicycleLayer,
+                [layer2String[DB_BICYCLE]]: dbBicycleLayer,
+                [layer2String[CAR_2_GO]]: car2goLayer,
+                [layer2String[MVV_BICYCLE_RETURN_AREA]]: mvgBicycleReturnAreaLayer,
+                [layer2String[DB_BICYCLE_RETURN_AREA]]: dbBicycleReturnAreaLayer
 	};
 
 // create icons
@@ -83,11 +97,14 @@ function create(){
 	map.removeLayer(dbBicycleReturnAreaLayer);
 }
 
-// Fügt einen Fahrrad-Marker hinzu...
+// Fügt einen Fahrzeug-Marker hinzu...
 // Latitude und longitude entsprichen den Koordinaten.
 // Als Provider wird eine der oben definierten Konstanten MVG_BICYCLE, DB_BICYCLE... übergeben.
-// der popupText ist ein beliebiger String, der später im Popup eines Markers angezeigt wird.
-function addVehicleMarker(latitude, longitude, provider, popupText){
+// Als Typ wird das interne Typen-Kürzel übergeben.
+// Als Provider das interne provider-Kürzel.
+// Als number wird die Fahrzeugnummer (provider-Abhängig -> mehrdeutig) übergeben.
+function addVehicleMarker(latitude, longitude, type, provider, number){
+    var popupText = generateVehiclePopup(type, provider, number);
 	switch(provider){
 		case MVG_BICYCLE:
 			L.marker([latitude, longitude], {icon: mvvBicycleIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
@@ -100,14 +117,23 @@ function addVehicleMarker(latitude, longitude, provider, popupText){
 	}
 }
 
+function generateVehiclePopup(type, provider, number){
+    var typeText = type2String[type];
+
+    return'<b>Anbieter:</b> ' + layer2String[provider] + '<br>'
+        + '<b>Fahrzeugnummer:</b> ' + number + '<br>'
+        + '<b>Typ:</b> ' + typeText;
+}
+
 // Fügt einen Stations-Marker hinzu...
 // Latitude und longitude entsprichen den Koordinaten.
 // Als Provider wird eine der oben definierten Konstanten MVG_BICYCLE, DB_BICYCLE... übergeben.
 // der popupText ist ein beliebiger String, der später im Popup eines Markers angezeigt wird.
-function addStationMarker(latitude, longitude, provider, vehiclesAvailable, popupText){
+function addStationMarker(latitude, longitude, provider, name, availableBikes){
+    var popupText = generateStationPopup(provider, name, availableBikes);
     switch(provider){
         case MVG_BICYCLE:
-            if(vehiclesAvailable)
+            if(availableBikes > 0)
                 L.marker([latitude, longitude], {icon: mvvStationAvailableIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
             else
                 L.marker([latitude, longitude], {icon: mvvStationNotAvailableIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
@@ -115,6 +141,13 @@ function addStationMarker(latitude, longitude, provider, vehiclesAvailable, popu
         default: //DB_BICYCLE, CAR_2_GO
             // no stations existing
     }
+}
+
+function generateStationPopup(provider, name, availableBikes){
+
+    return '<b>Anbieter:</b> ' + layer2String[provider] + '<br>'
+        + '<b>Stationsname:</b> ' + name + '<br>'
+        + '<b>verfügbare Räder:</b> ' + availableBikes;
 }
 
 // Fügt Polygone zum visualisieren von Kern-/Geschäfts- & Rückgabegebieten hinzu.
@@ -161,26 +194,5 @@ function addArea(){
     [48.087062, 11.617409]
 	]).setStyle({fillColor: '#4562a2', color: '#4562a2'})
 	.addTo(mvgBicycleReturnAreaLayer);
-}
-
-function generateVehiclePopup(number, type){
-    var typeText;
-    if(type == 'bike') {
-        typeText = "Fahrrad";
-	} else if(type == 'pedelec') {
-    	typeText = "Radl für Faule";
-    } else if(type == 'car') {
-        typeText = "Auto";
-    //else if(type == 'newType')    <- neue Typen hinzufügen
-	} else {
-        typeText = String(type);
-	}
-
-    return '<b>Fahrradnummer:</b> ' + number + '<br>' + '<b>Typ:</b> ' + typeText;
-}
-
-function generateStationPopup(name, availableBikes){
-
-    return '<b>Stationsname:</b> ' + name + '<br>' + '<b>verfügbare Räder:</b> ' + availableBikes;
 }
 

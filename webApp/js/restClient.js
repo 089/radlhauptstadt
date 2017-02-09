@@ -7,7 +7,7 @@ $(document).ready(function() {
     }).then(function(data) {
         console.log(data);
         $.each(data.vehicles, function () {
-            addVehicleMarker(this.latitude, this.longitude, this.provider, generateVehiclePopup(this.number, this.type));
+            addVehicleMarker(this.latitude, this.longitude, this.type, this.provider, this.number);
         });
     });
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
     }).then(function(data) {
         console.log(data);
         $.each(data.stations, function () {
-            addStationMarker(this.latitude, this.longitude, this.provider, this.availableBikes > 0, generateStationPopup(this.name, this.availableBikes));
+            addStationMarker(this.latitude, this.longitude, this.provider, this.name, this.availableBikes);
         });
     });
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
     }).then(function(data) {
         console.log(data);
         $.each(data.vehicles, function () {
-            addVehicleMarker(this.latitude, this.longitude, this.provider, generateVehiclePopup(this.number, this.type));
+            addVehicleMarker(this.latitude, this.longitude, this.type, this.provider, this.number);
         });
     });
 
@@ -39,7 +39,7 @@ $(document).ready(function() {
     }).then(function(data) {
         console.log(data);
         $.each(data.vehicles, function () {
-            addVehicleMarker(this.latitude, this.longitude, this.provider, generateVehiclePopup(this.number, this.type));
+            addVehicleMarker(this.latitude, this.longitude, this.type, this.provider, this.number);
         });
     });
 });
