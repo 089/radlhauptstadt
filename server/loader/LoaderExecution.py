@@ -27,26 +27,34 @@ def main():
     )
 
     # Step: create loaderIterationID
+    print('starting LoaderIteration')
     loaderIteration = LoaderIteration(dbconnection)
     id = loaderIteration.createMaxId()
+    print('LoaderIteration finished')
 
     # Step: execute loaders
     allVehicles = []
     allStations = []
 
     # MVG
+    print('starting MvgLoader')
     mvgLoader = MvgLoader(id)
     allVehicles += mvgLoader.getVehicles()
     allStations += mvgLoader.getStations()
+    print('MvgLoader finished')
 
     # DB-Rad
+    print('starting DbLoader')
     dbRadLoader = DbRadLoader(id)
     allVehicles += dbRadLoader.getVehicles()
+    print('DbLoader finished')
 
     # Step: save objects to database
+    print('starting MysqlHandler')
     mysqlHandler = MysqlHandler()
     mysqlHandler.saveStations(dbconnection, allStations)
     mysqlHandler.saveVehicles(dbconnection, allVehicles)
+    print('MysqlHandler finished')
 
     dbconnection.close()
 
