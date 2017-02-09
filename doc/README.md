@@ -69,10 +69,54 @@ In der aktuellen Konfiguration lautet eine vollständige REST-Anfrage z.B. [http
 
 ## Frontend 
 
-### Leaflet.js
+Für das Frontend brauchen wir ein Tool zur Kartendarstellung und eines für die REST-Abfragen. 
 
-### jQuery
+### Karten
 
+Unsere Anforderungen lauten: 
+
+* Unabhängigkeit vom Kartenanbieter.
+* Management verschiedener Layer möglich.
+* Benötigter Speicher.
+* Einfache Handhabung.
+* Vorbedingungen zur Nutzung.
+
+Leaflet ist der Gewinner eines Vergleichs dreier Java-Script Bibliotheken zum einbinden von Kartendiensten. Basis des Vergleichs waren oben genannte Kriterien
+  
+#### Leaflet.js
+* PRO
+    * Erzeugen und verwalten der Karte unabhängig vom Kartenanbieter.
+    * Management verschiedener Layer möglich.
+    * Geringer Speicherbedarf. (v1.0.3 -> 0.98MB)
+    * Einfache Handhabung. 
+    * Frei Zugänglich.
+
+#### GoogleMaps
+* PRO
+    * Management verschiedener Layer möglich.
+    * Management verschiedener Layer möglich.
+    * Einfache Handhabung. 
+* CON
+    * Setzt API-Key voraus.
+    * Kartenanbieter nicht frei wählbar.
+    * Speicherbedarf ohne API-Key nicht ermittelbar.
+
+#### OpenLayers
+* PRO
+    * Erzeugen und verwalten der Karte unabhängig vom Kartenanbieter.
+    * Management verschiedener Layer möglich.
+    * Einfache Handhabung. 
+* CON
+    * Höchster Speicherbedarf im Vergleich. (v3.20.1 -> 2.96MB)
+    * Frei Zugänglich.
+  
+### REST-Abfragen
+
+Aus folgenden Gründne haben wir uns für jQuery entschieden:
+
+ * Bibliothek ist JavaScript-kompitabel.
+ * Schlanke Möglichkeit zum Zugriff auf REST-Schnittstellen.
+ 
 ## Backend
 
 ### Python + Flask
