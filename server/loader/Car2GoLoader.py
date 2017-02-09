@@ -3,8 +3,8 @@ import string
 
 import requests
 
-from AbstractLoader import AbstractLoader
-from Vehicle import Vehicle
+from loader.AbstractLoader import AbstractLoader
+from loader.Vehicle import Vehicle
 
 
 class Car2GoLoader(AbstractLoader):
