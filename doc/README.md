@@ -1,5 +1,9 @@
 # Schnittstellenanalyse
 
+## MVG-Rad
+
+## DB-Rad
+
 # Loader
 
 # Datenbank
