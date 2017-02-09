@@ -7,7 +7,7 @@ $(document).ready(function() {
     }).then(function(data) {
         console.log(data);
         $.each(data.vehicles, function () {
-            addBicycleMarker(this.latitude, this.longitude, this.provider, generateBicyclePopup(this.number, this.type));
+            addVehicleMarker(this.latitude, this.longitude, this.provider, generateVehiclePopup(this.number, this.type));
         });
     });
 
@@ -28,8 +28,18 @@ $(document).ready(function() {
     }).then(function(data) {
         console.log(data);
         $.each(data.vehicles, function () {
-            addBicycleMarker(this.latitude, this.longitude, this.provider, generateBicyclePopup(this.number, this.type));
+            addVehicleMarker(this.latitude, this.longitude, this.provider, generateVehiclePopup(this.number, this.type));
         });
     });
 
+    // car2go
+    $.ajax({
+        dataType: "json",
+        url: "https://www.martinzell.de/radlhauptstadt/rest/api/v0.9/provider/car2go/vehicle"
+    }).then(function(data) {
+        console.log(data);
+        $.each(data.vehicles, function () {
+            addVehicleMarker(this.latitude, this.longitude, this.provider, generateVehiclePopup(this.number, this.type));
+        });
+    });
 });

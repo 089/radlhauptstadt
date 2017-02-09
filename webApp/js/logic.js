@@ -10,44 +10,54 @@ DB_BICYCLE = "dbrad";
 var dbBicycleLayer = new L.LayerGroup();
 DB_BICYCLE_RETURN_AREA = "DB-Rad Rückgabegebiet";
 var dbBicycleReturnAreaLayer = new L.LayerGroup();
-MVV_BICYCLE_RETURN_AREA = "MVV-Rad Rückgabegebiet";
+MVV_BICYCLE_RETURN_AREA = "MVG-Rad Rückgabegebiet";
 var mvgBicycleReturnAreaLayer = new L.LayerGroup();
+CAR_2_GO = "car2go";
+var car2goLayer = new L.LayerGroup();
 
 var overlayLayerControl = {
 				[MVG_BICYCLE]: mvgBicycleLayer,
                 [DB_BICYCLE]: dbBicycleLayer,
-                [DB_BICYCLE_RETURN_AREA]: dbBicycleReturnAreaLayer,
-                [MVV_BICYCLE_RETURN_AREA]: mvgBicycleReturnAreaLayer
+    			[CAR_2_GO]: car2goLayer,
+                [MVV_BICYCLE_RETURN_AREA]: mvgBicycleReturnAreaLayer,
+    			[DB_BICYCLE_RETURN_AREA]: dbBicycleReturnAreaLayer
 	};
 
 // create icons
-var blueBicycleIcon = L.icon({
-	iconUrl: 'pics/bike-blue.svg',
+var mvvBicycleIcon = L.icon({
+	iconUrl: 'pics/bike-mvg.svg',
 
 	iconSize:     [40, 80], // size of the icon
 	iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
 	popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
-var blueStationAvailableIcon = L.icon({
-    iconUrl: 'pics/station-a-blue.svg',
+var mvvStationAvailableIcon = L.icon({
+    iconUrl: 'pics/station-a-mvg.svg',
 
     iconSize:     [40, 80], // size of the icon
     iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
     popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
-var blueStationNotAvailableIcon = L.icon({
-    iconUrl: 'pics/station-na-blue.svg',
+var mvvStationNotAvailableIcon = L.icon({
+    iconUrl: 'pics/station-na-mvg.svg',
 
     iconSize:     [40, 80], // size of the icon
     iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
     popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
-var redBicycleIcon = L.icon({
-	iconUrl: 'pics/bike-red.svg',
+var dbBicycleIcon = L.icon({
+	iconUrl: 'pics/bike-dbrad.svg',
 
 	iconSize:     [40, 80], // size of the icon
 	iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
 	popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
+});
+var car2goIcon = L.icon({
+    iconUrl: 'pics/car-car2go.svg',
+
+    iconSize:     [40, 80], // size of the icon
+    iconAnchor:   [20, 80], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -75] // point from which the popup should open relative to the iconAnchor
 });
 
 // erzeugt die Karte und die Layer-Auswahl
@@ -63,7 +73,7 @@ function create(){
 	// Karte erzeugen
 	map = L.map('map', {layers: [baseLayer, mvgBicycleLayer,
 			dbBicycleLayer, dbBicycleReturnAreaLayer,
-			mvgBicycleReturnAreaLayer]})
+			mvgBicycleReturnAreaLayer, car2goLayer]})
 		.setView([48.137220, 11.575496], 12);
 
 	// layer control hinzufügen
@@ -77,13 +87,16 @@ function create(){
 // Latitude und longitude entsprichen den Koordinaten.
 // Als Provider wird eine der oben definierten Konstanten MVG_BICYCLE, DB_BICYCLE... übergeben.
 // der popupText ist ein beliebiger String, der später im Popup eines Markers angezeigt wird.
-function addBicycleMarker(latitude, longitude, provider, popupText){
+function addVehicleMarker(latitude, longitude, provider, popupText){
 	switch(provider){
 		case MVG_BICYCLE:
-			L.marker([latitude, longitude], {icon: blueBicycleIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
+			L.marker([latitude, longitude], {icon: mvvBicycleIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
 			break;
+		case CAR_2_GO:
+            L.marker([latitude, longitude], {icon: car2goIcon}).bindPopup(popupText).addTo(car2goLayer);
+            break;
 		default: //DB_BICYCLE
-			L.marker([latitude, longitude], {icon: redBicycleIcon}).bindPopup(popupText).addTo(dbBicycleLayer);
+			L.marker([latitude, longitude], {icon: dbBicycleIcon}).bindPopup(popupText).addTo(dbBicycleLayer);
 	}
 }
 
@@ -95,11 +108,11 @@ function addStationMarker(latitude, longitude, provider, vehiclesAvailable, popu
     switch(provider){
         case MVG_BICYCLE:
             if(vehiclesAvailable)
-                L.marker([latitude, longitude], {icon: blueStationAvailableIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
+                L.marker([latitude, longitude], {icon: mvvStationAvailableIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
             else
-                L.marker([latitude, longitude], {icon: blueStationNotAvailableIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
+                L.marker([latitude, longitude], {icon: mvvStationNotAvailableIcon}).bindPopup(popupText).addTo(mvgBicycleLayer);
             break;
-        default: //DB_BICYCLE
+        default: //DB_BICYCLE, CAR_2_GO
             // no stations existing
     }
 }
@@ -150,12 +163,14 @@ function addArea(){
 	.addTo(mvgBicycleReturnAreaLayer);
 }
 
-function generateBicyclePopup(number, type){
+function generateVehiclePopup(number, type){
     var typeText;
     if(type == 'bike') {
         typeText = "Fahrrad";
 	} else if(type == 'pedelec') {
     	typeText = "Radl für Faule";
+    } else if(type == 'car') {
+        typeText = "Auto";
     //else if(type == 'newType')    <- neue Typen hinzufügen
 	} else {
         typeText = String(type);
