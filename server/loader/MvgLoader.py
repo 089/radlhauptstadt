@@ -8,13 +8,22 @@ from loader.Vehicle import Vehicle
 
 class MvgLoader(AbstractLoader):
 
+    # The current API URL.
     __jsonUrl = 'http://mvgrad.nextbike.net/maps/nextbike-live.json?domains=mg&get_biketypes=1'
+    # The provider name
     __provider = 'mvg'
+    # The string for the type
     __type = 'bike'
+    # The list of all vehicles this loader found
     __vehicles = []
+    # The list of all stations this loader found
     __stations = []
 
     def __init__(self, iterationId):
+        """
+        Initializes a new object
+        :param iterationId: The current iteration id.
+        """
 
         response = requests.get(self.__jsonUrl)
         jsonData = json.loads(response.text)

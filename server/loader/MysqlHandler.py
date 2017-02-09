@@ -1,12 +1,23 @@
 from mysql.connector import Error as MysqlError
 
+"""
+Class MysqlHandler, used to insert vehicles and stations to the database.
+"""
+
 
 class MysqlHandler(object):
 
+    # The insert vehicle query with placeholders for the values
     __insertVehicle = "INSERT INTO vehicle (iteration_id, provider, latitude, longitude, type, number_of_vehicle) VALUES ({}, '{}', {}, {}, '{}', {})"
+    # The insert station query with placeholders for the values
     __insertStation = "INSERT INTO station (iteration_id, provider, latitude, longitude, name, number_of_station, free_bikes) VALUES ({}, '{}', {}, {}, '{}', {}, {})"
 
     def saveVehicles(self, connection, vehicles):
+        """
+        Method to save a list of vehicles
+        :param connection: The database connection
+        :param vehicles: The list of vehicles
+        """
         print('MysqlHandler.saveVehicles: ' + str(vehicles))
 
         connection.autocommit = False
@@ -39,6 +50,11 @@ class MysqlHandler(object):
             connection.autocommit = True
 
     def saveStations(self, connection, stations):
+        """
+        The method to insert a list of stations.
+        :param connection: The database connection
+        :param stations: The list of stations
+        """
         print('MysqlHandler.saveStations: ' + str(stations))
 
         connection.autocommit = False
