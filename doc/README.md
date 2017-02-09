@@ -7,6 +7,15 @@
 # Loader
 
 # Datenbank
+Das gewählte Datenbankschema hat die im [Diagramm](/doc/database-overview.png) visualisierte Struktur. Die gegebenen [Statements](/doc/create_database_radlhauptstadt.sql) erzeugen einerseits die Tabellen, andererseits definieren sie Prozeduren. Diese erlauben es Informationenen zu
+* allen Stationenen,
+* allen Fahrzeugen,
+* einer Station und
+* einem Fahrzeug
+
+ab zu rufen. 
+
+Die Prozeduren tragen dazu bei, die Logik der REST-Schnittstelle von der Anfragelogik der Datenbank zu trennen.
 
 # Definition der REST-Schnittstelle
 
