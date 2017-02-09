@@ -6,6 +6,23 @@
 
 # Loader
 
+Die Loader sind dafür zuständig regelmäßig die Daten der Schnittstellen abzufragen und in die Datenbank zu schreiben.
+
+Diese Loader sollen leicht um neue Implementierungen für verschiedene Anbieter erweiterbar sein. Daher gibt es für die
+Loader eine abstrakte
+Basisklasse [AbstractLoader.py](../server/loader/AbstractLoader.py).
+
+Für jeden Anbieter wird diese abstrakte Klasse abgeleitet und ein spezifischer Loader wird implementiert.
+Gemäß der Basisklasse hat jeder Loader Methoden um alle verfügbaren Fahrzeuge sowie alle Stationen zurückzugeben.
+
+Um die Loader aufzurufen wird das [LoaderExecution.py](../server/loader/LoaderExecution.py) Skript gestartet.
+In LoaderExecution wird die Datenbankverbindung aufgebaut und alle Loader werden hintereinander aufgerufen.
+Die Ergebnisse werden in zwei Listen für alle Fahrzeuge und Stationen gesammelt und anschließend über 
+[MysqlHandler.py](../server/loader/MysqlHandler.py) in die Datenbank geschrieben.
+
+Um die Daten der Fahrzeuge und Stationen zu kapseln und überflüssige Informationen zu vermeiden werden die Daten von den Loadern
+als Objekte der Klassen [Vehicle.py](../server/loader/Vehicle.py) bzw. [Sation.py](../server/loader/Station.py) zurückgegeben.
+
 # Datenbank
 
 # Definition der REST-Schnittstelle
