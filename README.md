@@ -1,4 +1,6 @@
 # Radlhauptstadt
+![unmaintained](http://img.shields.io/badge/status-unmaintained-red.png)
+
 Das vorliegende Projekt zeigt Fahrzeuge verschiedener Mobilitätsdienstleister in einer gemeinsamen Karte an. Es entstand im Rahmen einer Lehrveranstaltung an der Hochschule München und ist unter https://martinzell.de/radlhauptstadt/ erreichbar.  
 
 ## Problembeschreibung
