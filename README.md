@@ -1,7 +1,9 @@
 # Radlhauptstadt
 ![unmaintained](http://img.shields.io/badge/status-unmaintained-red.png)
 
-Das vorliegende Projekt zeigt Fahrzeuge verschiedener Mobilitätsdienstleister in einer gemeinsamen Karte an. Es entstand im Rahmen einer Lehrveranstaltung an der Hochschule München und ist unter https://martinzell.de/radlhauptstadt/ erreichbar.  
+Das vorliegende Projekt zeigt Fahrzeuge verschiedener Mobilitätsdienstleister in einer gemeinsamen Karte an. Es entstand im Rahmen einer Lehrveranstaltung an der Hochschule München und ist unter https://martinzell.de/radlhauptstadt/ erreichbar. 
+
+Die Daten des Anbieters Nextbike sind nun nicht mehr öffentlich zugänglich und die MVG bietet ihre eigene **Multimobil**-Karte an: https://carsharing.mvg-mobil.de/?loc=48.11071,11.5948925
 
 ## Problembeschreibung
 In letzter Zeit gibt es immer mehr mobile Dienstleistungen, die von Verkehrsunternehmen direkt angeboten werden. In München ging 2015 MVG-Rad an den Start. Die Deutsche Bahn (DB) hat schon seit einigen Jahren ihren Mietrad-Service "Call a bike" etabliert. Oft handelt es sich um Insellösungen, die wie bei MVG-Rad nur mit der eigenen App funktionieren. Im Gegensatz zur DB kann man den Standort von Rädern und Stationen nur über die App erfragen. 
