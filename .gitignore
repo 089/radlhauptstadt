@@ -3,3 +3,5 @@ webApp/pics/Thumbs.db
 .idea
 *.iml
 __pycache__
+server/REST/config.json
+server/loader/config.json
