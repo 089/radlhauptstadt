@@ -81,7 +81,8 @@ function create(){
 	{
 		attribution: '&copy; '
 		+ '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors '
-		+ '| Inspired by and derived from &copy; <a href="https://thenounproject.com/term/landmark/842708/" target="_blank">Lluisa Iborra, Noun Project</a> (<a href="https://creativecommons.org/licenses/by/3.0/us/" target="_blank">CC-BY</a>)'
+    + '| Inspired by and derived from &copy; <a href="https://thenounproject.com/term/landmark/842708/" target="_blank">Lluisa Iborra, Noun Project</a> (<a href="https://creativecommons.org/licenses/by/3.0/us/" target="_blank">CC-BY</a>) '
+    + '| <a href="https://github.com/089/radlhauptstadt" target="_blank">project documentation</a>'
 	});
 
 	// Karte erzeugen
